@@ -1,0 +1,585 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 1,
+ "totalResults": 1,
+ "items": [
+  {
+   "completeness": 6,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Dresden State Art Collections. Sculpture collection"
+   ],
+   "dcCreator": [
+    "https://d-nb.info/gnd/117044504",
+    "http://data.europeana.eu/agent/165163"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "https://d-nb.info/gnd/117044504",
+     "http://data.europeana.eu/agent/165163"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Antike",
+     "Bacchant",
+     "Gemme",
+     "Kanne",
+     "Mythologie",
+     "Nacktheit",
+     "Rausch",
+     "Thyrsos",
+     "Trunkenheit",
+     "Wein"
+    ],
+    "def": [
+     "http://data.europeana.eu/concept/75"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Tanzender Bacchant mit Thysosstab (Daktyliothek, Erstes Mythologisches Tausend)"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "Abdruck"
+    ]
+   },
+   "edmAgent": [
+    "http://data.europeana.eu/agent/165163",
+    "https://d-nb.info/gnd/117044504"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Lippert, Philipp Daniel"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    },
+    {
+     "def": "Philipp Daniel Lippert"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "de": [
+     "Philipp Daniel Lippert",
+     "Lippert, Philipp Daniel"
+    ],
+    "sv": [
+     "Philipp Daniel Lippert"
+    ],
+    "fi": [
+     "Philipp Daniel Lippert"
+    ],
+    "pt": [
+     "Philipp Daniel Lippert"
+    ],
+    "en": [
+     "Philipp Daniel Lippert"
+    ],
+    "it": [
+     "Philipp Daniel Lippert"
+    ],
+    "fr": [
+     "Philipp Daniel Lippert"
+    ],
+    "es": [
+     "Philipp Daniel Lippert"
+    ],
+    "cs": [
+     "Philipp Daniel Lippert"
+    ],
+    "sl": [
+     "Philipp Daniel Lippert"
+    ],
+    "da": [
+     "Philipp Daniel Lippert"
+    ],
+    "nl": [
+     "Philipp Daniel Lippert"
+    ],
+    "ca": [
+     "Philipp Daniel Lippert"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/75"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Mythologie"
+    },
+    {
+     "def": "Мифология"
+    },
+    {
+     "def": "Mytologia"
+    },
+    {
+     "def": "Mitologia"
+    },
+    {
+     "def": "Митология"
+    },
+    {
+     "def": "Mitologija"
+    },
+    {
+     "def": "Mitoloģija"
+    },
+    {
+     "def": "Mitologija"
+    },
+    {
+     "def": "Mythologie"
+    },
+    {
+     "def": "Mitológia"
+    },
+    {
+     "def": "Mytológia"
+    },
+    {
+     "def": "Mitologija"
+    },
+    {
+     "def": "Miotaseolaíocht"
+    },
+    {
+     "def": "Mitologia"
+    },
+    {
+     "def": "Mytologi"
+    },
+    {
+     "def": "Μυθολογία"
+    },
+    {
+     "def": "Mythology"
+    },
+    {
+     "def": "Mitologia"
+    },
+    {
+     "def": "Mitología"
+    },
+    {
+     "def": "Mütoloogia"
+    },
+    {
+     "def": "Mitologia"
+    },
+    {
+     "def": "Mytologie"
+    },
+    {
+     "def": "Mitologia"
+    },
+    {
+     "def": "Mitologie"
+    },
+    {
+     "def": "Mytologi"
+    },
+    {
+     "def": "Mythologie"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Mythologie"
+    ],
+    "ru": [
+     "Мифология"
+    ],
+    "fi": [
+     "Mytologia"
+    ],
+    "pt": [
+     "Mitologia"
+    ],
+    "bg": [
+     "Митология"
+    ],
+    "lt": [
+     "Mitologija"
+    ],
+    "lv": [
+     "Mitoloģija"
+    ],
+    "hr": [
+     "Mitologija"
+    ],
+    "fr": [
+     "Mythologie"
+    ],
+    "hu": [
+     "Mitológia"
+    ],
+    "sk": [
+     "Mytológia"
+    ],
+    "sl": [
+     "Mitologija"
+    ],
+    "ga": [
+     "Miotaseolaíocht"
+    ],
+    "ca": [
+     "Mitologia"
+    ],
+    "sv": [
+     "Mytologi"
+    ],
+    "el": [
+     "Μυθολογία"
+    ],
+    "en": [
+     "Mythology"
+    ],
+    "it": [
+     "Mitologia"
+    ],
+    "es": [
+     "Mitología"
+    ],
+    "et": [
+     "Mütoloogia"
+    ],
+    "eu": [
+     "Mitologia"
+    ],
+    "cs": [
+     "Mytologie"
+    ],
+    "pl": [
+     "Mitologia"
+    ],
+    "ro": [
+     "Mitologie"
+    ],
+    "da": [
+     "Mytologi"
+    ],
+    "nl": [
+     "Mythologie"
+    ]
+   },
+   "edmDatasetName": [
+    "669_DDB_SKD"
+   ],
+   "edmIsShownAt": [
+    "https://skd-online-collection.skd.museum/Details/Index/2254158"
+   ],
+   "edmIsShownBy": [
+    "http://skd-online-collection.skd.museum/imagescreate/image?id=2254158&type=gross"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/2935022/",
+    "https://sws.geonames.org/6551127/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Stadt Dresden"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Дрезден"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Дрезден"
+    },
+    {
+     "def": "Δρέσδη"
+    },
+    {
+     "def": "Dresdenas"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Drēzdene"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresda"
+    },
+    {
+     "def": "Dresde"
+    },
+    {
+     "def": "Drezda"
+    },
+    {
+     "def": "Dresde"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Drážďany"
+    },
+    {
+     "def": "Drážďany"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Drezno"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresda"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresden"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "no": [
+     "Dresden"
+    ],
+    "de": [
+     "Dresden",
+     "Stadt Dresden"
+    ],
+    "ru": [
+     "Дрезден"
+    ],
+    "fi": [
+     "Dresden"
+    ],
+    "pt": [
+     "Dresden"
+    ],
+    "bg": [
+     "Дрезден"
+    ],
+    "lt": [
+     "Dresdenas"
+    ],
+    "lv": [
+     "Drēzdene"
+    ],
+    "hr": [
+     "Dresden"
+    ],
+    "fr": [
+     "Dresde"
+    ],
+    "hu": [
+     "Drezda"
+    ],
+    "sk": [
+     "Drážďany"
+    ],
+    "sl": [
+     "Dresden"
+    ],
+    "ca": [
+     "Dresden"
+    ],
+    "sv": [
+     "Dresden"
+    ],
+    "el": [
+     "Δρέσδη"
+    ],
+    "en": [
+     "Dresden"
+    ],
+    "it": [
+     "Dresda"
+    ],
+    "es": [
+     "Dresde"
+    ],
+    "et": [
+     "Dresden"
+    ],
+    "cs": [
+     "Drážďany"
+    ],
+    "pl": [
+     "Drezno"
+    ],
+    "da": [
+     "Dresden"
+    ],
+    "ro": [
+     "Dresda"
+    ],
+    "nl": [
+     "Dresden"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "دريسدن"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "دریسدن"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresden"
+    },
+    {
+     "def": "Dresde"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "ar": [
+     "دريسدن"
+    ],
+    "de": [
+     "Dresden"
+    ],
+    "def": [
+     "Dresden"
+    ],
+    "en": [
+     "Dresden"
+    ],
+    "fa": [
+     "دریسدن"
+    ],
+    "fr": [
+     "Dresde"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "51.05089",
+    "51.05"
+   ],
+   "edmPlaceLongitude": [
+    "13.73832",
+    "13.75"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fskd-online-collection.skd.museum%2Fimagescreate%2Fimage%3Fid%3D2254158%26type%3Dgross&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "669_DDB_SKD"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/669/item_SR2THJYODDNBAGQTXWV64H4JN7KEIWWZ?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/669/item_SR2THJYODDNBAGQTXWV64H4JN7KEIWWZ",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/669/item_SR2THJYODDNBAGQTXWV64H4JN7KEIWWZ.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5348",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 23.706686,
+   "timestamp": 1788017946870,
+   "timestamp_created": "2022-04-21T10:18:10.289Z",
+   "timestamp_created_epoch": 1650536290289,
+   "timestamp_update": "2025-09-08T13:51:31.412Z",
+   "timestamp_update_epoch": 1757339491412,
+   "title": [
+    "Tanzender Bacchant mit Thysosstab (Daktyliothek, Erstes Mythologisches Tausend)"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "German Digital Library",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "Dresden State Art Collections. Sculpture collection",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

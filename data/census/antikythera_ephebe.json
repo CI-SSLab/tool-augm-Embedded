@@ -1,0 +1,8595 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 12,
+ "totalResults": 12,
+ "items": [
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Hellenic Literary and Historical Archive - Cultural Foundation of the National Bank Of Greece"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/1584497088",
+    "Romaїdis, Aristotelis     Athens, 24-26 Nikis Str.",
+    "Ρωμαΐδης, Αριστοτέλης    Αθήνα, Νίκης 24-26"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/1584497088"
+    ],
+    "el": [
+     "Ρωμαΐδης, Αριστοτέλης    Αθήνα, Νίκης 24-26"
+    ],
+    "en": [
+     "Romaїdis, Aristotelis     Athens, 24-26 Nikis Str."
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-unesco/1220358042",
+     "http://semantics.gr/authorities/ekt-unesco/1174652428",
+     "http://data.europeana.eu/concept/51"
+    ],
+    "el": [
+     "ΑΡΧΑΙΟΤΗΤΕΣ, ΓΛΥΠΤΑ"
+    ],
+    "en": [
+     "ANTIQUITIES"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Ο Έφηβος των Αντικυθήρων;"
+    ],
+    "en": [
+     "Antikythira Youth"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-item-types/fwtografia",
+     "http://data.europeana.eu/concept/48"
+    ],
+    "el": [
+     "ΦΩΤΟΜΗΧΑΝΙΚΗ",
+     "Φώτο/Λευκώματα"
+    ]
+   },
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/1584497088"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Ρωμαΐδης Αριστοτέλης"
+    },
+    {
+     "def": "Romaidis Aristotelis"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Ρωμαΐδης Αριστοτέλης"
+    ],
+    "en": [
+     "Romaidis Aristotelis"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/51",
+    "http://semantics.gr/authorities/ekt-unesco/1174652428",
+    "http://semantics.gr/authorities/ekt-unesco/1220358042",
+    "http://semantics.gr/authorities/ekt-unesco/136488168",
+    "http://semantics.gr/authorities/ekt-unesco/1057926131",
+    "http://semantics.gr/authorities/ekt-item-types/disdiastata-grafika",
+    "http://data.europeana.eu/concept/48",
+    "http://semantics.gr/authorities/ekt-item-types/fwtografia"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Bildhauerkunst"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Kuvanveisto"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Скульптура"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Скулптура"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Skulptūra"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Tēlniecība"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Szobrászat"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Sochárstvo"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Dealbhóireacht"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Skulpturkonst"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Αρχαιότητες"
+    },
+    {
+     "def": "Έργα τέχνης"
+    },
+    {
+     "def": "Καλές τέχνες"
+    },
+    {
+     "def": "Δισδιάστατα γραφικά"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Skultura"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Art of sculpture"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Antiquities"
+    },
+    {
+     "def": "Works of art"
+    },
+    {
+     "def": "Fine arts"
+    },
+    {
+     "def": "2D Graphics"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Photo"
+    },
+    {
+     "def": "Scultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Skulptuur"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Sochařství"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Eskulturagintza"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Rzeźbiarstwo"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Skulpturkunst"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Sculptură"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Beeldhouwkunst"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bildhauerkunst",
+     "Fotografie"
+    ],
+    "fi": [
+     "Kuvanveisto",
+     "Valokuva"
+    ],
+    "ru": [
+     "Фотография",
+     "Скульптура"
+    ],
+    "pt": [
+     "Fotografia",
+     "Escultura"
+    ],
+    "bg": [
+     "Снимка",
+     "Скулптура"
+    ],
+    "lt": [
+     "Skulptūra",
+     "Fotografija"
+    ],
+    "hr": [
+     "Kiparstvo",
+     "Fotografija"
+    ],
+    "lv": [
+     "Tēlniecība",
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Sculpture",
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép",
+     "Szobrászat"
+    ],
+    "sk": [
+     "Fotografia",
+     "Sochárstvo"
+    ],
+    "sl": [
+     "Kiparstvo",
+     "Fotografija"
+    ],
+    "ga": [
+     "Dealbhóireacht",
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia",
+     "Escultura"
+    ],
+    "sv": [
+     "Fotografi",
+     "Skulpturkonst"
+    ],
+    "el": [
+     "Αρχαιότητες",
+     "Δισδιάστατα γραφικά",
+     "Έργα τέχνης",
+     "Φωτογραφία",
+     "Καλές τέχνες",
+     "Γλυπτική"
+    ],
+    "mt": [
+     "Skultura",
+     "Fotografija"
+    ],
+    "en": [
+     "Sculpture",
+     "Antiquities",
+     "Works of art",
+     "Photo",
+     "Art of sculpture",
+     "2D Graphics",
+     "Photograph",
+     "Fine arts"
+    ],
+    "it": [
+     "Fotografia",
+     "Scultura"
+    ],
+    "es": [
+     "Fotografía",
+     "Escultura"
+    ],
+    "et": [
+     "Foto",
+     "Skulptuur"
+    ],
+    "cs": [
+     "Sochařství",
+     "Fotografie"
+    ],
+    "eu": [
+     "Eskulturagintza",
+     "Argazki"
+    ],
+    "pl": [
+     "Rzeźbiarstwo",
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi",
+     "Skulpturkunst"
+    ],
+    "ro": [
+     "Sculptură",
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto",
+     "Beeldhouwkunst"
+    ]
+   },
+   "edmDatasetName": [
+    "122_EKT_elia"
+   ],
+   "edmIsShownAt": [
+    "http://eliaserver.elia.org.gr/lselia/rec.aspx?id=465313"
+   ],
+   "edmIsShownBy": [
+    "http://eliaserver.elia.org.gr/LSelia/images_View/L245.033.JPG"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FELIA%2F000100-22_465313&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/Reign-of-King-George-I",
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Βασιλεία Γεωργίου Α’"
+    },
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "Reign of King George I"
+    },
+    {
+     "def": "Modern Greece"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "el": [
+     "Βασιλεία Γεωργίου Α’",
+     "Νεότερη Ελλάδα"
+    ],
+    "en": [
+     "Reign of King George I",
+     "Modern Greece"
+    ]
+   },
+   "europeanaCollectionName": [
+    "122_EKT_elia"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_465313?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_465313",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_465313.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3605",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 103.46809,
+   "timestamp": 1788011415193,
+   "timestamp_created": "2019-09-18T22:15:40.975Z",
+   "timestamp_created_epoch": 1568844940975,
+   "timestamp_update": "2025-02-05T14:41:41.099Z",
+   "timestamp_update_epoch": 1738766501099,
+   "title": [
+    "Antikythira Youth",
+    "Ο Έφηβος των Αντικυθήρων;"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Hellenic Literary and Historical Archive - Cultural Foundation of the National Bank Of Greece"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/557772544",
+    "Παπαδήμος, Δημήτρης (Δημήτρη, Dimitri)    Αθήνα"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/557772544"
+    ],
+    "el": [
+     "Παπαδήμος, Δημήτρης (Δημήτρη, Dimitri)    Αθήνα"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/51",
+     "http://semantics.gr/authorities/ekt-unesco/1220358042",
+     "http://semantics.gr/authorities/ekt-unesco/1174652428"
+    ],
+    "el": [
+     "ΑΡΧΑΙΟΤΗΤΕΣ, ΓΛΥΠΤΑ"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Εθνικό Αρχαιολογικό Μουσείο. Ο Έφηβος των Αντικυθήρων."
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/1665",
+     "http://semantics.gr/authorities/ekt-item-types/fwtoarnhtika"
+    ],
+    "el": [
+     "ΑΡΝΗΤΙΚΟ",
+     "Φώτο/Λευκώματα"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/264371",
+    "Αθήνα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/557772544"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Παπαδήμος Δημήτρης"
+    },
+    {
+     "def": "Papadimos Dimitri"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Παπαδήμος Δημήτρης"
+    ],
+    "en": [
+     "Papadimos Dimitri"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/51",
+    "http://semantics.gr/authorities/ekt-unesco/1174652428",
+    "http://data.europeana.eu/concept/1665",
+    "http://semantics.gr/authorities/ekt-unesco/1220358042",
+    "http://semantics.gr/authorities/ekt-unesco/136488168",
+    "http://semantics.gr/authorities/ekt-item-types/fwtoarnhtika",
+    "http://semantics.gr/authorities/ekt-unesco/1057926131",
+    "http://semantics.gr/authorities/ekt-item-types/fwtografia"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Bildhauerkunst"
+    },
+    {
+     "def": "Negativfilm"
+    },
+    {
+     "def": "Kuvanveisto"
+    },
+    {
+     "def": "Negatiivi"
+    },
+    {
+     "def": "Скульптура"
+    },
+    {
+     "def": "Негатив"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Negativo"
+    },
+    {
+     "def": "Скулптура"
+    },
+    {
+     "def": "Негатив"
+    },
+    {
+     "def": "Skulptūra"
+    },
+    {
+     "def": "Negatyvas"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Tēlniecība"
+    },
+    {
+     "def": "Negatīvs"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Film négatif"
+    },
+    {
+     "def": "Szobrászat"
+    },
+    {
+     "def": "Sochárstvo"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Negativ"
+    },
+    {
+     "def": "Dealbhóireacht"
+    },
+    {
+     "def": "Claonchló"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Negatiu"
+    },
+    {
+     "def": "Skulpturkonst"
+    },
+    {
+     "def": "Negativfilm"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Αρχαιότητες"
+    },
+    {
+     "def": "Έργα τέχνης"
+    },
+    {
+     "def": "Φωτοαρνητικό"
+    },
+    {
+     "def": "Καλές τέχνες"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Skultura"
+    },
+    {
+     "def": "Art of sculpture"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Negative"
+    },
+    {
+     "def": "Antiquities"
+    },
+    {
+     "def": "Works of art"
+    },
+    {
+     "def": "Photonegative"
+    },
+    {
+     "def": "Fine arts"
+    },
+    {
+     "def": "Photo"
+    },
+    {
+     "def": "Scultura"
+    },
+    {
+     "def": "Negativo"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Negativo"
+    },
+    {
+     "def": "Skulptuur"
+    },
+    {
+     "def": "Fotonegatiiv"
+    },
+    {
+     "def": "Sochařství"
+    },
+    {
+     "def": "Negativ"
+    },
+    {
+     "def": "Eskulturagintza"
+    },
+    {
+     "def": "Rzeźbiarstwo"
+    },
+    {
+     "def": "Negatyw"
+    },
+    {
+     "def": "Skulpturkunst"
+    },
+    {
+     "def": "Sculptură"
+    },
+    {
+     "def": "Beeldhouwkunst"
+    },
+    {
+     "def": "Negatief"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bildhauerkunst",
+     "Negativfilm"
+    ],
+    "fi": [
+     "Kuvanveisto",
+     "Negatiivi"
+    ],
+    "ru": [
+     "Скульптура",
+     "Негатив"
+    ],
+    "pt": [
+     "Escultura",
+     "Negativo"
+    ],
+    "bg": [
+     "Скулптура",
+     "Негатив"
+    ],
+    "lt": [
+     "Skulptūra",
+     "Negatyvas"
+    ],
+    "hr": [
+     "Kiparstvo"
+    ],
+    "lv": [
+     "Negatīvs",
+     "Tēlniecība"
+    ],
+    "fr": [
+     "Sculpture",
+     "Film négatif"
+    ],
+    "hu": [
+     "Szobrászat"
+    ],
+    "sk": [
+     "Sochárstvo"
+    ],
+    "sl": [
+     "Negativ",
+     "Kiparstvo"
+    ],
+    "ga": [
+     "Dealbhóireacht",
+     "Claonchló"
+    ],
+    "ca": [
+     "Negatiu",
+     "Escultura"
+    ],
+    "sv": [
+     "Skulpturkonst",
+     "Negativfilm"
+    ],
+    "el": [
+     "Αρχαιότητες",
+     "Φωτοαρνητικό",
+     "Έργα τέχνης",
+     "Φωτογραφία",
+     "Καλές τέχνες",
+     "Γλυπτική"
+    ],
+    "mt": [
+     "Skultura"
+    ],
+    "en": [
+     "Sculpture",
+     "Negative",
+     "Antiquities",
+     "Works of art",
+     "Photonegative",
+     "Photo",
+     "Art of sculpture",
+     "Fine arts"
+    ],
+    "it": [
+     "Scultura",
+     "Negativo"
+    ],
+    "es": [
+     "Escultura",
+     "Negativo"
+    ],
+    "et": [
+     "Fotonegatiiv",
+     "Skulptuur"
+    ],
+    "cs": [
+     "Sochařství",
+     "Negativ"
+    ],
+    "eu": [
+     "Eskulturagintza"
+    ],
+    "pl": [
+     "Rzeźbiarstwo",
+     "Negatyw"
+    ],
+    "da": [
+     "Skulpturkunst"
+    ],
+    "ro": [
+     "Sculptură"
+    ],
+    "nl": [
+     "Negatief",
+     "Beeldhouwkunst"
+    ]
+   },
+   "edmDatasetName": [
+    "122_EKT_elia"
+   ],
+   "edmIsShownAt": [
+    "http://eliaserver.elia.org.gr/lselia/rec.aspx?id=593184"
+   ],
+   "edmIsShownBy": [
+    "http://eliaserver.elia.org.gr/LSelia/images_View/DP01.04.13.JPG"
+   ],
+   "edmPlace": [
+    "http://semantics.gr/authorities/geonames-places-earth/264371",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/87"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens",
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "cs": [
+     "Atény"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Греция"
+    ],
+    "pt": [
+     "Atenas",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αθήνα",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Athens",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.9838",
+    "37.984165",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.7278",
+    "23.728056",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FELIA%2F000100-22_593184&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada",
+    "http://semantics.gr/authorities/historical-periods/Postwar-Greece"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "Μεταπολεμική Ελλάδα"
+    },
+    {
+     "def": "Modern Greece"
+    },
+    {
+     "def": "Postwar Greece"
+    },
+    {
+     "def": "http://dbpedia.org/page/Greek_military_junta_of_1967%E2%80%9374"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "el": [
+     "Νεότερη Ελλάδα",
+     "Μεταπολεμική Ελλάδα"
+    ],
+    "en": [
+     "Modern Greece",
+     "Postwar Greece"
+    ]
+   },
+   "europeanaCollectionName": [
+    "122_EKT_elia"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_593184?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_593184",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_593184.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3605",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 91.14174,
+   "timestamp": 1788011669082,
+   "timestamp_created": "2019-09-18T20:53:01.423Z",
+   "timestamp_created_epoch": 1568839981423,
+   "timestamp_update": "2025-02-05T14:41:41.099Z",
+   "timestamp_update_epoch": 1738766501099,
+   "title": [
+    "Εθνικό Αρχαιολογικό Μουσείο. Ο Έφηβος των Αντικυθήρων.",
+    "ΑΘΗΝΑ"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Documentation Center for Art History - Marburg Picture Index"
+   ],
+   "dcSubjectLangAware": {
+    "de": [
+     "stehende Figur",
+     "Freiskulptur",
+     "Rundplastik"
+    ],
+    "en": [
+     "standing figure",
+     "Free-culpture",
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Jüngling von Antikythera"
+    ],
+    "en": [
+     "Young man of Anticythra"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300047600"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athens",
+    "Peloponnese",
+    "Periféreia Peloponnísou",
+    "Antikythera",
+    "Athínai",
+    "Atenas",
+    "Atene",
+    "Athènes",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://data.europeana.eu/place/87",
+    "http://vocab.getty.edu/tgn/7017076",
+    "http://vocab.getty.edu/tgn/5000096",
+    "http://vocab.getty.edu/tgn/7001393",
+    "Περιφέρεια Πελοποννήσου"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300047600",
+    "http://vocab.getty.edu/aat/300010957",
+    "http://data.europeana.eu/concept/1769"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "statues"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "statua"
+    },
+    {
+     "def": "bronzo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "statue"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "standbeelden"
+    },
+    {
+     "def": "brons"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "estatuas"
+    },
+    {
+     "def": "bronce (metal)"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronze"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze"
+    ],
+    "fi": [
+     "Pronssi"
+    ],
+    "ru": [
+     "Бронза"
+    ],
+    "pt": [
+     "Bronze",
+     "bronze"
+    ],
+    "bg": [
+     "Бронз"
+    ],
+    "lt": [
+     "Bronza"
+    ],
+    "lv": [
+     "Bronza"
+    ],
+    "hr": [
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "statue",
+     "bronze (metal)"
+    ],
+    "hu": [
+     "Bronz"
+    ],
+    "sk": [
+     "Bronz"
+    ],
+    "sl": [
+     "Bron"
+    ],
+    "ga": [
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze"
+    ],
+    "sv": [
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος"
+    ],
+    "en": [
+     "Bronze",
+     "statues",
+     "bronze (metal)"
+    ],
+    "it": [
+     "bronzo",
+     "statua",
+     "Bronzo"
+    ],
+    "es": [
+     "Bronce",
+     "estatuas",
+     "bronce (metal)"
+    ],
+    "et": [
+     "Pronks"
+    ],
+    "cs": [
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze"
+    ],
+    "pl": [
+     "Brąz"
+    ],
+    "ro": [
+     "Bronz"
+    ],
+    "da": [
+     "Bronze"
+    ],
+    "nl": [
+     "standbeelden",
+     "Brons",
+     "brons"
+    ]
+   },
+   "edmDatasetName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "edmIsShownAt": [
+    "http://www.bildindex.de/document/obj20322588"
+   ],
+   "edmIsShownBy": [
+    "http://www.bildindex.de/bilder/d/fm1019532"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/84257",
+    "http://vocab.getty.edu/tgn/5000096",
+    "http://data.europeana.eu/place/84829",
+    "http://vocab.getty.edu/tgn/7001393",
+    "http://data.europeana.eu/place/87",
+    "http://vocab.getty.edu/tgn/7017076"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "Àtics"
+    },
+    {
+     "def": "Àthica"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Attische Halbinsel"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Ático"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "Periferia de Atica"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Periferia de Ática"
+    },
+    {
+     "def": "Prefectura de Ática"
+    },
+    {
+     "def": "Prefectura de Atica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Αττική",
+     "Attische Halbinsel",
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Attica",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "pt": [
+     "Ático"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "Periferia de Atica",
+     "Atica",
+     "Periferia de Ática",
+     "Prefectura de Ática",
+     "Prefectura de Atica",
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "et": [
+     "Atika"
+    ],
+    "cs": [
+     "Atény",
+     "Atika"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Atica",
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "Àtics",
+     "Àthica",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Attika",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Аттика"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Атика"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Periferija Atika"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Attique"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ataic"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Àtica"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Atika piirkond"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Attyka"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Griekenland"
+    },
+    {
+     "def": "Antikythera"
+    },
+    {
+     "def": "Athínai"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Peloponnese"
+    },
+    {
+     "def": "Periféreia Peloponnísou"
+    },
+    {
+     "def": "Περιφέρεια Πελοποννήσου"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Attika",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Attika",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Аттика",
+     "Греция"
+    ],
+    "def": [
+     "Antikythera",
+     "Athínai",
+     "Athens",
+     "Atenas",
+     "Athènes",
+     "Athen",
+     "Atene",
+     "Peloponnese",
+     "Periféreia Peloponnísou",
+     "Περιφέρεια Πελοποννήσου"
+    ],
+    "pt": [
+     "Atenas",
+     "Ática",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Атика",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Atika",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Periferija Atika",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Atika",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Attique",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Attika",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Atika",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Atika",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ataic",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Àtica",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Attika",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αττική",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Attica",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Attica",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Ática",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Atika piirkond",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Attika",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Atika",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Attyka",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Attika",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Attica",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Attica",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.984165",
+    "38.0027",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.728056",
+    "23.81",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Ffm1019532&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/199/item_4EH5COOWNSP2U37Q5WXHZOLNI2S2ANR7?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/199/item_4EH5COOWNSP2U37Q5WXHZOLNI2S2ANR7",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/199/item_4EH5COOWNSP2U37Q5WXHZOLNI2S2ANR7.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4556",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 79.55012,
+   "timestamp": 1787964918331,
+   "timestamp_created": "2022-01-31T11:04:15.728Z",
+   "timestamp_created_epoch": 1643627055728,
+   "timestamp_update": "2022-01-31T11:04:15.728Z",
+   "timestamp_update_epoch": 1643627055728,
+   "title": [
+    "Young man of Anticythra",
+    "Jüngling von Antikythera"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Hellenic Literary and Historical Archive - Cultural Foundation of the National Bank Of Greece"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/242719008",
+    "Frantzis, Leon   Athens",
+    "Φραντζής, Λέων   Αθήνα (Ψυχικό) τηλ. 7035 | 77035"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/242719008"
+    ],
+    "el": [
+     "Φραντζής, Λέων   Αθήνα (Ψυχικό) τηλ. 7035 | 77035"
+    ],
+    "en": [
+     "Frantzis, Leon   Athens"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/thematic_tags/994270482",
+     "http://semantics.gr/authorities/ekt-unesco/1220358042",
+     "http://semantics.gr/authorities/thematic_tags/593378122",
+     "http://semantics.gr/authorities/ekt-unesco/1174652428",
+     "http://semantics.gr/authorities/ekt-unesco/1973938890",
+     "http://data.europeana.eu/concept/51"
+    ],
+    "el": [
+     "ΑΘΗΝΑ",
+     "ΜΟΥΣΕΙΑ",
+     "ΑΡΧΑΙΟΤΗΤΕΣ, ΓΛΥΠΤΑ"
+    ],
+    "en": [
+     "ATHENS",
+     "ANTIQUITIES",
+     "MUSEUMS"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Ο Έφηβος των Αντικυθήρων, Αρχαιολογικό Μουσείο Αθήνας."
+    ],
+    "en": [
+     "Antikythira Youth, Athens Archaeological Museum"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-item-types/fwtografia",
+     "http://data.europeana.eu/concept/48"
+    ],
+    "el": [
+     "Φώτο/Λευκώματα",
+     "ΦΩΤΟΓΡΑΦΙΑ"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://semantics.gr/authorities/geonames-places-earth/264371",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/87",
+    "Αθήνα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/242719008"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Φραντζής Λέων"
+    },
+    {
+     "def": "Frantzis Leon"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Φραντζής Λέων"
+    ],
+    "en": [
+     "Frantzis Leon"
+    ]
+   },
+   "edmConcept": [
+    "http://semantics.gr/authorities/thematic_tags/994270482",
+    "http://semantics.gr/authorities/thematic_tags/994271566",
+    "http://semantics.gr/authorities/ekt-unesco/1174652428",
+    "http://semantics.gr/authorities/ekt-unesco/1220358042",
+    "http://semantics.gr/authorities/thematic_tags/994330257",
+    "http://data.europeana.eu/concept/51",
+    "http://semantics.gr/authorities/ekt-unesco/136488168",
+    "http://semantics.gr/authorities/thematic_tags/593378122",
+    "http://semantics.gr/authorities/ekt-unesco/1057926131",
+    "http://semantics.gr/authorities/ekt-item-types/disdiastata-grafika",
+    "http://semantics.gr/authorities/ekt-unesco/1973938890",
+    "http://data.europeana.eu/concept/48",
+    "http://semantics.gr/authorities/ekt-item-types/fwtografia",
+    "http://semantics.gr/authorities/ekt-unesco/199512961"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Antiquities"
+    },
+    {
+     "def": "Public structures"
+    },
+    {
+     "def": "Art of sculpture"
+    },
+    {
+     "def": "Works of art"
+    },
+    {
+     "def": "Museums"
+    },
+    {
+     "def": "Fine arts"
+    },
+    {
+     "def": "2D Graphics"
+    },
+    {
+     "def": "Museums"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Photo"
+    },
+    {
+     "def": "Culture"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Αρχαιότητες"
+    },
+    {
+     "def": "Δημόσια κτήρια"
+    },
+    {
+     "def": "Γλυπτική"
+    },
+    {
+     "def": "Έργα τέχνης"
+    },
+    {
+     "def": "Μουσεία"
+    },
+    {
+     "def": "Καλές τέχνες"
+    },
+    {
+     "def": "Δισδιάστατα γραφικά"
+    },
+    {
+     "def": "Μουσεία"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Πολιτισμός (κουλτούρα)"
+    },
+    {
+     "def": "Bildhauerkunst"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Kuvanveisto"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Скульптура"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Скулптура"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Skulptūra"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Tēlniecība"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Sculpture"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Szobrászat"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Sochárstvo"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Kiparstvo"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Dealbhóireacht"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Skulpturkonst"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Skultura"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Scultura"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Escultura"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Skulptuur"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Sochařství"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Eskulturagintza"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Rzeźbiarstwo"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Skulpturkunst"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Sculptură"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Beeldhouwkunst"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bildhauerkunst",
+     "Fotografie"
+    ],
+    "fi": [
+     "Kuvanveisto",
+     "Valokuva"
+    ],
+    "ru": [
+     "Фотография",
+     "Скульптура"
+    ],
+    "pt": [
+     "Fotografia",
+     "Escultura"
+    ],
+    "bg": [
+     "Снимка",
+     "Скулптура"
+    ],
+    "lt": [
+     "Skulptūra",
+     "Fotografija"
+    ],
+    "hr": [
+     "Kiparstvo",
+     "Fotografija"
+    ],
+    "lv": [
+     "Tēlniecība",
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Sculpture",
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép",
+     "Szobrászat"
+    ],
+    "sk": [
+     "Fotografia",
+     "Sochárstvo"
+    ],
+    "sl": [
+     "Kiparstvo",
+     "Fotografija"
+    ],
+    "ga": [
+     "Dealbhóireacht",
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia",
+     "Escultura"
+    ],
+    "sv": [
+     "Fotografi",
+     "Skulpturkonst"
+    ],
+    "el": [
+     "Αρχαιότητες",
+     "Δημόσια κτήρια",
+     "Αττική",
+     "Δισδιάστατα γραφικά",
+     "Πολιτισμός (κουλτούρα)",
+     "Αθήνα",
+     "Έργα τέχνης",
+     "Φωτογραφία",
+     "Καλές τέχνες",
+     "Μουσεία",
+     "Γλυπτική"
+    ],
+    "mt": [
+     "Skultura",
+     "Fotografija"
+    ],
+    "en": [
+     "Antiquities",
+     "Attica",
+     "Works of art",
+     "Public structures",
+     "Museums",
+     "Photo",
+     "Athens",
+     "2D Graphics",
+     "Sculpture",
+     "Art of sculpture",
+     "Photograph",
+     "Culture",
+     "Fine arts"
+    ],
+    "it": [
+     "Fotografia",
+     "Scultura"
+    ],
+    "es": [
+     "Fotografía",
+     "Escultura"
+    ],
+    "et": [
+     "Foto",
+     "Skulptuur"
+    ],
+    "cs": [
+     "Sochařství",
+     "Fotografie"
+    ],
+    "eu": [
+     "Eskulturagintza",
+     "Argazki"
+    ],
+    "pl": [
+     "Rzeźbiarstwo",
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi",
+     "Skulpturkunst"
+    ],
+    "ro": [
+     "Sculptură",
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto",
+     "Beeldhouwkunst"
+    ]
+   },
+   "edmDatasetName": [
+    "122_EKT_elia"
+   ],
+   "edmIsShownAt": [
+    "http://eliaserver.elia.org.gr/lselia/rec.aspx?id=463955"
+   ],
+   "edmIsShownBy": [
+    "http://eliaserver.elia.org.gr/LSelia/images_View/L214.013.JPG"
+   ],
+   "edmPlace": [
+    "http://semantics.gr/authorities/geonames-places-earth/264371",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/87"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens",
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "cs": [
+     "Atény"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Греция"
+    ],
+    "pt": [
+     "Atenas",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αθήνα",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Athens",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.9838",
+    "37.984165",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.7278",
+    "23.728056",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FELIA%2F000100-22_463955&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "122_EKT_elia"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_463955?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_463955",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/122/https___www_searchculture_gr_aggregator_edm_ELIA_000100_22_463955.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3605",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 78.98946,
+   "timestamp": 1788011431269,
+   "timestamp_created": "2019-09-18T21:42:40.450Z",
+   "timestamp_created_epoch": 1568842960450,
+   "timestamp_update": "2025-02-05T14:41:41.099Z",
+   "timestamp_update_epoch": 1738766501099,
+   "title": [
+    "Antikythira Youth, Athens Archaeological Museum",
+    "Ο Έφηβος των Αντικυθήρων, Αρχαιολογικό Μουσείο Αθήνας."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Archaeological Institute"
+   ],
+   "dcDescription": [
+    "BearbeitungenModern: neu zusammengesetzt, chemisch gereinigt und an einigen Stellen restauriert, vor allem im Bauchbereich und der linken Schulter",
+    "Erhaltungszustand: Es fehlt eine größere Partie um den Halsansatz. Verluste in Höhe der Hüfte. Ein besonders großer Riss läuft etwa von den Leisten an auf der Außenseite des linken Schenkels nach unten.",
+    "Conservation status: There is a large batch missing for the neck approach. Losses of the hip. A particularly large crack runs down on the outside of the left leg, for example from the bars."
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "BearbeitungenModern: neu zusammengesetzt, chemisch gereinigt und an einigen Stellen restauriert, vor allem im Bauchbereich und der linken Schulter",
+     "Erhaltungszustand: Es fehlt eine größere Partie um den Halsansatz. Verluste in Höhe der Hüfte. Ein besonders großer Riss läuft etwa von den Leisten an auf der Außenseite des linken Schenkels nach unten."
+    ],
+    "en": [
+     "Conservation status: There is a large batch missing for the neck approach. Losses of the hip. A particularly large crack runs down on the outside of the left leg, for example from the bars."
+    ]
+   },
+   "dcLanguage": [
+    "deu"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "deu"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Rundplastik"
+    ],
+    "def": [
+     "http://vocab.getty.edu/aat/300234110",
+     "http://data.europeana.eu/concept/26"
+    ],
+    "en": [
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Statue eines nackten Mannes, sogenannter Jüngling von Antikythera"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "objekt"
+    ],
+    "en": [
+     "object"
+    ]
+   },
+   "dctermsSpatial": [
+    "Vor der Ostküste Antikytheras",
+    "http://gazetteer.dainst.org/place/2359504",
+    "Vor der Ostküste Antikytheras"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/1769",
+    "http://data.europeana.eu/concept/26"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze",
+     "Artefakt",
+     "archäologisches Objekt"
+    ],
+    "fi": [
+     "Pronssi",
+     "Artefakti"
+    ],
+    "ru": [
+     "Бронза",
+     "Артефакт"
+    ],
+    "pt": [
+     "Bronze",
+     "Artefato"
+    ],
+    "bg": [
+     "Бронз",
+     "Артефакт"
+    ],
+    "lt": [
+     "Bronza",
+     "Archeologinis radinys"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts",
+     "Bronza"
+    ],
+    "hr": [
+     "Artefakt",
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy",
+     "Bronz"
+    ],
+    "sk": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "sl": [
+     "Bron",
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta",
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze",
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt",
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος",
+     "Τέχνεργο"
+    ],
+    "en": [
+     "Bronze",
+     "archaeological objects",
+     "Archaeological artefact"
+    ],
+    "it": [
+     "Bronzo",
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "Bronce",
+     "Artefacto arqueológico"
+    ],
+    "et": [
+     "Artefakt",
+     "Pronks"
+    ],
+    "cs": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze",
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Brąz",
+     "Artefakt archeologiczny"
+    ],
+    "ro": [
+     "Artefact",
+     "Bronz"
+    ],
+    "da": [
+     "Bronze",
+     "Artefakt"
+    ],
+    "nl": [
+     "Brons",
+     "archeologische objecten",
+     "Artefact"
+    ]
+   },
+   "edmDatasetName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "edmIsShownAt": [
+    "https://arachne.dainst.org/entity/1061322"
+   ],
+   "edmIsShownBy": [
+    "https://arachne.dainst.org/data/image/154306"
+   ],
+   "edmPlace": [
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Piräus (Regionalbezirk)"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Piräus (Regionalbezirk)"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.989033"
+   ],
+   "edmPlaceLongitude": [
+    "23.732496"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farachne.dainst.org%2Fdata%2Fimage%2F154306&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://arachne.dainst.org/datierung/75584"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "spätklassisch,  (340-330 v. Chr.)"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "def": [
+     "spätklassisch,  (340-330 v. Chr.)"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/2020707/https___arachne_dainst_org_entity_1061322?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2020707/https___arachne_dainst_org_entity_1061322",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/2020707/https___arachne_dainst_org_entity_1061322.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4493",
+    "http://data.europeana.eu/organization/1617"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CARARE"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 76.59879,
+   "timestamp": 1788012610795,
+   "timestamp_created": "2019-06-18T11:41:10.894Z",
+   "timestamp_created_epoch": 1560858070894,
+   "timestamp_update": "2019-06-18T11:41:10.894Z",
+   "timestamp_update_epoch": 1560858070894,
+   "title": [
+    "Statue eines nackten Mannes, sogenannter Jüngling von Antikythera"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr",
+    "aus Kunststoff",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "188_DDB_SLUB_0"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482327"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000408_03.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000408_03.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1965"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1965"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1965"
+    ]
+   },
+   "europeanaCollectionName": [
+    "188_DDB_SLUB_0"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/188/item_3LDCIS6BRMZ4CMF3Q7VXMIH7SH4GD5UV?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/188/item_3LDCIS6BRMZ4CMF3Q7VXMIH7SH4GD5UV",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/188/item_3LDCIS6BRMZ4CMF3Q7VXMIH7SH4GD5UV.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 68.553764,
+   "timestamp": 1787962725330,
+   "timestamp_created": "2020-12-16T09:50:12.330Z",
+   "timestamp_created_epoch": 1608112212330,
+   "timestamp_update": "2022-01-27T09:19:05.373Z",
+   "timestamp_update_epoch": 1643275145373,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, etwa lebensgroß. Um 340 v. Chr",
+    "aus Kunststoff",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, etwa lebensgroß. Um 340 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, etwa lebensgroß. Um 340 v. Chr"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "463_DDB_SLUB_3"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482325"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000408_01.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000408_01.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1965"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1965"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1965"
+    ]
+   },
+   "europeanaCollectionName": [
+    "463_DDB_SLUB_3"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/463/item_LZXP74777LVSTFV4PV4D6KZ2DYGF4TPG?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/463/item_LZXP74777LVSTFV4PV4D6KZ2DYGF4TPG",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/463/item_LZXP74777LVSTFV4PV4D6KZ2DYGF4TPG.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 66.51961,
+   "timestamp": 1787996489654,
+   "timestamp_created": "2022-01-28T10:12:32.633Z",
+   "timestamp_created_epoch": 1643364752633,
+   "timestamp_update": "2022-01-28T10:12:32.633Z",
+   "timestamp_update_epoch": 1643364752633,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, etwa lebensgroß. Um 340 v. Chr"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athens. Archaeological National Museum. Youngster of gling ýthera. Bronze, life-size. Around 340 BC Au4",
+    "made of plastic",
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr. Au4",
+    "aus Kunststoff"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr. Au4",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Youngster of gling ýthera. Bronze, life-size. Around 340 BC Au4",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Jüngling",
+     "Skulptur"
+    ],
+    "en": [
+     "Young",
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr. Au4"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Youngster of gling ýthera. Bronze, life-size. Around 340 BC Au4"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "440_DDB_SLUB_2"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482328"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000408_04.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000408_04.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1964"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1964"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1964"
+    ]
+   },
+   "europeanaCollectionName": [
+    "440_DDB_SLUB_2"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/440/item_WAHJUB7MVY2K4OXHXSILI57MI5NB6PLY?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/440/item_WAHJUB7MVY2K4OXHXSILI57MI5NB6PLY",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/440/item_WAHJUB7MVY2K4OXHXSILI57MI5NB6PLY.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 44.857185,
+   "timestamp": 1787963587915,
+   "timestamp_created": "2022-01-28T08:02:13.084Z",
+   "timestamp_created_epoch": 1643356933084,
+   "timestamp_update": "2022-01-28T08:02:13.084Z",
+   "timestamp_update_epoch": 1643356933084,
+   "title": [
+    "Athens. Archaeological National Museum. Youngster of gling ýthera. Bronze, life-size. Around 340 BC Au4",
+    "Athen. Archäologisches Nationalmuseum. Jüngling von Antikýthera. Bronze, lebensgroß. Um 340 v. Chr. Au4"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Philatelic Postal Museum"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394",
+    "Γράββαλος Παναγιώτης"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/375471394"
+    ],
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ]
+   },
+   "dcDescription": [
+    "Παράσταση: Έφηβος των Αντικυθήρων. (Εθν. Αρχαιολογικό Μουσείο). Φόντο: λογότυπος. Αποχρώσεις : χαλκοπράσινο, γκρι."
+   ],
+   "dcDescriptionLangAware": {
+    "el": [
+     "Παράσταση: Έφηβος των Αντικυθήρων. (Εθν. Αρχαιολογικό Μουσείο). Φόντο: λογότυπος. Αποχρώσεις : χαλκοπράσινο, γκρι."
+    ]
+   },
+   "dcLanguage": [
+    "gre",
+    "el"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "gre",
+     "el"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-unesco/1355238292"
+    ],
+    "el": [
+     "Παγκόσμιο Πρωτάθλημα - Στίβος"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-item-types/Stamp",
+     "http://data.europeana.eu/concept/2535"
+    ],
+    "el": [
+     "Γραμματόσημα Φύλλο"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://semantics.gr/authorities/geonames-places-earth/390903",
+    "http://data.europeana.eu/place/87",
+    "Ελλάδα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Γράββαλος Παναγιώτης"
+    },
+    {
+     "def": "Gravvalos Panagiotis"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ],
+    "en": [
+     "Gravvalos Panagiotis"
+    ]
+   },
+   "edmConcept": [
+    "http://semantics.gr/authorities/ekt-unesco/1355238292",
+    "http://data.europeana.eu/concept/2535",
+    "http://semantics.gr/authorities/ekt-item-types/ektypwsh",
+    "http://semantics.gr/authorities/ekt-unesco/1087352633",
+    "http://semantics.gr/authorities/ekt-item-types/Stamp"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Postal services"
+    },
+    {
+     "def": "Postage stamp"
+    },
+    {
+     "def": "Print"
+    },
+    {
+     "def": "Information and communication"
+    },
+    {
+     "def": "Stamp"
+    },
+    {
+     "def": "Ταχυδρομικές υπηρεσίες"
+    },
+    {
+     "def": "Γραμματόσημο"
+    },
+    {
+     "def": "Εκτύπωση"
+    },
+    {
+     "def": "Πληροφορία και επικοινωνία"
+    },
+    {
+     "def": "Γραμματόσημο"
+    },
+    {
+     "def": "Briefmarke"
+    },
+    {
+     "def": "Postimerkki"
+    },
+    {
+     "def": "Почтовая марка"
+    },
+    {
+     "def": "Selo postal"
+    },
+    {
+     "def": "Пощенска марка"
+    },
+    {
+     "def": "Pašto ženklas"
+    },
+    {
+     "def": "Pastmarka"
+    },
+    {
+     "def": "Poštanska marka"
+    },
+    {
+     "def": "Timbre postal"
+    },
+    {
+     "def": "Postabélyeg"
+    },
+    {
+     "def": "Poštová známka"
+    },
+    {
+     "def": "Poštna znamka"
+    },
+    {
+     "def": "Stampa poist"
+    },
+    {
+     "def": "Segell"
+    },
+    {
+     "def": "Frimärke"
+    },
+    {
+     "def": "Bolla postali"
+    },
+    {
+     "def": "Francobollo"
+    },
+    {
+     "def": "Sello postal"
+    },
+    {
+     "def": "Postmark"
+    },
+    {
+     "def": "Poštovní známka"
+    },
+    {
+     "def": "Zigilu"
+    },
+    {
+     "def": "Znaczek pocztowy"
+    },
+    {
+     "def": "Marcă poștală"
+    },
+    {
+     "def": "Frimærke"
+    },
+    {
+     "def": "Postzegel"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Briefmarke"
+    ],
+    "fi": [
+     "Postimerkki"
+    ],
+    "ru": [
+     "Почтовая марка"
+    ],
+    "pt": [
+     "Selo postal"
+    ],
+    "bg": [
+     "Пощенска марка"
+    ],
+    "lt": [
+     "Pašto ženklas"
+    ],
+    "lv": [
+     "Pastmarka"
+    ],
+    "hr": [
+     "Poštanska marka"
+    ],
+    "fr": [
+     "Timbre postal"
+    ],
+    "hu": [
+     "Postabélyeg"
+    ],
+    "sk": [
+     "Poštová známka"
+    ],
+    "sl": [
+     "Poštna znamka"
+    ],
+    "ga": [
+     "Stampa poist"
+    ],
+    "ca": [
+     "Segell"
+    ],
+    "sv": [
+     "Frimärke"
+    ],
+    "el": [
+     "Ταχυδρομικές υπηρεσίες",
+     "Γραμματόσημο",
+     "Εκτύπωση",
+     "Πληροφορία και επικοινωνία"
+    ],
+    "mt": [
+     "Bolla postali"
+    ],
+    "en": [
+     "Print",
+     "Stamp",
+     "Information and communication",
+     "Postage stamp",
+     "Postal services"
+    ],
+    "it": [
+     "Francobollo"
+    ],
+    "es": [
+     "Sello postal"
+    ],
+    "et": [
+     "Postmark"
+    ],
+    "cs": [
+     "Poštovní známka"
+    ],
+    "eu": [
+     "Zigilu"
+    ],
+    "pl": [
+     "Znaczek pocztowy"
+    ],
+    "ro": [
+     "Marcă poștală"
+    ],
+    "da": [
+     "Frimærke"
+    ],
+    "nl": [
+     "Postzegel"
+    ]
+   },
+   "edmDatasetName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "edmIsShownAt": [
+    "https://ft.codingplus.gr/ft-museum/pawtucket/index.php/Detail/objects/66256"
+   ],
+   "edmIsShownBy": [
+    "https://ft.codingplus.gr/ft-museum/media/collectiveaccess/images/1/6/5/3/58735_ca_object_representations_media_165387_original.jpg"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/390903"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Hellenic Republic"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Helleense Republiek"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "sv": [
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα",
+     "Ελλάς"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece",
+     "Greece",
+     "Hellenic Republic"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Griechenland"
+    ],
+    "fi": [
+     "Kreikka"
+    ],
+    "ru": [
+     "Греция"
+    ],
+    "pt": [
+     "Grécia"
+    ],
+    "bg": [
+     "Гърция"
+    ],
+    "lt": [
+     "Graikija"
+    ],
+    "hr": [
+     "Grčka"
+    ],
+    "lv": [
+     "Grieķija"
+    ],
+    "fr": [
+     "Grèce"
+    ],
+    "hu": [
+     "Görögország"
+    ],
+    "sk": [
+     "Grécko"
+    ],
+    "sl": [
+     "Grčija"
+    ],
+    "ga": [
+     "An Ghréig"
+    ],
+    "ca": [
+     "Grècia"
+    ],
+    "sv": [
+     "Grekland"
+    ],
+    "mt": [
+     "Greċja"
+    ],
+    "el": [
+     "Ελλάδα",
+     "Ελλάδα"
+    ],
+    "en": [
+     "Greece",
+     "Greece"
+    ],
+    "it": [
+     "Grecia"
+    ],
+    "es": [
+     "Grecia"
+    ],
+    "et": [
+     "Kreeka"
+    ],
+    "cs": [
+     "Řecko"
+    ],
+    "eu": [
+     "Grezia"
+    ],
+    "pl": [
+     "Grecja"
+    ],
+    "da": [
+     "Grækenland"
+    ],
+    "ro": [
+     "Grecia"
+    ],
+    "nl": [
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "38.5",
+    "39.0"
+   ],
+   "edmPlaceLongitude": [
+    "23.0",
+    "22.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FDigPostal%2F000204-66256&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/Regime-change",
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada",
+    "#1986",
+    "#1986-01-01",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Μεταπολίτευση"
+    },
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "Regime change"
+    },
+    {
+     "def": "Modern Greece"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "http://dbpedia.org/page/Metapolitefsi"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    },
+    {
+     "def": "1986"
+    },
+    {
+     "def": "1986-01-01"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "Μεταπολίτευση",
+     "Νεότερη Ελλάδα",
+     "20ός αιώνας"
+    ],
+    "en": [
+     "Regime change",
+     "Modern Greece",
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1986",
+     "1986-01-01"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_66256?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_66256",
+   "index": 0,
+   "language": [
+    "el"
+   ],
+   "link": "https://api.europeana.eu/record/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_66256.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5505",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 23.097006,
+   "timestamp": 1788037057572,
+   "timestamp_created": "2026-08-12T08:03:51.519Z",
+   "timestamp_created_epoch": 1786521831519,
+   "timestamp_update": "2026-08-12T08:03:51.519Z",
+   "timestamp_update_epoch": 1786521831519,
+   "title": [
+    "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1986"
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Philatelic Postal Museum"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394",
+    "Γράββαλος Παναγιώτης"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/375471394"
+    ],
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ]
+   },
+   "dcDescription": [
+    "Εκτυπωτικό δοκίμιο γραμματοσήμων της αναμνηστικής σειράς «Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα», πάνω σε χαρτόνι. Στην δεξιά σελίδα του recto εμφανίζονται 4  γραμματόσημα, χωρίς οδοντώσεις, παρατακτικά τοποθετημένα: 1.Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας) 2.Ο Διαδούμενος του Πολύκλειτου (Αρχαιολογικό Μουσείο Αθήνας) 3. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896) 4.Πανευρωπαϊκό Πρωτάθλημα Ελευθέρας και Ελληνορωμαϊκής πάλης (Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου)"
+   ],
+   "dcDescriptionLangAware": {
+    "el": [
+     "Εκτυπωτικό δοκίμιο γραμματοσήμων της αναμνηστικής σειράς «Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα», πάνω σε χαρτόνι. Στην δεξιά σελίδα του recto εμφανίζονται 4  γραμματόσημα, χωρίς οδοντώσεις, παρατακτικά τοποθετημένα: 1.Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας) 2.Ο Διαδούμενος του Πολύκλειτου (Αρχαιολογικό Μουσείο Αθήνας) 3. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896) 4.Πανευρωπαϊκό Πρωτάθλημα Ελευθέρας και Ελληνορωμαϊκής πάλης (Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου)"
+    ]
+   },
+   "dcLanguage": [
+    "gre",
+    "el"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "gre",
+     "el"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-unesco/1355238292",
+     "http://semantics.gr/authorities/ekt-unesco/482791087",
+     "http://data.europeana.eu/concept/84"
+    ],
+    "el": [
+     "Θρησκεία"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-item-types/1471871711"
+    ],
+    "el": [
+     "Δοκίμιο Τυπογραφικό Καρτελίδιο"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://semantics.gr/authorities/geonames-places-earth/390903",
+    "http://data.europeana.eu/place/87",
+    "Ελλάδα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Γράββαλος Παναγιώτης"
+    },
+    {
+     "def": "Gravvalos Panagiotis"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ],
+    "en": [
+     "Gravvalos Panagiotis"
+    ]
+   },
+   "edmConcept": [
+    "http://semantics.gr/authorities/ekt-unesco/1355238292",
+    "http://data.europeana.eu/concept/84",
+    "http://semantics.gr/authorities/ekt-item-types/ektypwsh",
+    "http://semantics.gr/authorities/ekt-unesco/1087352633",
+    "http://semantics.gr/authorities/ekt-unesco/482791087",
+    "http://semantics.gr/authorities/ekt-item-types/1471871711"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Postal services"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Print"
+    },
+    {
+     "def": "Information and communication"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Printing proof"
+    },
+    {
+     "def": "Ταχυδρομικές υπηρεσίες"
+    },
+    {
+     "def": "Θρησκεία"
+    },
+    {
+     "def": "Εκτύπωση"
+    },
+    {
+     "def": "Πληροφορία και επικοινωνία"
+    },
+    {
+     "def": "Θρησκεία"
+    },
+    {
+     "def": "Τυπογραφικό δοκίμιο"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Религия"
+    },
+    {
+     "def": "Uskonto"
+    },
+    {
+     "def": "Religião"
+    },
+    {
+     "def": "Религия"
+    },
+    {
+     "def": "Religija"
+    },
+    {
+     "def": "Reliģija"
+    },
+    {
+     "def": "Religija"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Vallás"
+    },
+    {
+     "def": "Náboženstvo"
+    },
+    {
+     "def": "Religija"
+    },
+    {
+     "def": "Creideamh"
+    },
+    {
+     "def": "Religió"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Reliġjon"
+    },
+    {
+     "def": "Religione"
+    },
+    {
+     "def": "Religión"
+    },
+    {
+     "def": "Religioon"
+    },
+    {
+     "def": "Erlijio"
+    },
+    {
+     "def": "Náboženství"
+    },
+    {
+     "def": "Religia"
+    },
+    {
+     "def": "Religie"
+    },
+    {
+     "def": "Religion"
+    },
+    {
+     "def": "Religie"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Religion"
+    ],
+    "ru": [
+     "Религия"
+    ],
+    "fi": [
+     "Uskonto"
+    ],
+    "pt": [
+     "Religião"
+    ],
+    "bg": [
+     "Религия"
+    ],
+    "lt": [
+     "Religija"
+    ],
+    "lv": [
+     "Reliģija"
+    ],
+    "hr": [
+     "Religija"
+    ],
+    "fr": [
+     "Religion"
+    ],
+    "hu": [
+     "Vallás"
+    ],
+    "sk": [
+     "Náboženstvo"
+    ],
+    "sl": [
+     "Religija"
+    ],
+    "ga": [
+     "Creideamh"
+    ],
+    "ca": [
+     "Religió"
+    ],
+    "sv": [
+     "Religion"
+    ],
+    "el": [
+     "Θρησκεία",
+     "Ταχυδρομικές υπηρεσίες",
+     "Τυπογραφικό δοκίμιο",
+     "Εκτύπωση",
+     "Πληροφορία και επικοινωνία"
+    ],
+    "mt": [
+     "Reliġjon"
+    ],
+    "en": [
+     "Print",
+     "Information and communication",
+     "Religion",
+     "Printing proof",
+     "Postal services"
+    ],
+    "it": [
+     "Religione"
+    ],
+    "es": [
+     "Religión"
+    ],
+    "et": [
+     "Religioon"
+    ],
+    "eu": [
+     "Erlijio"
+    ],
+    "cs": [
+     "Náboženství"
+    ],
+    "pl": [
+     "Religia"
+    ],
+    "ro": [
+     "Religie"
+    ],
+    "da": [
+     "Religion"
+    ],
+    "nl": [
+     "Religie"
+    ]
+   },
+   "edmDatasetName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "edmIsShownAt": [
+    "https://ft.codingplus.gr/ft-museum/pawtucket/index.php/Detail/objects/65289"
+   ],
+   "edmIsShownBy": [
+    "https://ft.codingplus.gr/ft-museum/media/collectiveaccess/images/1/6/9/6/76970_ca_object_representations_media_169658_original.jpg"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/390903"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Hellenic Republic"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Helleense Republiek"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "sv": [
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα",
+     "Ελλάς"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece",
+     "Greece",
+     "Hellenic Republic"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Griechenland"
+    ],
+    "fi": [
+     "Kreikka"
+    ],
+    "ru": [
+     "Греция"
+    ],
+    "pt": [
+     "Grécia"
+    ],
+    "bg": [
+     "Гърция"
+    ],
+    "lt": [
+     "Graikija"
+    ],
+    "hr": [
+     "Grčka"
+    ],
+    "lv": [
+     "Grieķija"
+    ],
+    "fr": [
+     "Grèce"
+    ],
+    "hu": [
+     "Görögország"
+    ],
+    "sk": [
+     "Grécko"
+    ],
+    "sl": [
+     "Grčija"
+    ],
+    "ga": [
+     "An Ghréig"
+    ],
+    "ca": [
+     "Grècia"
+    ],
+    "sv": [
+     "Grekland"
+    ],
+    "mt": [
+     "Greċja"
+    ],
+    "el": [
+     "Ελλάδα",
+     "Ελλάδα"
+    ],
+    "en": [
+     "Greece",
+     "Greece"
+    ],
+    "it": [
+     "Grecia"
+    ],
+    "es": [
+     "Grecia"
+    ],
+    "et": [
+     "Kreeka"
+    ],
+    "cs": [
+     "Řecko"
+    ],
+    "eu": [
+     "Grezia"
+    ],
+    "pl": [
+     "Grecja"
+    ],
+    "da": [
+     "Grækenland"
+    ],
+    "ro": [
+     "Grecia"
+    ],
+    "nl": [
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "38.5",
+    "39.0"
+   ],
+   "edmPlaceLongitude": [
+    "23.0",
+    "22.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FDigPostal%2F000204-65289&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/Regime-change",
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada",
+    "#1986",
+    "#1986-01-01",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Μεταπολίτευση"
+    },
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "Regime change"
+    },
+    {
+     "def": "Modern Greece"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "http://dbpedia.org/page/Metapolitefsi"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    },
+    {
+     "def": "1986"
+    },
+    {
+     "def": "1986-01-01"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "Μεταπολίτευση",
+     "Νεότερη Ελλάδα",
+     "20ός αιώνας"
+    ],
+    "en": [
+     "Regime change",
+     "Modern Greece",
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1986",
+     "1986-01-01"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65289?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65289",
+   "index": 0,
+   "language": [
+    "el"
+   ],
+   "link": "https://api.europeana.eu/record/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65289.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5505",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 14.706385,
+   "timestamp": 1788037035012,
+   "timestamp_created": "2026-08-12T08:03:51.519Z",
+   "timestamp_created_epoch": 1786521831519,
+   "timestamp_update": "2026-08-12T08:03:51.519Z",
+   "timestamp_update_epoch": 1786521831519,
+   "title": [
+    "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1986"
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Philatelic Postal Museum"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394",
+    "Γράββαλος Παναγιώτης"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/375471394"
+    ],
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ]
+   },
+   "dcDescription": [
+    "Εκτυπωτικό δοκίμιο γραμματοσήμων της αναμνηστικής σειράς «Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα», πάνω σε χαρτόνι. Στην δεξιά σελίδα του recto εμφανίζονται 4  γραμματόσημα, χωρίς οδοντώσεις, παρατακτικά τοποθετημένα: 1.Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας) 2.Ο Διαδούμενος του Πολύκλειτου (Αρχαιολογικό Μουσείο Αθήνας) 3. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896) 4.Πανευρωπαϊκό Πρωτάθλημα Ελευθέρας και Ελληνορωμαϊκής πάλης (Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου)"
+   ],
+   "dcDescriptionLangAware": {
+    "el": [
+     "Εκτυπωτικό δοκίμιο γραμματοσήμων της αναμνηστικής σειράς «Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα», πάνω σε χαρτόνι. Στην δεξιά σελίδα του recto εμφανίζονται 4  γραμματόσημα, χωρίς οδοντώσεις, παρατακτικά τοποθετημένα: 1.Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας) 2.Ο Διαδούμενος του Πολύκλειτου (Αρχαιολογικό Μουσείο Αθήνας) 3. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896) 4.Πανευρωπαϊκό Πρωτάθλημα Ελευθέρας και Ελληνορωμαϊκής πάλης (Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου)"
+    ]
+   },
+   "dcLanguage": [
+    "gre",
+    "el"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "gre",
+     "el"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-unesco/1355238292",
+     "http://semantics.gr/authorities/thematic_tags/994330967",
+     "http://data.europeana.eu/concept/114"
+    ],
+    "el": [
+     "Αθλητισμός"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/ekt-item-types/1471871711"
+    ],
+    "el": [
+     "Δοκίμιο Τυπογραφικό Καρτελίδιο"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://semantics.gr/authorities/geonames-places-earth/390903",
+    "http://data.europeana.eu/place/87",
+    "Ελλάδα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Γράββαλος Παναγιώτης"
+    },
+    {
+     "def": "Gravvalos Panagiotis"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ],
+    "en": [
+     "Gravvalos Panagiotis"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/114",
+    "http://semantics.gr/authorities/ekt-unesco/1355238292",
+    "http://semantics.gr/authorities/ekt-item-types/ektypwsh",
+    "http://semantics.gr/authorities/ekt-unesco/1087352633",
+    "http://semantics.gr/authorities/thematic_tags/994330967",
+    "http://semantics.gr/authorities/ekt-item-types/1471871711"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Спорт"
+    },
+    {
+     "def": "Urheilu"
+    },
+    {
+     "def": "Desporto"
+    },
+    {
+     "def": "Спорт"
+    },
+    {
+     "def": "Sportas"
+    },
+    {
+     "def": "Sports"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Šport"
+    },
+    {
+     "def": "Šport"
+    },
+    {
+     "def": "Spórt"
+    },
+    {
+     "def": "Esport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Αθλητισμός"
+    },
+    {
+     "def": "Ταχυδρομικές υπηρεσίες"
+    },
+    {
+     "def": "Εκτύπωση"
+    },
+    {
+     "def": "Πληροφορία και επικοινωνία"
+    },
+    {
+     "def": "Αθλήματα"
+    },
+    {
+     "def": "Τυπογραφικό δοκίμιο"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Postal services"
+    },
+    {
+     "def": "Print"
+    },
+    {
+     "def": "Information and communication"
+    },
+    {
+     "def": "Sports"
+    },
+    {
+     "def": "Printing proof"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Deporte"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Kirol"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Sport"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Sport"
+    ],
+    "ru": [
+     "Спорт"
+    ],
+    "fi": [
+     "Urheilu"
+    ],
+    "pt": [
+     "Desporto"
+    ],
+    "bg": [
+     "Спорт"
+    ],
+    "lt": [
+     "Sportas"
+    ],
+    "lv": [
+     "Sports"
+    ],
+    "hr": [
+     "Sport"
+    ],
+    "fr": [
+     "Sport"
+    ],
+    "hu": [
+     "Sport"
+    ],
+    "sk": [
+     "Šport"
+    ],
+    "sl": [
+     "Šport"
+    ],
+    "ga": [
+     "Spórt"
+    ],
+    "ca": [
+     "Esport"
+    ],
+    "sv": [
+     "Sport"
+    ],
+    "mt": [
+     "Sport"
+    ],
+    "el": [
+     "Αθλήματα",
+     "Ταχυδρομικές υπηρεσίες",
+     "Τυπογραφικό δοκίμιο",
+     "Εκτύπωση",
+     "Αθλητισμός",
+     "Πληροφορία και επικοινωνία"
+    ],
+    "en": [
+     "Print",
+     "Sport",
+     "Information and communication",
+     "Printing proof",
+     "Postal services",
+     "Sports"
+    ],
+    "it": [
+     "Sport"
+    ],
+    "es": [
+     "Deporte"
+    ],
+    "et": [
+     "Sport"
+    ],
+    "eu": [
+     "Kirol"
+    ],
+    "cs": [
+     "Sport"
+    ],
+    "pl": [
+     "Sport"
+    ],
+    "ro": [
+     "Sport"
+    ],
+    "da": [
+     "Sport"
+    ],
+    "nl": [
+     "Sport"
+    ]
+   },
+   "edmDatasetName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "edmIsShownAt": [
+    "https://ft.codingplus.gr/ft-museum/pawtucket/index.php/Detail/objects/65290"
+   ],
+   "edmIsShownBy": [
+    "https://ft.codingplus.gr/ft-museum/media/collectiveaccess/images/1/6/9/6/18712_ca_object_representations_media_169649_original.jpg"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/390903"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Hellenic Republic"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Helleense Republiek"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "sv": [
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα",
+     "Ελλάς"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece",
+     "Greece",
+     "Hellenic Republic"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Griechenland"
+    ],
+    "fi": [
+     "Kreikka"
+    ],
+    "ru": [
+     "Греция"
+    ],
+    "pt": [
+     "Grécia"
+    ],
+    "bg": [
+     "Гърция"
+    ],
+    "lt": [
+     "Graikija"
+    ],
+    "hr": [
+     "Grčka"
+    ],
+    "lv": [
+     "Grieķija"
+    ],
+    "fr": [
+     "Grèce"
+    ],
+    "hu": [
+     "Görögország"
+    ],
+    "sk": [
+     "Grécko"
+    ],
+    "sl": [
+     "Grčija"
+    ],
+    "ga": [
+     "An Ghréig"
+    ],
+    "ca": [
+     "Grècia"
+    ],
+    "sv": [
+     "Grekland"
+    ],
+    "mt": [
+     "Greċja"
+    ],
+    "el": [
+     "Ελλάδα",
+     "Ελλάδα"
+    ],
+    "en": [
+     "Greece",
+     "Greece"
+    ],
+    "it": [
+     "Grecia"
+    ],
+    "es": [
+     "Grecia"
+    ],
+    "et": [
+     "Kreeka"
+    ],
+    "cs": [
+     "Řecko"
+    ],
+    "eu": [
+     "Grezia"
+    ],
+    "pl": [
+     "Grecja"
+    ],
+    "da": [
+     "Grækenland"
+    ],
+    "ro": [
+     "Grecia"
+    ],
+    "nl": [
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "38.5",
+    "39.0"
+   ],
+   "edmPlaceLongitude": [
+    "23.0",
+    "22.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FDigPostal%2F000204-65290&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/Regime-change",
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada",
+    "#1986",
+    "#1986-01-01",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Μεταπολίτευση"
+    },
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "Regime change"
+    },
+    {
+     "def": "Modern Greece"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "http://dbpedia.org/page/Metapolitefsi"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    },
+    {
+     "def": "1986"
+    },
+    {
+     "def": "1986-01-01"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "Μεταπολίτευση",
+     "Νεότερη Ελλάδα",
+     "20ός αιώνας"
+    ],
+    "en": [
+     "Regime change",
+     "Modern Greece",
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1986",
+     "1986-01-01"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65290?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65290",
+   "index": 0,
+   "language": [
+    "el"
+   ],
+   "link": "https://api.europeana.eu/record/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65290.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5505",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 14.552176,
+   "timestamp": 1788037035126,
+   "timestamp_created": "2026-08-12T08:03:51.519Z",
+   "timestamp_created_epoch": 1786521831519,
+   "timestamp_update": "2026-08-12T08:03:51.519Z",
+   "timestamp_update_epoch": 1786521831519,
+   "title": [
+    "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1986"
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Greece"
+   ],
+   "dataProvider": [
+    "Philatelic Postal Museum"
+   ],
+   "dcCreator": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394",
+    "Γράββαλος Παναγιώτης"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "http://semantics.gr/authorities/searchculture-persons/375471394"
+    ],
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ]
+   },
+   "dcDescription": [
+    "Φ.Π.Η.Κ της αναμνηστικής σειράς  γραμματοσήμων Διεθνές Έτος Ειρήνης. Στο αριστερό τμήμα της εμπρόσθιας όψης και μέσα σε ορθογώνιο διάχωρο εικονίζονται Εγκαταστάσεις της Διεθνούς Ολυμπιακής Ακαδημίας στην Αρχαία Ολυμπία. Ακριβώς από κάτω βρίσκεται η επιγραφή ΕΛΛΗΝΙΚΑ ΤΑΧΥΔΡΟΜΕΙΑ |ΠΡΩΤΗ ΗΜΕΡΑ ΚΥΚΛΟΦΟΡΙΑΣ. Η επιφάνεια στα δεξιά φέρει τρία γραμματόσημα της σειράς με οδοντώσεις, ένα σε κάθετη και δύο σε οριζόντια διάταξη, σφραγισμένα από κοινού με δύο αποτυπώματα της ειδικής σφραγίδας: (άνω) 1. Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου 2. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896). (κάτω) 3. Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας)"
+   ],
+   "dcDescriptionLangAware": {
+    "el": [
+     "Φ.Π.Η.Κ της αναμνηστικής σειράς  γραμματοσήμων Διεθνές Έτος Ειρήνης. Στο αριστερό τμήμα της εμπρόσθιας όψης και μέσα σε ορθογώνιο διάχωρο εικονίζονται Εγκαταστάσεις της Διεθνούς Ολυμπιακής Ακαδημίας στην Αρχαία Ολυμπία. Ακριβώς από κάτω βρίσκεται η επιγραφή ΕΛΛΗΝΙΚΑ ΤΑΧΥΔΡΟΜΕΙΑ |ΠΡΩΤΗ ΗΜΕΡΑ ΚΥΚΛΟΦΟΡΙΑΣ. Η επιφάνεια στα δεξιά φέρει τρία γραμματόσημα της σειράς με οδοντώσεις, ένα σε κάθετη και δύο σε οριζόντια διάταξη, σφραγισμένα από κοινού με δύο αποτυπώματα της ειδικής σφραγίδας: (άνω) 1. Σύμπλεγμα παλαιστών, Γλυπτό, Ελληνιστικής Εποχής-Γλυπτοθήκη Μονάχου 2. 90 χρόνια από την αναβίωση των Ολυμπιακών αγώνων (Σύνθεση από το σχέδιο του Νικηφόρου Λύτρα για τα αναμνηστικά των Α' Ολυμπιακών αγώνων της Αθήνας το 1896). (κάτω) 3. Ο Έφηβος των Αντικυθήρων (Αρχαιολογικό Μουσείο Αθήνας)"
+    ]
+   },
+   "dcLanguage": [
+    "el",
+    "gre"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "el",
+     "gre"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/3118",
+     "http://semantics.gr/authorities/ekt-unesco/1355238292",
+     "http://semantics.gr/authorities/ekt-unesco/207407916"
+    ],
+    "el": [
+     "Διεθνείς Αγώνες"
+    ]
+   },
+   "dcTitleLangAware": {
+    "el": [
+     "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/2535",
+     "http://semantics.gr/authorities/ekt-item-types/Stamp"
+    ],
+    "el": [
+     "ΦΠΗΚ"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/390903",
+    "Ελλάδα"
+   ],
+   "edmAgent": [
+    "http://semantics.gr/authorities/searchculture-persons/375471394"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Γράββαλος Παναγιώτης"
+    },
+    {
+     "def": "Gravvalos Panagiotis"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "el": [
+     "Γράββαλος Παναγιώτης"
+    ],
+    "en": [
+     "Gravvalos Panagiotis"
+    ]
+   },
+   "edmConcept": [
+    "http://semantics.gr/authorities/ekt-unesco/1355238292",
+    "http://data.europeana.eu/concept/2535",
+    "http://data.europeana.eu/concept/3118",
+    "http://semantics.gr/authorities/ekt-item-types/ektypwsh",
+    "http://semantics.gr/authorities/ekt-unesco/962277315",
+    "http://semantics.gr/authorities/ekt-unesco/1087352633",
+    "http://semantics.gr/authorities/ekt-item-types/Stamp",
+    "http://semantics.gr/authorities/ekt-unesco/207407916"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Postal services"
+    },
+    {
+     "def": "Postage stamp"
+    },
+    {
+     "def": "Sports competition"
+    },
+    {
+     "def": "Print"
+    },
+    {
+     "def": "Sport"
+    },
+    {
+     "def": "Information and communication"
+    },
+    {
+     "def": "Stamp"
+    },
+    {
+     "def": "Sports competitions"
+    },
+    {
+     "def": "Ταχυδρομικές υπηρεσίες"
+    },
+    {
+     "def": "Γραμματόσημο"
+    },
+    {
+     "def": "Αθλητική διοργάνωση"
+    },
+    {
+     "def": "Εκτύπωση"
+    },
+    {
+     "def": "Αθλητισμός"
+    },
+    {
+     "def": "Πληροφορία και επικοινωνία"
+    },
+    {
+     "def": "Γραμματόσημο"
+    },
+    {
+     "def": "Αθλητικοί αγώνες"
+    },
+    {
+     "def": "Briefmarke"
+    },
+    {
+     "def": "Sportveranstaltung"
+    },
+    {
+     "def": "Postimerkki"
+    },
+    {
+     "def": "Urheilukilpailu"
+    },
+    {
+     "def": "Почтовая марка"
+    },
+    {
+     "def": "Спортивное соревнование"
+    },
+    {
+     "def": "Selo postal"
+    },
+    {
+     "def": "Competição desportiva"
+    },
+    {
+     "def": "Пощенска марка"
+    },
+    {
+     "def": "Pašto ženklas"
+    },
+    {
+     "def": "Sporto varžybos"
+    },
+    {
+     "def": "Pastmarka"
+    },
+    {
+     "def": "Sporta sacensības"
+    },
+    {
+     "def": "Poštanska marka"
+    },
+    {
+     "def": "Sportsko natjecanje"
+    },
+    {
+     "def": "Timbre postal"
+    },
+    {
+     "def": "Compétition sportive"
+    },
+    {
+     "def": "Postabélyeg"
+    },
+    {
+     "def": "Sportverseny"
+    },
+    {
+     "def": "Poštová známka"
+    },
+    {
+     "def": "Poštna znamka"
+    },
+    {
+     "def": "Športno tekmovanje"
+    },
+    {
+     "def": "Stampa poist"
+    },
+    {
+     "def": "Comórtas spóirt"
+    },
+    {
+     "def": "Segell"
+    },
+    {
+     "def": "Competició esportiva"
+    },
+    {
+     "def": "Frimärke"
+    },
+    {
+     "def": "Idrottstävling"
+    },
+    {
+     "def": "Bolla postali"
+    },
+    {
+     "def": "Francobollo"
+    },
+    {
+     "def": "Competizione sportiva"
+    },
+    {
+     "def": "Sello postal"
+    },
+    {
+     "def": "Competición"
+    },
+    {
+     "def": "Postmark"
+    },
+    {
+     "def": "Spordivõistlus"
+    },
+    {
+     "def": "Poštovní známka"
+    },
+    {
+     "def": "Sportovní soutěž"
+    },
+    {
+     "def": "Zigilu"
+    },
+    {
+     "def": "Txapelketa"
+    },
+    {
+     "def": "Znaczek pocztowy"
+    },
+    {
+     "def": "Zawody sportowe"
+    },
+    {
+     "def": "Marcă poștală"
+    },
+    {
+     "def": "Competiție sportivă"
+    },
+    {
+     "def": "Frimærke"
+    },
+    {
+     "def": "Sportskonkurrence"
+    },
+    {
+     "def": "Postzegel"
+    },
+    {
+     "def": "Sportcompetitie"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Sportveranstaltung",
+     "Briefmarke"
+    ],
+    "fi": [
+     "Postimerkki",
+     "Urheilukilpailu"
+    ],
+    "ru": [
+     "Почтовая марка",
+     "Спортивное соревнование"
+    ],
+    "pt": [
+     "Competição desportiva",
+     "Selo postal"
+    ],
+    "bg": [
+     "Пощенска марка"
+    ],
+    "lt": [
+     "Sporto varžybos",
+     "Pašto ženklas"
+    ],
+    "lv": [
+     "Pastmarka",
+     "Sporta sacensības"
+    ],
+    "hr": [
+     "Poštanska marka",
+     "Sportsko natjecanje"
+    ],
+    "fr": [
+     "Compétition sportive",
+     "Timbre postal"
+    ],
+    "hu": [
+     "Postabélyeg",
+     "Sportverseny"
+    ],
+    "sk": [
+     "Poštová známka"
+    ],
+    "sl": [
+     "Poštna znamka",
+     "Športno tekmovanje"
+    ],
+    "ga": [
+     "Stampa poist",
+     "Comórtas spóirt"
+    ],
+    "ca": [
+     "Segell",
+     "Competició esportiva"
+    ],
+    "sv": [
+     "Frimärke",
+     "Idrottstävling"
+    ],
+    "el": [
+     "Αθλητικοί αγώνες",
+     "Ταχυδρομικές υπηρεσίες",
+     "Αθλητική διοργάνωση",
+     "Γραμματόσημο",
+     "Εκτύπωση",
+     "Αθλητισμός",
+     "Πληροφορία και επικοινωνία"
+    ],
+    "mt": [
+     "Bolla postali"
+    ],
+    "en": [
+     "Print",
+     "Sport",
+     "Sports competitions",
+     "Stamp",
+     "Information and communication",
+     "Sports competition",
+     "Postage stamp",
+     "Postal services"
+    ],
+    "it": [
+     "Francobollo",
+     "Competizione sportiva"
+    ],
+    "es": [
+     "Sello postal",
+     "Competición"
+    ],
+    "et": [
+     "Spordivõistlus",
+     "Postmark"
+    ],
+    "cs": [
+     "Sportovní soutěž",
+     "Poštovní známka"
+    ],
+    "eu": [
+     "Zigilu",
+     "Txapelketa"
+    ],
+    "pl": [
+     "Znaczek pocztowy",
+     "Zawody sportowe"
+    ],
+    "ro": [
+     "Competiție sportivă",
+     "Marcă poștală"
+    ],
+    "da": [
+     "Sportskonkurrence",
+     "Frimærke"
+    ],
+    "nl": [
+     "Postzegel",
+     "Sportcompetitie"
+    ]
+   },
+   "edmDatasetName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "edmIsShownAt": [
+    "https://ft.codingplus.gr/ft-museum/pawtucket/index.php/Detail/objects/65550"
+   ],
+   "edmIsShownBy": [
+    "https://ft.codingplus.gr/ft-museum/media/collectiveaccess/images/1/6/9/0/2908_ca_object_representations_media_169002_original.jpg"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/87",
+    "http://semantics.gr/authorities/geonames-places-earth/390903"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Hellenic Republic"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Helleense Republiek"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "sv": [
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα",
+     "Ελλάς"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece",
+     "Greece",
+     "Hellenic Republic"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Griekenland"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Griechenland"
+    ],
+    "fi": [
+     "Kreikka"
+    ],
+    "ru": [
+     "Греция"
+    ],
+    "pt": [
+     "Grécia"
+    ],
+    "bg": [
+     "Гърция"
+    ],
+    "lt": [
+     "Graikija"
+    ],
+    "hr": [
+     "Grčka"
+    ],
+    "lv": [
+     "Grieķija"
+    ],
+    "fr": [
+     "Grèce"
+    ],
+    "hu": [
+     "Görögország"
+    ],
+    "sk": [
+     "Grécko"
+    ],
+    "sl": [
+     "Grčija"
+    ],
+    "ga": [
+     "An Ghréig"
+    ],
+    "ca": [
+     "Grècia"
+    ],
+    "sv": [
+     "Grekland"
+    ],
+    "mt": [
+     "Greċja"
+    ],
+    "el": [
+     "Ελλάδα",
+     "Ελλάδα"
+    ],
+    "en": [
+     "Greece",
+     "Greece"
+    ],
+    "it": [
+     "Grecia"
+    ],
+    "es": [
+     "Grecia"
+    ],
+    "et": [
+     "Kreeka"
+    ],
+    "cs": [
+     "Řecko"
+    ],
+    "eu": [
+     "Grezia"
+    ],
+    "pl": [
+     "Grecja"
+    ],
+    "da": [
+     "Grækenland"
+    ],
+    "ro": [
+     "Grecia"
+    ],
+    "nl": [
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "38.5",
+    "39.0"
+   ],
+   "edmPlaceLongitude": [
+    "23.0",
+    "22.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.searchculture.gr%2Faggregator%2Fthumbnails%2Fedm-record%2FDigPostal%2F000204-65550&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://semantics.gr/authorities/historical-periods/Regime-change",
+    "http://semantics.gr/authorities/historical-periods/neoterh-ellada",
+    "#1986",
+    "#1986-01-01",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Μεταπολίτευση"
+    },
+    {
+     "def": "Νεότερη Ελλάδα"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "Regime change"
+    },
+    {
+     "def": "Modern Greece"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "http://dbpedia.org/page/Metapolitefsi"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    },
+    {
+     "def": "1986"
+    },
+    {
+     "def": "1986-01-01"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "Μεταπολίτευση",
+     "Νεότερη Ελλάδα",
+     "20ός αιώνας"
+    ],
+    "en": [
+     "Regime change",
+     "Modern Greece",
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1986",
+     "1986-01-01"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "1592__Philatelic_Postal_Museum"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65550?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65550",
+   "index": 0,
+   "language": [
+    "el"
+   ],
+   "link": "https://api.europeana.eu/record/1592/https___www_searchculture_gr_aggregator_edm_DigPostal_000204_65550.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5505",
+    "http://data.europeana.eu/organization/1331"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Greek Aggregator SearchCulture.gr"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 12.483633,
+   "timestamp": 1788037041008,
+   "timestamp_created": "2026-08-12T08:03:51.519Z",
+   "timestamp_created_epoch": 1786521831519,
+   "timestamp_update": "2026-08-12T08:03:51.519Z",
+   "timestamp_update_epoch": 1786521831519,
+   "title": [
+    "Αθλητικές Εκδηλώσεις 1986 στην Ελλάδα"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1986"
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "Philatelic Postal Museum",
+     "count": 4
+    },
+    {
+     "label": "Deutsche Fotothek",
+     "count": 3
+    },
+    {
+     "label": "Hellenic Literary and Historical Archive - Cultural Foundation of the National Bank Of Greece",
+     "count": 3
+    },
+    {
+     "label": "German Archaeological Institute",
+     "count": 1
+    },
+    {
+     "label": "German Documentation Center for Art History - Marburg Picture Index",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "Greek Aggregator SearchCulture.gr",
+     "count": 7
+    },
+    {
+     "label": "German Digital Library",
+     "count": 4
+    },
+    {
+     "label": "CARARE",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}
