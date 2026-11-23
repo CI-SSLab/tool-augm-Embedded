@@ -6,3 +6,6 @@ __pycache__/
 .vscode/
 CLAUDE.md
 .env
+
+# Cached catalogue photos for the image index (mostly In Copyright)
+data/index_images/

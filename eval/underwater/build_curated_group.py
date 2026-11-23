@@ -10,13 +10,17 @@ import csv
 import os
 from pathlib import Path
 
-import requests
+import sys
+
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+
+from sources.arco import fetch_sites  # noqa: E402
+from sources.europeana import fetch_by_ids, item_url  # noqa: E402
+
 OUT = ROOT / "data" / "census" / "curated_group.csv"
-EUROPEANA = "https://api.europeana.eu/record/v2/search.json"
-ARCO_RES = "https://w3id.org/arco/resource/ArchaeologicalProperty/"
 
 PUNTA_EPITAFFIO = "1500910318"
 
@@ -76,30 +80,6 @@ CANDIDATES = [
 ]
 
 
-def europeana_by_ids(api_key: str, ids: list) -> dict:
-    # One batch call: europeana_id:("a" OR "b" ...)
-    query = "europeana_id:(" + " OR ".join(f'"{i}"' for i in ids) + ")"
-    r = requests.get(EUROPEANA, params={"wskey": api_key, "query": query, "rows": 100, "profile": "rich"}, timeout=30)
-    r.raise_for_status()
-    return {it["id"]: it for it in r.json().get("items", [])}
-
-
-def arco_sites(site_ids: list) -> dict:
-    values = " ".join(f"<{ARCO_RES}{s}>" for s in site_ids)
-    q = f"""SELECT ?s (SAMPLE(?l) AS ?label) (SAMPLE(?d) AS ?date) (COUNT(DISTINCT ?img) AS ?imgs)
-      WHERE {{ VALUES ?s {{ {values} }} ?s <http://www.w3.org/2000/01/rdf-schema#label> ?l .
-      OPTIONAL {{ ?s <http://purl.org/dc/elements/1.1/date> ?d }}
-      OPTIONAL {{ ?s <http://xmlns.com/foaf/0.1/depiction> ?img }} }} GROUP BY ?s"""
-    r = requests.get(os.getenv("ARCO_SPARQL_URL", "http://dati.beniculturali.it/sparql"),
-                     params={"query": q}, headers={"Accept": "application/sparql-results+json"}, timeout=120)
-    r.raise_for_status()
-    out = {}
-    for b in r.json()["results"]["bindings"]:
-        sid = b["s"]["value"].rsplit("/", 1)[-1]
-        out[sid] = {k: b.get(k, {}).get("value", "") for k in ("label", "date", "imgs")}
-    return out
-
-
 def main():
     load_dotenv(ROOT / ".env")
     api_key = os.getenv("EUROPEANA_API_KEY")
@@ -107,9 +87,9 @@ def main():
         raise SystemExit("EUROPEANA_API_KEY missing in .env")
 
     all_ids = [i for c in CANDIDATES for i in c[3]]
-    records = europeana_by_ids(api_key, all_ids)
+    records = fetch_by_ids(all_ids, api_key)
     missing = [i for i in all_ids if i not in records]
-    sites = arco_sites(sorted({c[4] for c in CANDIDATES if c[4]}))
+    sites = fetch_sites(sorted({c[4] for c in CANDIDATES if c[4]}))
 
     rows = []
     for obj_id, name, typology, ids, site, status, note in CANDIDATES:
@@ -120,13 +100,13 @@ def main():
             "object_source": "Europeana" if ids else "ICCD",
             "europeana_ids": ";".join(ids),
             "object_title": (recs[0].get("title") or [""])[0] if recs else "",
-            "object_url": f"https://www.europeana.eu/it/item{ids[0]}" if ids else "",
-            "n_views": len(recs) if ids else int(s.get("imgs") or 0),
-            "n_previews": sum(1 for r in recs if r.get("edmPreview")) if ids else int(s.get("imgs") or 0),
+            "object_url": item_url(ids[0]) if ids else "",
+            "n_views": len(recs) if ids else len(s.get("images", [])),
+            "n_previews": sum(1 for r in recs if r.get("edmPreview")) if ids else len(s.get("images", [])),
             "rights": ";".join(sorted({(r.get("rights") or [""])[0] for r in recs})),
             "data_providers": ";".join(sorted({(r.get("dataProvider") or [""])[0] for r in recs})),
-            "arco_site_id": site, "site_label": s.get("label", ""), "site_dating": s.get("date", ""),
-            "site_url": f"https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/{site}" if site else "",
+            "arco_site_id": site, "site_label": s.get("title", ""), "site_dating": s.get("date", ""),
+            "site_url": s.get("url", ""),
             "note": note,
         })
 
