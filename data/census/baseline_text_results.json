@@ -1,0 +1,129 @@
+[
+ {
+  "object_id": "baia_odysseus",
+  "question": "Parlami della statua di Ulisse del ninfeo di Baia",
+  "seconds": 34.0,
+  "tool_query": "Baia",
+  "tool_error": null,
+  "n_items": 4,
+  "items": [
+   "Monumentul eroilor căzuți în cele două războaie mondiale | Holl F. din Baia Mare",
+   "Document care atesta vizita lui Dumitru Dan la diverse institutii din  | Emitent: Ziarul „Gazzetta dell",
+   "Monument al eroilor căzuți în Primul Război Mondial și în Al Doilea Ră | Ioan F., Baia Mare",
+   "Tablou, ulei/pânză, „Peisaj industrial reșițean”, lucrare atribuită lu | Traian Baia"
+  ],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nLa statua di Ulisse del ninfeo di Baia è un esempio di scultura neoclassica che celebra la figura mitologica di Ulisse, eroe dell’Odissea. L’artista, noto semplicemente come Baia, operò in Italia alla fine del XIX secolo, influenzato dallo stile neoclassico e dal movimento romantico che cercava di rievocare l’ideale classico con un tocco di emotività personale. La sua opera più celebre è la statua di Ulisse, che si distingue per la rappresentazione realistica del corpo umano e per la delicatezza dei dettagli, come la posa contemplativa del protagonista e la raffigurazione di un ninfeo che simboleggia la rinascita e la fertilità.\n\nBaia è stato un artista relativamente poco documentato, ma la sua produzione include anche sculture di figure mitologiche e allegoriche, oltre a opere pubbliche. La statua di Ulisse è stata esposta in diverse mostre d’arte del periodo e ha ricevuto riconoscimenti per la sua capacità di fondere la tradizione classica con una sensibilità romantica.\n\nPurtroppo, la ricerca su Europeana non ha restituito opere attribuite a Baia, quindi non posso citare titoli, date o link specifici provenienti da quella fonte. Tuttavia, la sua opera è riconosciuta nella letteratura d’arte italiana del XIX secolo e può essere trovata in collezioni private e musei regionali.\n\nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ },
+ {
+  "object_id": "baia_antonia",
+  "question": "Parlami della statua di Antonia del ninfeo di Baia",
+  "seconds": 16.9,
+  "tool_query": "Baia",
+  "tool_error": null,
+  "n_items": 4,
+  "items": [
+   "Monumentul eroilor căzuți în cele două războaie mondiale | Holl F. din Baia Mare",
+   "Document care atesta vizita lui Dumitru Dan la diverse institutii din  | Emitent: Ziarul „Gazzetta dell",
+   "Monument al eroilor căzuți în Primul Război Mondial și în Al Doilea Ră | Ioan F., Baia Mare",
+   "Tablou, ulei/pânză, „Peisaj industrial reșițean”, lucrare atribuită lu | Traian Baia"
+  ],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nBaia è stato un scultore romano attivo nel I secolo d.C., noto soprattutto per le sue opere in marmo che celebravano figure mitologiche e personaggi pubblici. La sua tecnica si caratterizza per una resa realistica dei muscoli e delle espressioni, tipica dello stile neoclassico romano, ma con un tocco di idealizzazione che lo rendeva popolare tra le élite dell’epoca. La statua “Antonia del ninfeo” è un esempio di come Baia riuscisse a fondere la figura femminile con elementi naturali, in questo caso il ninfeo, simbolo di fertilità e bellezza. L’opera è stata conservata in vari musei europei e rappresenta un punto di riferimento per gli studiosi che studiano la rappresentazione femminile nella scultura romana.  \nFONTI: nessuna fonte Europeana disponibile"
+ },
+ {
+  "object_id": "site_punta_epitaffio",
+  "question": "Cos'è il Ninfeo di Punta Epitaffio?",
+  "seconds": 20.9,
+  "tool_query": "Punta Epitaffio",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nIl Ninfeo di Punta Epitaffio è un monumento funerario romano situato nella zona di Punta Epitaffio, vicino a Roma. Si tratta di un ninfeo, ovvero una struttura funeraria a forma di giardino, che rappresenta un piccolo giardino con piante, alberi e spesso una fontana, simbolo di vita eterna e di rinascita. Il monumento è datato al I secolo d.C. e fa parte del complesso di epitaffi romani che testimoniano le pratiche funebri dell’epoca, in cui la memoria dei defunti veniva celebrata attraverso sculture e architetture ornamentali.\n\nIl Ninfeo di Punta Epitaffio è un esempio di come l’arte funeraria romana combinasse elementi architettonici, pittorici e scultorei per creare un ambiente sacro e commemorativo. La struttura è caratterizzata da una base in marmo, con colonne e archi che sostengono una copertura a cupola, oltre a rilievi che raffigurano scene di vita quotidiana e simboli religiosi. La sua posizione strategica, vicino a importanti vie di comunicazione, suggerisce che fosse destinata a una famiglia di alto rango o a un individuo di rilievo nella società romana.\n\nSebbene non siano disponibili opere specifiche attribuite a un artista individuale per questo monumento, il Ninfeo di Punta Epitaffio è un importante esempio di arte funeraria romana e offre preziose informazioni sulla cultura, l’arte e le pratiche religiose dell’epoca.\n\nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ },
+ {
+  "object_id": "site_punta_epitaffio",
+  "question": "Cos'è il Parco sommerso di Baia?",
+  "seconds": 26.1,
+  "tool_query": "",
+  "tool_error": "Errore durante la chiamata a Europeana: 400 Client Error: Bad Request for url: https://api.europeana.eu/record/v2/search.json?wskey=cestiparmom&query=&rows=30&profile=standard&qf=TYPE%3AIMAGE",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nIl Parco sommerso di Baia è un progetto di recupero e valorizzazione di siti archeologici situati lungo la costa della Baia di Napoli, in Italia. Si tratta di un’area di grande interesse storico‑culturale, dove si trovano resti di insediamenti romani, castelli medievali e strutture portuali che testimoniano la lunga storia di occupazione e di attività marittima della zona. Il progetto mira a proteggere questi siti dall’erosione e dall’inquinamento, promuovendo al contempo la ricerca scientifica e il turismo culturale. Tra le principali attrazioni del parco vi sono le rovine del porto romano di Baia, le mura del castello di Baia e le antiche terme di San Sebastiano, che offrono un quadro completo della vita quotidiana e delle attività economiche del passato.\n\nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ },
+ {
+  "object_id": "site_miseno_porto",
+  "question": "Cos'è il porto romano di Miseno?",
+  "seconds": 18.6,
+  "tool_query": "Miseno",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nIl porto romano di Miseno, situato nella città di Miseno (oggi Miseno, in provincia di Salerno, Campania), è stato uno dei principali punti di accesso al mare per la regione del Cilento durante l’epoca romana. Costruito nel I secolo a.C., il porto serviva sia per il commercio che per le operazioni militari, collegando la costa con le principali rotte commerciali dell’Adriatico e del Mediterraneo. La sua struttura comprendeva una serie di canali di scalo, una zona di stoccaggio e un sistema di canali di drenaggio che permettevano di gestire le maree e le correnti. Nel corso dei secoli, il porto ha subito varie modifiche e ampliamenti, soprattutto durante l’epoca imperiale, quando la sua importanza strategica è aumentata. Oggi, le resti archeologiche del porto, tra cui i fondamenti delle strutture di scalo e le tracce di canali, sono oggetto di studi e ricerche che cercano di ricostruire l’architettura e la vita quotidiana di questo importante nodo marittimo romano.\n\nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ },
+ {
+  "object_id": "artemision_god",
+  "question": "Parlami dello Zeus di Capo Artemisio",
+  "seconds": 26.4,
+  "tool_query": "Capo Artemisio",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nCapo Artemisio è un artista greco, noto soprattutto per le sue sculture di bronzo e marmo che rappresentano figure mitologiche. Il suo stile si colloca nel periodo classico, con un forte accento sulla proporzione armoniosa e sulla resa realistica dei muscoli e dei dettagli anatomici. Tra le sue opere più celebri figurano le rappresentazioni di divinità come Zeus, che mostrano la maestosità e la potenza del dio, con pose dinamiche e linee fluide tipiche dell'arte classica. Sebbene la sua produzione sia stata apprezzata nei secoli successivi, le testimonianze materiali sono scarse e spesso attribuite in modo controverso a scultori contemporanei.  \nPurtroppo, la ricerca su Europeana non ha restituito opere attribuite a Capo Artemisio, quindi non posso citare titoli, anni o link specifici provenienti da quella fonte.  \n\nFONTI: nessuna fonte Europeana disponibile  \n<<<FINE>>>"
+ },
+ {
+  "object_id": "artemision_jockey",
+  "question": "Parlami del Fantino di Capo Artemisio",
+  "seconds": 13.9,
+  "tool_query": "Fantino di Capo Artemisio",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nFantino di Capo Artemisio è un pittore italiano del tardo Rinascimento, attivo principalmente nella zona di Napoli e del Cilento. La sua opera è caratterizzata da un uso sapiente della luce e da una composizione equilibrata, tipica dello stile napoletano del secolo XVI. Sebbene non sia stato un artista di fama nazionale, è stato apprezzato nella sua regione per la capacità di rappresentare scene sacre con grande sensibilità emotiva. Tra le sue opere più note, si citano “Madonna con Bambino” (c. 1580), “San Francesco in preghiera” (c. 1585) e “La Processione di San Gennaro” (c. 1590). Queste opere, sebbene non presenti su Europeana, sono documentate in cataloghi regionali e testimoniano la sua importanza locale.  \nFONTI: nessuna fonte Europeana disponibile"
+ },
+ {
+  "object_id": "antikythera_ephebe",
+  "question": "Parlami dell'Efebo di Anticitera",
+  "seconds": 16.4,
+  "tool_query": "Anticitera",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nL'Efebo di Anticitera è un celebre scultore greco del V secolo a.C., noto per le sue opere in marmo che rappresentano figure mitologiche con grande realismo e dinamismo. Il suo stile è tipico del periodo arcaico, ma mostra già elementi di transizione verso il classicismo, con una particolare attenzione alla proporzione e alla resa anatomica. L'Efebo è considerato uno dei primi artisti a sperimentare la prospettiva e la composizione dinamica, influenzando successivamente gli scultori ellenistici. Tra le sue opere più importanti, si citano la “Fanciulla di Anticitera” (circa 530 a.C.), la “Fanciulla di Crotone” (circa 520 a.C.) e la “Fanciulla di Atene” (circa 515 a.C.). Queste sculture sono esemplari di come l'arte arcaica iniziasse a esplorare la rappresentazione più realistica del corpo umano.\n\nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ },
+ {
+  "object_id": "antikythera_philosopher",
+  "question": "Parlami del Filosofo di Anticitera",
+  "seconds": 15.9,
+  "tool_query": "Filosofo di Anticitera",
+  "tool_error": "Nessuna opera attribuita a questo artista trovata su Europeana",
+  "n_items": 0,
+  "items": [],
+  "hits_curated_record": 0,
+  "answer_urls": 0,
+  "mentions_iccd": false,
+  "answer": "<<<RISPOSTA>>>\nIl Filosofo di Anticitera, noto anche come l'Anticitera, è un personaggio enigmatico della storia antica, spesso associato al periodo ellenistico (circa 3° secolo a.C.). Nonostante il nome suggerisca un legame con l'isola di Anticitera, la sua identità rimane avvolta nel mistero: alcuni studiosi lo considerano un filosofo greco, altri lo interpretano come un inventore o un astrologo. La sua opera più celebre è l'Anticitera Machine, un antico dispositivo meccanico che, secondo le recenti analisi, potrebbe aver funzionato come un calcolatore astronomico. L'importanza del Filosofo di Anticitera risiede nella sua capacità di combinare filosofia, matematica e astronomia, anticipando concetti che sarebbero stati sviluppati solo secoli dopo.  \nPurtroppo, la ricerca su Europeana non ha restituito opere attribuite a questo artista, quindi non posso citare titoli, anni o URL specifici.  \nFONTI: nessuna fonte Europeana disponibile\n<<<FINE>>>"
+ }
+]
