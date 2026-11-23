@@ -1,0 +1,859 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 1,
+ "totalResults": 1,
+ "items": [
+  {
+   "completeness": 9,
+   "country": [
+    "Europe"
+   ],
+   "dataProvider": [
+    "University of Bologna"
+   ],
+   "dcContributor": [
+    "Marcus Agrippa",
+    "http://data.europeana.eu/agent/167035"
+   ],
+   "dcContributorLangAware": {
+    "def": [
+     "http://data.europeana.eu/agent/167035"
+    ],
+    "en": [
+     "Marcus Agrippa"
+    ]
+   },
+   "dcDescription": [
+    "The Portus Julius : It was the first harbor specifically constructed to be a base for the Roman western naval fleet, the classis Misenensis."
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "The Portus Julius : It was the first harbor specifically constructed to be a base for the Roman western naval fleet, the classis Misenensis."
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/base/207",
+     "http://data.europeana.eu/concept/base/80",
+     "http://vocab.getty.edu/aat/300020669",
+     "http://data.europeana.eu/concept/80",
+     "http://data.europeana.eu/concept/207"
+    ]
+   },
+   "dcTitleLangAware": {
+    "it": [
+     "Il Portus Iulius"
+    ]
+   },
+   "edmAgent": [
+    "http://data.europeana.eu/agent/167035"
+   ],
+   "edmAgentLabel": [
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Марк Випсаний Агриппа"
+    },
+    {
+     "def": "Marco Vipsânio Agripa"
+    },
+    {
+     "def": "Марк Випсаний Агрипа"
+    },
+    {
+     "def": "Μάρκος Βιψάνιος Αγρίππας"
+    },
+    {
+     "def": "Markas Vipsanijus Agripa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marko Vipsanije Agripa"
+    },
+    {
+     "def": "Marco Vipsanio Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marco Vipsanio Agripa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marko Agripa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Mark Vipsanij Agripa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marek Agrypa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marcus Vipsanius Agrippa"
+    },
+    {
+     "def": "Marc Vipsani Agripa"
+    }
+   ],
+   "edmAgentLabelLangAware": {
+    "de": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "fi": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "ru": [
+     "Марк Випсаний Агриппа"
+    ],
+    "pt": [
+     "Marco Vipsânio Agripa"
+    ],
+    "bg": [
+     "Марк Випсаний Агрипа"
+    ],
+    "lt": [
+     "Markas Vipsanijus Agripa"
+    ],
+    "hr": [
+     "Marko Vipsanije Agripa"
+    ],
+    "fr": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "hu": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "sk": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "sl": [
+     "Mark Vipsanij Agripa"
+    ],
+    "ga": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "ca": [
+     "Marc Vipsani Agripa"
+    ],
+    "sv": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "el": [
+     "Μάρκος Βιψάνιος Αγρίππας"
+    ],
+    "en": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "it": [
+     "Marco Vipsanio Agrippa"
+    ],
+    "es": [
+     "Marco Vipsanio Agripa"
+    ],
+    "et": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "cs": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "eu": [
+     "Marko Agripa"
+    ],
+    "pl": [
+     "Marek Agrypa"
+    ],
+    "da": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "ro": [
+     "Marcus Vipsanius Agrippa"
+    ],
+    "nl": [
+     "Marcus Vipsanius Agrippa"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/base/80",
+    "http://data.europeana.eu/concept/base/207",
+    "http://data.europeana.eu/concept/80",
+    "http://vocab.getty.edu/aat/300020669",
+    "http://data.europeana.eu/concept/207"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Archäologie"
+    },
+    {
+     "def": "Byzantinische Kunst"
+    },
+    {
+     "def": "Archäologie"
+    },
+    {
+     "def": "Byzantinische Kunst"
+    },
+    {
+     "def": "पुरातत्वशास्त्र"
+    },
+    {
+     "def": "Arkeologi"
+    },
+    {
+     "def": "Bysantinsk kunst"
+    },
+    {
+     "def": "Археология"
+    },
+    {
+     "def": "Искусство Византии"
+    },
+    {
+     "def": "Археология"
+    },
+    {
+     "def": "Искусство Византии"
+    },
+    {
+     "def": "Археалогія"
+    },
+    {
+     "def": "Arkeologia"
+    },
+    {
+     "def": "Bysantin taide"
+    },
+    {
+     "def": "Arkeologia"
+    },
+    {
+     "def": "Bysantin taide"
+    },
+    {
+     "def": "Arqueologia"
+    },
+    {
+     "def": "Arte bizantina"
+    },
+    {
+     "def": "Arqueologia"
+    },
+    {
+     "def": "arte bizantina"
+    },
+    {
+     "def": "Arte bizantina"
+    },
+    {
+     "def": "Археология"
+    },
+    {
+     "def": "Византийско изкуство"
+    },
+    {
+     "def": "Археология"
+    },
+    {
+     "def": "Византийско изкуство"
+    },
+    {
+     "def": "Archeologija"
+    },
+    {
+     "def": "Archeologija"
+    },
+    {
+     "def": "Bizantijos menas"
+    },
+    {
+     "def": "Arheoloģija"
+    },
+    {
+     "def": "Arheoloģija"
+    },
+    {
+     "def": "Arheologija"
+    },
+    {
+     "def": "Bizantska umjetnost"
+    },
+    {
+     "def": "Arheologija"
+    },
+    {
+     "def": "Bizantska umjetnost"
+    },
+    {
+     "def": "Archéologie"
+    },
+    {
+     "def": "Archéologie"
+    },
+    {
+     "def": "Art byzantin"
+    },
+    {
+     "def": "Régészet"
+    },
+    {
+     "def": "Bizánci művészet"
+    },
+    {
+     "def": "Régészet"
+    },
+    {
+     "def": "Bizánci művészet"
+    },
+    {
+     "def": "ארכעאלאגיע"
+    },
+    {
+     "def": "Հնագիտություն"
+    },
+    {
+     "def": "Arheologija"
+    },
+    {
+     "def": "Археологія"
+    },
+    {
+     "def": "Візантійське мистецтво"
+    },
+    {
+     "def": "არქეოლოგია"
+    },
+    {
+     "def": "ბიზანტიური ხელოვნება"
+    },
+    {
+     "def": "Archeológia"
+    },
+    {
+     "def": "Archeológia"
+    },
+    {
+     "def": "Byzantské výtvarné umenie"
+    },
+    {
+     "def": "Arheologija"
+    },
+    {
+     "def": "Arheologija"
+    },
+    {
+     "def": "Bizantinska umetnost"
+    },
+    {
+     "def": "Seandálaíocht"
+    },
+    {
+     "def": "Ealaín na Biosáinte"
+    },
+    {
+     "def": "Seandálaíocht"
+    },
+    {
+     "def": "Ealaín na Biosáinte"
+    },
+    {
+     "def": "Arkeologjia"
+    },
+    {
+     "def": "Археологија"
+    },
+    {
+     "def": "Arqueologia"
+    },
+    {
+     "def": "Art bizantí"
+    },
+    {
+     "def": "Arqueologia"
+    },
+    {
+     "def": "Art romà d'Orient"
+    },
+    {
+     "def": "Археологија"
+    },
+    {
+     "def": "Византијска уметност"
+    },
+    {
+     "def": "Arkeologi"
+    },
+    {
+     "def": "Bysantinsk konst"
+    },
+    {
+     "def": "Arkeologi"
+    },
+    {
+     "def": "Bysantinsk konst"
+    },
+    {
+     "def": "고고학"
+    },
+    {
+     "def": "비잔틴 미술"
+    },
+    {
+     "def": "Arqueoloxía"
+    },
+    {
+     "def": "Arte bizantina"
+    },
+    {
+     "def": "Archaeology"
+    },
+    {
+     "def": "Byzantine art"
+    },
+    {
+     "def": "Archaeology"
+    },
+    {
+     "def": "Byzantine (culture and style)"
+    },
+    {
+     "def": "Byzantine art"
+    },
+    {
+     "def": "Fornleifafræði"
+    },
+    {
+     "def": "Archeologia"
+    },
+    {
+     "def": "Arte bizantina"
+    },
+    {
+     "def": "Archeologia"
+    },
+    {
+     "def": "Arte bizantina"
+    },
+    {
+     "def": "Arqueología"
+    },
+    {
+     "def": "Arte bizantino"
+    },
+    {
+     "def": "Arqueología"
+    },
+    {
+     "def": "Bizantino"
+    },
+    {
+     "def": "Arte bizantino"
+    },
+    {
+     "def": "考古学"
+    },
+    {
+     "def": "Arheoloogia"
+    },
+    {
+     "def": "Arheoloogia"
+    },
+    {
+     "def": "Archeologie"
+    },
+    {
+     "def": "Archeologie"
+    },
+    {
+     "def": "Byzantské umění"
+    },
+    {
+     "def": "Arkeologia"
+    },
+    {
+     "def": "Bizantziar artea"
+    },
+    {
+     "def": "Arkeologia"
+    },
+    {
+     "def": "Bizantziar arte"
+    },
+    {
+     "def": "علم الآثار"
+    },
+    {
+     "def": "الفن البيزنطي"
+    },
+    {
+     "def": "Archaeoleg"
+    },
+    {
+     "def": "考古学"
+    },
+    {
+     "def": "ビザンティン美術"
+    },
+    {
+     "def": "Arxeologiya"
+    },
+    {
+     "def": "Bizans incəsənəti"
+    },
+    {
+     "def": "Archeologia"
+    },
+    {
+     "def": "Sztuka bizantyńska"
+    },
+    {
+     "def": "Archeologia"
+    },
+    {
+     "def": "Sztuka bizantyńska"
+    },
+    {
+     "def": "ארכאולוגיה"
+    },
+    {
+     "def": "אמנות ביזנטית"
+    },
+    {
+     "def": "Arkæologi"
+    },
+    {
+     "def": "Arkæologi"
+    },
+    {
+     "def": "Bysantinsk kunst"
+    },
+    {
+     "def": "Arheologie"
+    },
+    {
+     "def": "Artă bizantină"
+    },
+    {
+     "def": "Arheologie"
+    },
+    {
+     "def": "Artă bizantină"
+    },
+    {
+     "def": "Archeologie"
+    },
+    {
+     "def": "Byzantijnse kunst"
+    },
+    {
+     "def": "Archeologie"
+    },
+    {
+     "def": "Byzantijns"
+    },
+    {
+     "def": "Byzantijnse kunst"
+    },
+    {
+     "def": "Arkeoloji"
+    },
+    {
+     "def": "Βυζαντινή τέχνη"
+    },
+    {
+     "def": "Αρχαιολογία"
+    },
+    {
+     "def": "Βυζαντινή τέχνη"
+    },
+    {
+     "def": "Arkeoloġija"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Byzantinische Kunst",
+     "Archäologie"
+    ],
+    "hi": [
+     "पुरातत्वशास्त्र"
+    ],
+    "no": [
+     "Arkeologi",
+     "Bysantinsk kunst"
+    ],
+    "ru": [
+     "Археология",
+     "Искусство Византии"
+    ],
+    "be": [
+     "Археалогія"
+    ],
+    "fi": [
+     "Arkeologia",
+     "Bysantin taide"
+    ],
+    "pt": [
+     "arte bizantina",
+     "Arqueologia",
+     "Arte bizantina"
+    ],
+    "bg": [
+     "Археология",
+     "Византийско изкуство"
+    ],
+    "lt": [
+     "Archeologija",
+     "Bizantijos menas"
+    ],
+    "lv": [
+     "Arheoloģija"
+    ],
+    "hr": [
+     "Bizantska umjetnost",
+     "Arheologija"
+    ],
+    "fr": [
+     "Art byzantin",
+     "Archéologie"
+    ],
+    "hu": [
+     "Régészet",
+     "Bizánci művészet"
+    ],
+    "yi": [
+     "ארכעאלאגיע"
+    ],
+    "hy": [
+     "Հնագիտություն"
+    ],
+    "bs": [
+     "Arheologija"
+    ],
+    "uk": [
+     "Археологія",
+     "Візантійське мистецтво"
+    ],
+    "ka": [
+     "არქეოლოგია",
+     "ბიზანტიური ხელოვნება"
+    ],
+    "sk": [
+     "Archeológia",
+     "Byzantské výtvarné umenie"
+    ],
+    "sl": [
+     "Arheologija",
+     "Bizantinska umetnost"
+    ],
+    "ga": [
+     "Ealaín na Biosáinte",
+     "Seandálaíocht"
+    ],
+    "sq": [
+     "Arkeologjia"
+    ],
+    "mk": [
+     "Археологија"
+    ],
+    "ca": [
+     "Art romà d'Orient",
+     "Arqueologia",
+     "Art bizantí"
+    ],
+    "sr": [
+     "Византијска уметност",
+     "Археологија"
+    ],
+    "sv": [
+     "Arkeologi",
+     "Bysantinsk konst"
+    ],
+    "ko": [
+     "비잔틴 미술",
+     "고고학"
+    ],
+    "gl": [
+     "Arqueoloxía",
+     "Arte bizantina"
+    ],
+    "el": [
+     "Αρχαιολογία",
+     "Βυζαντινή τέχνη"
+    ],
+    "mt": [
+     "Arkeoloġija"
+    ],
+    "en": [
+     "Archaeology",
+     "Byzantine (culture and style)",
+     "Byzantine art"
+    ],
+    "is": [
+     "Fornleifafræði"
+    ],
+    "it": [
+     "Archeologia",
+     "Arte bizantina"
+    ],
+    "es": [
+     "Arqueología",
+     "Bizantino",
+     "Arte bizantino"
+    ],
+    "zh": [
+     "考古学"
+    ],
+    "et": [
+     "Arheoloogia"
+    ],
+    "cs": [
+     "Byzantské umění",
+     "Archeologie"
+    ],
+    "eu": [
+     "Arkeologia",
+     "Bizantziar artea",
+     "Bizantziar arte"
+    ],
+    "ar": [
+     "الفن البيزنطي",
+     "علم الآثار"
+    ],
+    "cy": [
+     "Archaeoleg"
+    ],
+    "ja": [
+     "考古学",
+     "ビザンティン美術"
+    ],
+    "az": [
+     "Arxeologiya",
+     "Bizans incəsənəti"
+    ],
+    "pl": [
+     "Archeologia",
+     "Sztuka bizantyńska"
+    ],
+    "he": [
+     "ארכאולוגיה",
+     "אמנות ביזנטית"
+    ],
+    "da": [
+     "Bysantinsk kunst",
+     "Arkæologi"
+    ],
+    "ro": [
+     "Arheologie",
+     "Artă bizantină"
+    ],
+    "nl": [
+     "Byzantijnse kunst",
+     "Byzantijns",
+     "Archeologie"
+    ],
+    "tr": [
+     "Arkeoloji"
+    ]
+   },
+   "edmDatasetName": [
+    "22_Byzart_1_WholeCollection"
+   ],
+   "edmIsShownAt": [
+    "https://cmc.byzart.eu/items/show/594/"
+   ],
+   "edmIsShownBy": [
+    "https://cmc.byzart.eu/files/original/unibo/unibo_bovini_archive/003_010_000594_01.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fcmc.byzart.eu%2Ffiles%2Foriginal%2Funibo%2Funibo_bovini_archive%2F003_010_000594_01.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "22_Byzart_1_WholeCollection"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/22/_594?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/22/_594",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/22/_594.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4471",
+    "http://data.europeana.eu/organization/4302",
+    "http://data.europeana.eu/organization/1253"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "AMS Historica Bologna"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nd/4.0/"
+   ],
+   "score": 83.630974,
+   "timestamp": 1788019988567,
+   "timestamp_created": "2019-09-26T15:11:03.204Z",
+   "timestamp_created_epoch": 1569510663204,
+   "timestamp_update": "2019-11-22T21:51:38.574Z",
+   "timestamp_update_epoch": 1574459498574,
+   "title": [
+    "Il Portus Iulius"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "AMS Historica Bologna",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "University of Bologna",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

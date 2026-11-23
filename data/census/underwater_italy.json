@@ -1,0 +1,2835 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 5,
+ "totalResults": 5,
+ "items": [
+  {
+   "completeness": 5,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Cineteca di Bologna"
+   ],
+   "dcLanguage": [
+    "it",
+    "ita"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "it",
+     "ita"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Berol Cinematografica",
+     "Commissione di Revisione Cinematografica",
+     "Divieto: 0, Condizione: 0, Negazione: 0, Tagli: 0",
+     "http://vocab.getty.edu/aat/300055949"
+    ]
+   },
+   "dcTitleLangAware": {
+    "en": [
+     "Underwater archeology"
+    ],
+    "it": [
+     "Archeologia subacquea"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300026030",
+     "http://vocab.getty.edu/aat/300136842"
+    ],
+    "en": [
+     "Censorship document"
+    ]
+   },
+   "dctermsSpatial": [
+    "https://sws.geonames.org/3175395/",
+    "http://data.europeana.eu/place/92"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300055949",
+    "http://vocab.getty.edu/aat/300136842",
+    "http://vocab.getty.edu/aat/300026030"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "censorship"
+    },
+    {
+     "def": "official documents"
+    },
+    {
+     "def": "documents (object genre)"
+    },
+    {
+     "def": "Zensur"
+    },
+    {
+     "def": "Öffentliche Urkunde"
+    },
+    {
+     "def": "Dokument (Objektgattung)"
+    },
+    {
+     "def": "censura"
+    },
+    {
+     "def": "censur"
+    },
+    {
+     "def": "censure"
+    },
+    {
+     "def": "censura"
+    },
+    {
+     "def": "documentos oficiales"
+    },
+    {
+     "def": "documentos"
+    },
+    {
+     "def": "censuur"
+    },
+    {
+     "def": "officiële documenten"
+    },
+    {
+     "def": "documenten"
+    },
+    {
+     "def": "documentos"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Öffentliche Urkunde",
+     "Zensur",
+     "Dokument (Objektgattung)"
+    ],
+    "sv": [
+     "censur"
+    ],
+    "pt": [
+     "documentos"
+    ],
+    "en": [
+     "official documents",
+     "censorship",
+     "documents (object genre)"
+    ],
+    "it": [
+     "censura"
+    ],
+    "fr": [
+     "censure"
+    ],
+    "es": [
+     "documentos",
+     "documentos oficiales",
+     "censura"
+    ],
+    "nl": [
+     "documenten",
+     "officiële documenten",
+     "censuur"
+    ]
+   },
+   "edmDatasetName": [
+    "08611_Cineteca_di_Bologna"
+   ],
+   "edmIsShownAt": [
+    "http://www.italiataglia.it/search/dettaglio_opera?param=47428"
+   ],
+   "edmIsShownBy": [
+    "http://www.italiataglia.it/files/visti21000_wm_pdf/67993.pdf"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/9408658/",
+    "https://sws.geonames.org/6695072/",
+    "http://data.europeana.eu/place/92",
+    "https://sws.geonames.org/3175395/",
+    "https://sws.geonames.org/12217088/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Südeuropa"
+    },
+    {
+     "def": "Europäische Union"
+    },
+    {
+     "def": "Italienische Republik"
+    },
+    {
+     "def": "Южная Европа"
+    },
+    {
+     "def": "Европейский союз"
+    },
+    {
+     "def": "Итальянская Республика"
+    },
+    {
+     "def": "Europa meridional"
+    },
+    {
+     "def": "União Europeia"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "República da Itália"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "Pietų Europa"
+    },
+    {
+     "def": "Europos Sąjunga"
+    },
+    {
+     "def": "Italijos Respublika"
+    },
+    {
+     "def": "Europa meridionale"
+    },
+    {
+     "def": "Unione europea"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "RI"
+    },
+    {
+     "def": "Europe du Sud"
+    },
+    {
+     "def": "Union Européenne"
+    },
+    {
+     "def": "République italienne"
+    },
+    {
+     "def": "La République italienne"
+    },
+    {
+     "def": "It."
+    },
+    {
+     "def": "Ital."
+    },
+    {
+     "def": "Ita."
+    },
+    {
+     "def": "Europa meridional"
+    },
+    {
+     "def": "Unión Europea"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Den europeiske union"
+    },
+    {
+     "def": "Euroopan unioni"
+    },
+    {
+     "def": "Italian tasavalta"
+    },
+    {
+     "def": "Европейски съюз"
+    },
+    {
+     "def": "Италианска република"
+    },
+    {
+     "def": "Europska unija"
+    },
+    {
+     "def": "Republika Italija"
+    },
+    {
+     "def": "Eiropas Savienība"
+    },
+    {
+     "def": "Európai Unió"
+    },
+    {
+     "def": "Európska únia"
+    },
+    {
+     "def": "Talianska republika"
+    },
+    {
+     "def": "Evropska unija"
+    },
+    {
+     "def": "Italijanska republika"
+    },
+    {
+     "def": "Lepa dežela"
+    },
+    {
+     "def": "Italijanski škorenj"
+    },
+    {
+     "def": "An tAontas Eorpach"
+    },
+    {
+     "def": "Iodáil"
+    },
+    {
+     "def": "Unió Europea"
+    },
+    {
+     "def": "Estat Italià"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Europeiska unionen"
+    },
+    {
+     "def": "Republiken Italien"
+    },
+    {
+     "def": "Ευρωπαϊκή Ένωση"
+    },
+    {
+     "def": "Ιταλική Δημοκρατία"
+    },
+    {
+     "def": "Unjoni Ewropea"
+    },
+    {
+     "def": "Repubblika Taljana"
+    },
+    {
+     "def": "European Union"
+    },
+    {
+     "def": "Italian Republic"
+    },
+    {
+     "def": "Republic of Italy"
+    },
+    {
+     "def": "Euroopa Liit"
+    },
+    {
+     "def": "Itaalia Vabariik"
+    },
+    {
+     "def": "Evropská unie"
+    },
+    {
+     "def": "Italská republika"
+    },
+    {
+     "def": "Unia Europejska"
+    },
+    {
+     "def": "Uniunea Europeană"
+    },
+    {
+     "def": "Republica Italiană"
+    },
+    {
+     "def": "Den Europæiske Union"
+    },
+    {
+     "def": "Europese Unie"
+    },
+    {
+     "def": "Italiaanse Republiek"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Republiek Italië"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Südeuropa",
+     "Europäische Union",
+     "Italienische Republik"
+    ],
+    "no": [
+     "Den europeiske union"
+    ],
+    "ru": [
+     "Южная Европа",
+     "Европейский союз",
+     "Итальянская Республика"
+    ],
+    "fi": [
+     "Euroopan unioni",
+     "Italian tasavalta"
+    ],
+    "pt": [
+     "Europa meridional",
+     "União Europeia",
+     "República Italiana",
+     "República da Itália",
+     "Repubblica Italiana"
+    ],
+    "bg": [
+     "Европейски съюз",
+     "Италианска република"
+    ],
+    "lt": [
+     "Pietų Europa",
+     "Europos Sąjunga",
+     "Italijos Respublika"
+    ],
+    "hr": [
+     "Europska unija",
+     "Republika Italija"
+    ],
+    "lv": [
+     "Eiropas Savienība"
+    ],
+    "fr": [
+     "Europe du Sud",
+     "Union Européenne",
+     "République italienne",
+     "La République italienne",
+     "It.",
+     "Ital.",
+     "Ita."
+    ],
+    "hu": [
+     "Európai Unió"
+    ],
+    "sk": [
+     "Európska únia",
+     "Talianska republika"
+    ],
+    "sl": [
+     "Evropska unija",
+     "Italijanska republika",
+     "Lepa dežela",
+     "Italijanski škorenj"
+    ],
+    "ga": [
+     "An tAontas Eorpach",
+     "Iodáil"
+    ],
+    "ca": [
+     "Unió Europea",
+     "Estat Italià",
+     "República Italiana"
+    ],
+    "sv": [
+     "Europeiska unionen",
+     "Republiken Italien"
+    ],
+    "el": [
+     "Ευρωπαϊκή Ένωση",
+     "Ιταλική Δημοκρατία"
+    ],
+    "mt": [
+     "Unjoni Ewropea",
+     "Repubblika Taljana"
+    ],
+    "en": [
+     "European Union",
+     "Italian Republic",
+     "Republic of Italy"
+    ],
+    "it": [
+     "Europa meridionale",
+     "Unione europea",
+     "Repubblica Italiana",
+     "RI"
+    ],
+    "es": [
+     "Europa meridional",
+     "Unión Europea",
+     "República Italiana"
+    ],
+    "et": [
+     "Euroopa Liit",
+     "Itaalia Vabariik"
+    ],
+    "cs": [
+     "Evropská unie",
+     "Italská republika"
+    ],
+    "pl": [
+     "Unia Europejska"
+    ],
+    "ro": [
+     "Uniunea Europeană",
+     "Republica Italiană"
+    ],
+    "da": [
+     "Den Europæiske Union"
+    ],
+    "nl": [
+     "Europese Unie",
+     "Italiaanse Republiek",
+     "Italie",
+     "Republiek Italië"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Southern Europe"
+    },
+    {
+     "def": "European Union"
+    },
+    {
+     "def": "Mediterranean Basin"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Itália"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Itālija"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Olaszország"
+    },
+    {
+     "def": "Taliansko"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "An Iodáil"
+    },
+    {
+     "def": "Itàlia"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Ιταλία"
+    },
+    {
+     "def": "Italja"
+    },
+    {
+     "def": "Italy"
+    },
+    {
+     "def": "Italy"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Itaalia"
+    },
+    {
+     "def": "Itálie"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Włochy"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Italië"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Italien"
+    ],
+    "no": [
+     "Italia"
+    ],
+    "ru": [
+     "Италия"
+    ],
+    "fi": [
+     "Italia"
+    ],
+    "def": [
+     "Southern Europe",
+     "European Union",
+     "Mediterranean Basin"
+    ],
+    "pt": [
+     "Itália"
+    ],
+    "bg": [
+     "Италия"
+    ],
+    "lt": [
+     "Italija"
+    ],
+    "lv": [
+     "Itālija"
+    ],
+    "hr": [
+     "Italija"
+    ],
+    "fr": [
+     "Italie"
+    ],
+    "hu": [
+     "Olaszország"
+    ],
+    "sk": [
+     "Taliansko"
+    ],
+    "sl": [
+     "Italija"
+    ],
+    "ga": [
+     "An Iodáil"
+    ],
+    "ca": [
+     "Itàlia"
+    ],
+    "sv": [
+     "Italien"
+    ],
+    "el": [
+     "Ιταλία"
+    ],
+    "mt": [
+     "Italja"
+    ],
+    "en": [
+     "Italy",
+     "Italy"
+    ],
+    "it": [
+     "Italia"
+    ],
+    "es": [
+     "Italia"
+    ],
+    "et": [
+     "Itaalia"
+    ],
+    "cs": [
+     "Itálie"
+    ],
+    "eu": [
+     "Italia"
+    ],
+    "pl": [
+     "Włochy"
+    ],
+    "da": [
+     "Italien"
+    ],
+    "ro": [
+     "Italia"
+    ],
+    "nl": [
+     "Italië"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "41.34382",
+    "50.83857",
+    "42.5",
+    "35.78"
+   ],
+   "edmPlaceLongitude": [
+    "-3.33984",
+    "4.37599",
+    "12.5",
+    "19.33"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.italiataglia.it%2Ffiles%2Fvisti21000_wm_pdf%2F67993.pdf&type=TEXT"
+   ],
+   "edmTimespan": [
+    "#1976"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1976"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1976"
+    ]
+   },
+   "europeanaCollectionName": [
+    "08611_Cineteca_di_Bologna"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/08611/censorship47428?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/08611/censorship47428",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/08611/censorship47428.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3960",
+    "http://data.europeana.eu/organization/1585"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "The European Film Gateway"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 76.746284,
+   "timestamp": 1788020736264,
+   "timestamp_created": "2019-12-12T11:55:28.548Z",
+   "timestamp_created_epoch": 1576151728548,
+   "timestamp_update": "2021-12-15T09:38:29.917Z",
+   "timestamp_update_epoch": 1639561109917,
+   "title": [
+    "Underwater archeology",
+    "Archeologia subacquea"
+   ],
+   "type": "TEXT",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1976"
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Epigraphic Database Roma"
+   ],
+   "dcDescription": [
+    "Repository/Location: Roma, Servizio Tecnico per Archeologia Subacquea, deposito",
+    "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+    ],
+    "it": [
+     "Repository/Location: Roma, Servizio Tecnico per Archeologia Subacquea, deposito"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300234110",
+     "http://vocab.getty.edu/aat/300138808",
+     "http://data.europeana.eu/concept/26"
+    ]
+   },
+   "dcTitleLangAware": {
+    "la": [
+     "tabula"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300028719"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/26",
+    "http://vocab.getty.edu/aat/300028719",
+    "http://vocab.getty.edu/aat/300138808"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "epigraphs"
+    },
+    {
+     "def": "epigraphy"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Epigraf"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "epigrafen"
+    },
+    {
+     "def": "epigrafie"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "epígrafes"
+    },
+    {
+     "def": "epigrafía"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "epigrafia"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefact"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Artefakt",
+     "Epigraf",
+     "archäologisches Objekt"
+    ],
+    "ru": [
+     "Артефакт"
+    ],
+    "fi": [
+     "Artefakti"
+    ],
+    "pt": [
+     "Artefato",
+     "epigrafia"
+    ],
+    "bg": [
+     "Артефакт"
+    ],
+    "lt": [
+     "Archeologinis radinys"
+    ],
+    "hr": [
+     "Artefakt"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts"
+    ],
+    "fr": [
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy"
+    ],
+    "sk": [
+     "Artefakt"
+    ],
+    "sl": [
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta"
+    ],
+    "ca": [
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt"
+    ],
+    "el": [
+     "Τέχνεργο"
+    ],
+    "en": [
+     "epigraphy",
+     "archaeological objects",
+     "Archaeological artefact",
+     "epigraphs"
+    ],
+    "it": [
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "epigrafía",
+     "Artefacto arqueológico",
+     "epígrafes"
+    ],
+    "et": [
+     "Artefakt"
+    ],
+    "cs": [
+     "Artefakt"
+    ],
+    "eu": [
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Artefakt archeologiczny"
+    ],
+    "da": [
+     "Artefakt"
+    ],
+    "ro": [
+     "Artefact"
+    ],
+    "nl": [
+     "epigrafie",
+     "archeologische objecten",
+     "Artefact",
+     "epigrafen"
+    ]
+   },
+   "edmDatasetName": [
+    "2023833_Museu_EDR"
+   ],
+   "edmIsShownAt": [
+    "http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR000918"
+   ],
+   "edmIsShownBy": [
+    "http://www.edr-edr.it/foto_epigrafi/immagini_uso/1/000918.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.edr-edr.it%2Ffoto_epigrafi%2Fimmagini_uso%2F1%2F000918.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "2023833_Museu_EDR"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/2023833/1_000918?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2023833/1_000918",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/2023833/1_000918.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3728",
+    "http://data.europeana.eu/organization/1613"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "MUSEU"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 27.08369,
+   "timestamp": 1788043104084,
+   "timestamp_created": "2021-02-02T09:38:17.011Z",
+   "timestamp_created_epoch": 1612258697011,
+   "timestamp_update": "2021-02-02T09:38:17.011Z",
+   "timestamp_update_epoch": 1612258697011,
+   "title": [
+    "tabula"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Epigraphic Database Roma"
+   ],
+   "dcDescription": [
+    "Repository/Location: Roma, Servizio Tecnico per l'Archeologia Subacquea, deposito",
+    "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+    ],
+    "it": [
+     "Repository/Location: Roma, Servizio Tecnico per l'Archeologia Subacquea, deposito"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300234110",
+     "http://vocab.getty.edu/aat/300138808",
+     "http://data.europeana.eu/concept/26"
+    ]
+   },
+   "dcTitleLangAware": {
+    "la": [
+     "tabula"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300028719"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/26",
+    "http://vocab.getty.edu/aat/300028719",
+    "http://vocab.getty.edu/aat/300138808"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "epigraphs"
+    },
+    {
+     "def": "epigraphy"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Epigraf"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "epigrafen"
+    },
+    {
+     "def": "epigrafie"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "epígrafes"
+    },
+    {
+     "def": "epigrafía"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "epigrafia"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefact"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Artefakt",
+     "Epigraf",
+     "archäologisches Objekt"
+    ],
+    "ru": [
+     "Артефакт"
+    ],
+    "fi": [
+     "Artefakti"
+    ],
+    "pt": [
+     "Artefato",
+     "epigrafia"
+    ],
+    "bg": [
+     "Артефакт"
+    ],
+    "lt": [
+     "Archeologinis radinys"
+    ],
+    "hr": [
+     "Artefakt"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts"
+    ],
+    "fr": [
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy"
+    ],
+    "sk": [
+     "Artefakt"
+    ],
+    "sl": [
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta"
+    ],
+    "ca": [
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt"
+    ],
+    "el": [
+     "Τέχνεργο"
+    ],
+    "en": [
+     "epigraphy",
+     "archaeological objects",
+     "Archaeological artefact",
+     "epigraphs"
+    ],
+    "it": [
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "epigrafía",
+     "Artefacto arqueológico",
+     "epígrafes"
+    ],
+    "et": [
+     "Artefakt"
+    ],
+    "cs": [
+     "Artefakt"
+    ],
+    "eu": [
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Artefakt archeologiczny"
+    ],
+    "da": [
+     "Artefakt"
+    ],
+    "ro": [
+     "Artefact"
+    ],
+    "nl": [
+     "epigrafie",
+     "archeologische objecten",
+     "Artefact",
+     "epigrafen"
+    ]
+   },
+   "edmDatasetName": [
+    "2023833_Museu_EDR"
+   ],
+   "edmIsShownAt": [
+    "http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR105258"
+   ],
+   "edmIsShownBy": [
+    "http://www.edr-edr.it/foto_epigrafi/immagini_uso/105/105258.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.edr-edr.it%2Ffoto_epigrafi%2Fimmagini_uso%2F105%2F105258.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "2023833_Museu_EDR"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/2023833/105_105258?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2023833/105_105258",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/2023833/105_105258.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3728",
+    "http://data.europeana.eu/organization/1613"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "MUSEU"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 27.067167,
+   "timestamp": 1788043063444,
+   "timestamp_created": "2021-02-02T09:38:17.011Z",
+   "timestamp_created_epoch": 1612258697011,
+   "timestamp_update": "2021-02-02T09:38:17.011Z",
+   "timestamp_update_epoch": 1612258697011,
+   "title": [
+    "tabula"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Epigraphic Database Roma"
+   ],
+   "dcDescription": [
+    "Repository/Location: Roma, Servizio Tecnico per l'Archeologia Subacquea, deposito",
+    "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "Repository/Location: Rome, Technical Service for Underwater Archaeology, depot"
+    ],
+    "it": [
+     "Repository/Location: Roma, Servizio Tecnico per l'Archeologia Subacquea, deposito"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300234110",
+     "http://vocab.getty.edu/aat/300138808",
+     "http://data.europeana.eu/concept/26"
+    ]
+   },
+   "dcTitleLangAware": {
+    "la": [
+     "tabula"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300028719"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/26",
+    "http://vocab.getty.edu/aat/300028719",
+    "http://vocab.getty.edu/aat/300138808"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "epigraphs"
+    },
+    {
+     "def": "epigraphy"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Epigraf"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "epigrafen"
+    },
+    {
+     "def": "epigrafie"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "epígrafes"
+    },
+    {
+     "def": "epigrafía"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "epigrafia"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Artefact"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Artefakt",
+     "Epigraf",
+     "archäologisches Objekt"
+    ],
+    "ru": [
+     "Артефакт"
+    ],
+    "fi": [
+     "Artefakti"
+    ],
+    "pt": [
+     "Artefato",
+     "epigrafia"
+    ],
+    "bg": [
+     "Артефакт"
+    ],
+    "lt": [
+     "Archeologinis radinys"
+    ],
+    "hr": [
+     "Artefakt"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts"
+    ],
+    "fr": [
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy"
+    ],
+    "sk": [
+     "Artefakt"
+    ],
+    "sl": [
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta"
+    ],
+    "ca": [
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt"
+    ],
+    "el": [
+     "Τέχνεργο"
+    ],
+    "en": [
+     "epigraphy",
+     "archaeological objects",
+     "Archaeological artefact",
+     "epigraphs"
+    ],
+    "it": [
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "epigrafía",
+     "Artefacto arqueológico",
+     "epígrafes"
+    ],
+    "et": [
+     "Artefakt"
+    ],
+    "cs": [
+     "Artefakt"
+    ],
+    "eu": [
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Artefakt archeologiczny"
+    ],
+    "da": [
+     "Artefakt"
+    ],
+    "ro": [
+     "Artefact"
+    ],
+    "nl": [
+     "epigrafie",
+     "archeologische objecten",
+     "Artefact",
+     "epigrafen"
+    ]
+   },
+   "edmDatasetName": [
+    "2023833_Museu_EDR"
+   ],
+   "edmIsShownAt": [
+    "http://www.edr-edr.it/edr_programmi/res_complex_comune.php?id_nr=EDR105259"
+   ],
+   "edmIsShownBy": [
+    "http://www.edr-edr.it/foto_epigrafi/immagini_uso/105/105259.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.edr-edr.it%2Ffoto_epigrafi%2Fimmagini_uso%2F105%2F105259.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "2023833_Museu_EDR"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/2023833/105_105259?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2023833/105_105259",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/2023833/105_105259.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3728",
+    "http://data.europeana.eu/organization/1613"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "MUSEU"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 27.067167,
+   "timestamp": 1788043063513,
+   "timestamp_created": "2021-02-02T09:38:17.011Z",
+   "timestamp_created_epoch": 1612258697011,
+   "timestamp_update": "2021-02-02T09:38:17.011Z",
+   "timestamp_update_epoch": 1612258697011,
+   "title": [
+    "tabula"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "The Institute of Heritage Sciences"
+   ],
+   "dcCreator": [
+    "Drap, P."
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "Drap, P."
+    ]
+   },
+   "dcDescription": [
+    "Underwater archaeology has to depend on reliable and precise readings with limitations of access sometimes requiring an analysis and data interpretation on the site. In order to create optimal study conditions, the production of a virtual facsimile was planned. As part of the VENUS (Virtual ExploratioN of Underwater Sites) project, a procedure combining photogrammetry and ontological definition of artifacts was elaborated. These objects, essentially amphorae, are numerically modelled and viewed from photogrammetric measures taken on the site. 2D and 3D reconstructions are then obtained in standard GIS format."
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "Underwater archaeology has to depend on reliable and precise readings with limitations of access sometimes requiring an analysis and data interpretation on the site. In order to create optimal study conditions, the production of a virtual facsimile was planned. As part of the VENUS (Virtual ExploratioN of Underwater Sites) project, a procedure combining photogrammetry and ontological definition of artifacts was elaborated. These objects, essentially amphorae, are numerically modelled and viewed from photogrammetric measures taken on the site. 2D and 3D reconstructions are then obtained in standard GIS format."
+    ]
+   },
+   "dcLanguage": [
+    "fr",
+    "fr"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "fr",
+     "fr"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Survey and excavations",
+     "Virtual Reality and 3D Modelling",
+     "http://vocab.getty.edu/aat/300238469",
+     "Progetti di ricerca",
+     "http://culturaitalia.it/pico/thesaurus/4.1#progetti_di_ricerca",
+     "Field archaeology",
+     "http://vocab.getty.edu/aat/300379558"
+    ]
+   },
+   "dcTitleLangAware": {
+    "fr": [
+     "Archéologie sous-marine: relevé et réalité virtuelle pour l’étude de sites inaccessibles"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Articoli",
+     "http://vocab.getty.edu/aat/300048715"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://data.europeana.eu/place/143433",
+    "http://data.europeana.eu/place/92",
+    "https://sws.geonames.org/3169070/"
+   ],
+   "edmConcept": [
+    "http://culturaitalia.it/pico/thesaurus/4.1#progetti_di_ricerca",
+    "http://vocab.getty.edu/aat/300238469",
+    "http://vocab.getty.edu/aat/300048715",
+    "http://vocab.getty.edu/aat/300379558"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Progetti di ricerca"
+    },
+    {
+     "def": "Research projects"
+    },
+    {
+     "def": "virtual reality"
+    },
+    {
+     "def": "articles"
+    },
+    {
+     "def": "field archaeology"
+    },
+    {
+     "def": "realidade virtual"
+    },
+    {
+     "def": "realidad virtual"
+    },
+    {
+     "def": "artículos"
+    },
+    {
+     "def": "virtual reality"
+    },
+    {
+     "def": "artikelen"
+    },
+    {
+     "def": "veldarcheologie"
+    },
+    {
+     "def": "Artikel (Dokument)"
+    },
+    {
+     "def": "article"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Artikel (Dokument)"
+    ],
+    "pt": [
+     "realidade virtual"
+    ],
+    "en": [
+     "virtual reality",
+     "Research projects",
+     "articles",
+     "field archaeology"
+    ],
+    "it": [
+     "Progetti di ricerca"
+    ],
+    "fr": [
+     "article"
+    ],
+    "es": [
+     "realidad virtual",
+     "artículos"
+    ],
+    "nl": [
+     "virtual reality",
+     "artikelen",
+     "veldarcheologie"
+    ]
+   },
+   "edmDatasetName": [
+    "224_Museu_CNR"
+   ],
+   "edmIsShownAt": [
+    "http://www.archcalc.cnr.it/supplements/id_sup.php?id=oai:http://www.archcalc.cnr.it/supplements/A_C_oai_Archive_sup.xml:719"
+   ],
+   "edmIsShownBy": [
+    "http://www.archcalc.cnr.it/indice/Suppl_3/31-drap.pdf"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/92",
+    "https://sws.geonames.org/3169071/",
+    "https://sws.geonames.org/3169070/",
+    "http://data.europeana.eu/place/143433"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Italienische Republik"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Die Ewige Stadt"
+    },
+    {
+     "def": "Italian tasavalta"
+    },
+    {
+     "def": "Rooma"
+    },
+    {
+     "def": "Итальянская Республика"
+    },
+    {
+     "def": "Рим"
+    },
+    {
+     "def": "Вечный город"
+    },
+    {
+     "def": "Republiken Italien"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Den eviga staden"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "República da Itália"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Италианска република"
+    },
+    {
+     "def": "Рим"
+    },
+    {
+     "def": "Ιταλική Δημοκρατία"
+    },
+    {
+     "def": "Ρώμη"
+    },
+    {
+     "def": "Repubblika Taljana"
+    },
+    {
+     "def": "Italijos Respublika"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Italian Republic"
+    },
+    {
+     "def": "Republic of Italy"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "The Eternal City"
+    },
+    {
+     "def": "Rome, Italy"
+    },
+    {
+     "def": "City of Seven Hills"
+    },
+    {
+     "def": "Eternal City"
+    },
+    {
+     "def": "The City of Marble"
+    },
+    {
+     "def": "City of Marble"
+    },
+    {
+     "def": "The Capital of the World"
+    },
+    {
+     "def": "Capital of the World"
+    },
+    {
+     "def": "Republika Italija"
+    },
+    {
+     "def": "Rim"
+    },
+    {
+     "def": "Prijestolnica svijeta"
+    },
+    {
+     "def": "Vječni grad"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "RI"
+    },
+    {
+     "def": "Roma Capitale"
+    },
+    {
+     "def": "Urbe"
+    },
+    {
+     "def": "Città eterna"
+    },
+    {
+     "def": "Caput Mundi"
+    },
+    {
+     "def": "Città di Roma"
+    },
+    {
+     "def": "RM"
+    },
+    {
+     "def": "Città dei sette colli"
+    },
+    {
+     "def": "République italienne"
+    },
+    {
+     "def": "La République italienne"
+    },
+    {
+     "def": "It."
+    },
+    {
+     "def": "Ital."
+    },
+    {
+     "def": "Ita."
+    },
+    {
+     "def": "La ville éternelle"
+    },
+    {
+     "def": "La ville aux sept collines"
+    },
+    {
+     "def": "L'Urbs"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "La Ciudad Eterna"
+    },
+    {
+     "def": "Itaalia Vabariik"
+    },
+    {
+     "def": "Rooma"
+    },
+    {
+     "def": "Italská republika"
+    },
+    {
+     "def": "Řím"
+    },
+    {
+     "def": "Talianska republika"
+    },
+    {
+     "def": "Rím"
+    },
+    {
+     "def": "Italijanska republika"
+    },
+    {
+     "def": "Lepa dežela"
+    },
+    {
+     "def": "Italijanski škorenj"
+    },
+    {
+     "def": "Rim"
+    },
+    {
+     "def": "Iodáil"
+    },
+    {
+     "def": "An Róimh"
+    },
+    {
+     "def": "Republica Italiană"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Orașul etern"
+    },
+    {
+     "def": "Orașul celor șapte coline"
+    },
+    {
+     "def": "Estat Italià"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Ciutat eterna"
+    },
+    {
+     "def": "Italiaanse Republiek"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Republiek Italië"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Róma"
+    },
+    {
+     "def": "Rzym"
+    },
+    {
+     "def": "Wieczne Miasto"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Hiri Eternala"
+    },
+    {
+     "def": "Hiri Betierekoa"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Italienische Republik",
+     "Rom",
+     "Die Ewige Stadt"
+    ],
+    "no": [
+     "Roma"
+    ],
+    "fi": [
+     "Italian tasavalta",
+     "Rooma"
+    ],
+    "ru": [
+     "Итальянская Республика",
+     "Рим",
+     "Вечный город"
+    ],
+    "pt": [
+     "República Italiana",
+     "República da Itália",
+     "Repubblica Italiana",
+     "Roma"
+    ],
+    "bg": [
+     "Италианска република",
+     "Рим"
+    ],
+    "lt": [
+     "Italijos Respublika",
+     "Roma"
+    ],
+    "hr": [
+     "Republika Italija",
+     "Rim",
+     "Prijestolnica svijeta",
+     "Vječni grad"
+    ],
+    "lv": [
+     "Roma"
+    ],
+    "fr": [
+     "République italienne",
+     "La République italienne",
+     "It.",
+     "Ital.",
+     "Ita.",
+     "La ville éternelle",
+     "La ville aux sept collines",
+     "L'Urbs"
+    ],
+    "hu": [
+     "Róma"
+    ],
+    "sk": [
+     "Talianska republika",
+     "Rím"
+    ],
+    "sl": [
+     "Italijanska republika",
+     "Lepa dežela",
+     "Italijanski škorenj",
+     "Rim"
+    ],
+    "ga": [
+     "Iodáil",
+     "An Róimh"
+    ],
+    "ca": [
+     "Estat Italià",
+     "República Italiana",
+     "Roma",
+     "Ciutat eterna"
+    ],
+    "sv": [
+     "Republiken Italien",
+     "Rom",
+     "Den eviga staden"
+    ],
+    "el": [
+     "Ιταλική Δημοκρατία",
+     "Ρώμη"
+    ],
+    "mt": [
+     "Repubblika Taljana"
+    ],
+    "en": [
+     "Italian Republic",
+     "Republic of Italy",
+     "Rome",
+     "Roma",
+     "The Eternal City",
+     "Rome, Italy",
+     "City of Seven Hills",
+     "Eternal City",
+     "The City of Marble",
+     "City of Marble",
+     "The Capital of the World",
+     "Capital of the World"
+    ],
+    "it": [
+     "Repubblica Italiana",
+     "RI",
+     "Roma Capitale",
+     "Urbe",
+     "Città eterna",
+     "Caput Mundi",
+     "Città di Roma",
+     "RM",
+     "Città dei sette colli"
+    ],
+    "es": [
+     "República Italiana",
+     "Roma",
+     "La Ciudad Eterna"
+    ],
+    "et": [
+     "Itaalia Vabariik",
+     "Rooma"
+    ],
+    "cs": [
+     "Italská republika",
+     "Řím"
+    ],
+    "eu": [
+     "Hiri Eternala",
+     "Hiri Betierekoa"
+    ],
+    "pl": [
+     "Rzym",
+     "Wieczne Miasto"
+    ],
+    "ro": [
+     "Republica Italiană",
+     "Roma",
+     "Orașul etern",
+     "Orașul celor șapte coline"
+    ],
+    "da": [
+     "Rom"
+    ],
+    "nl": [
+     "Italiaanse Republiek",
+     "Italie",
+     "Republiek Italië",
+     "Rome"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Рим"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Rooma"
+    },
+    {
+     "def": "Itália"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Рим"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Itālija"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Rim"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Olaszország"
+    },
+    {
+     "def": "Róma"
+    },
+    {
+     "def": "Taliansko"
+    },
+    {
+     "def": "Rím"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Rim"
+    },
+    {
+     "def": "An Iodáil"
+    },
+    {
+     "def": "An Róimh"
+    },
+    {
+     "def": "Itàlia"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Ιταλία"
+    },
+    {
+     "def": "Ρώμη"
+    },
+    {
+     "def": "Italja"
+    },
+    {
+     "def": "Ruma"
+    },
+    {
+     "def": "Italy"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Rome"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Comune di Roma"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Itaalia"
+    },
+    {
+     "def": "Rooma"
+    },
+    {
+     "def": "Itálie"
+    },
+    {
+     "def": "Řím"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Erroma"
+    },
+    {
+     "def": "Włochy"
+    },
+    {
+     "def": "Rzym"
+    },
+    {
+     "def": "Rzym"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Rom"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Roma"
+    },
+    {
+     "def": "Italië"
+    },
+    {
+     "def": "Rome"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Italien",
+     "Rom"
+    ],
+    "no": [
+     "Italia"
+    ],
+    "ru": [
+     "Италия",
+     "Рим"
+    ],
+    "fi": [
+     "Italia",
+     "Rooma"
+    ],
+    "pt": [
+     "Itália",
+     "Roma"
+    ],
+    "bg": [
+     "Италия",
+     "Рим"
+    ],
+    "lt": [
+     "Italija",
+     "Roma"
+    ],
+    "lv": [
+     "Itālija",
+     "Roma"
+    ],
+    "hr": [
+     "Italija",
+     "Rim"
+    ],
+    "fr": [
+     "Italie",
+     "Rome",
+     "Rome",
+     "Rome"
+    ],
+    "hu": [
+     "Olaszország",
+     "Róma"
+    ],
+    "sk": [
+     "Taliansko",
+     "Rím"
+    ],
+    "sl": [
+     "Italija",
+     "Rim"
+    ],
+    "ga": [
+     "An Iodáil",
+     "An Róimh"
+    ],
+    "ca": [
+     "Itàlia",
+     "Roma"
+    ],
+    "sv": [
+     "Italien",
+     "Rom"
+    ],
+    "el": [
+     "Ιταλία",
+     "Ρώμη"
+    ],
+    "mt": [
+     "Italja",
+     "Ruma"
+    ],
+    "en": [
+     "Italy",
+     "Rome",
+     "Rome"
+    ],
+    "it": [
+     "Italia",
+     "Comune di Roma",
+     "Roma",
+     "Roma",
+     "Roma"
+    ],
+    "es": [
+     "Italia",
+     "Roma"
+    ],
+    "et": [
+     "Itaalia",
+     "Rooma"
+    ],
+    "cs": [
+     "Itálie",
+     "Řím"
+    ],
+    "eu": [
+     "Italia",
+     "Erroma"
+    ],
+    "pl": [
+     "Włochy",
+     "Rzym",
+     "Rzym"
+    ],
+    "da": [
+     "Italien",
+     "Rom"
+    ],
+    "ro": [
+     "Italia",
+     "Roma"
+    ],
+    "nl": [
+     "Italië",
+     "Rome"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "42.5",
+    "41.90036",
+    "41.89193",
+    "41.893055"
+   ],
+   "edmPlaceLongitude": [
+    "12.5",
+    "12.49575",
+    "12.51133",
+    "12.482778"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.archcalc.cnr.it%2Findice%2FSuppl_3%2F31-drap.pdf&type=TEXT"
+   ],
+   "edmTimespan": [
+    "#2012-01-01",
+    "http://data.europeana.eu/timespan/21"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2012-01-01"
+    },
+    {
+     "def": "21. Jahrhundert"
+    },
+    {
+     "def": "XXI век"
+    },
+    {
+     "def": "2000-luku"
+    },
+    {
+     "def": "Século XXI"
+    },
+    {
+     "def": "21 век"
+    },
+    {
+     "def": "XXI amžius"
+    },
+    {
+     "def": "21. gadsimts"
+    },
+    {
+     "def": "21. stoljeće"
+    },
+    {
+     "def": "XXIe siècle"
+    },
+    {
+     "def": "21. század"
+    },
+    {
+     "def": "21. storočie"
+    },
+    {
+     "def": "21. stoletje"
+    },
+    {
+     "def": "21ú haois"
+    },
+    {
+     "def": "Segle XXI"
+    },
+    {
+     "def": "2000-talet"
+    },
+    {
+     "def": "21ος αιώνας"
+    },
+    {
+     "def": "21st century"
+    },
+    {
+     "def": "XXI secolo"
+    },
+    {
+     "def": "Siglo XXI"
+    },
+    {
+     "def": "21. sajand"
+    },
+    {
+     "def": "XXI. mendea"
+    },
+    {
+     "def": "21. století"
+    },
+    {
+     "def": "XXI wiek"
+    },
+    {
+     "def": "Secolul al XXI-lea"
+    },
+    {
+     "def": "21. århundrede"
+    },
+    {
+     "def": "21e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6939"
+    },
+    {
+     "def": "http://data.culture.fr/thesaurus/resource/ark:/67717/T4-46"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139024"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012478"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11930812p"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049674"
+    },
+    {
+     "def": "https://www.freebase.com/m/08b43"
+    },
+    {
+     "def": "https://g.co/kg/m/08b43"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.984"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404515"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159816"
+    },
+    {
+     "def": "http://babelnet.org/rdf/s01157225n"
+    },
+    {
+     "def": "http://dbpedia.org/resource/21st_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "21. Jahrhundert"
+    ],
+    "ru": [
+     "XXI век"
+    ],
+    "fi": [
+     "2000-luku"
+    ],
+    "pt": [
+     "Século XXI"
+    ],
+    "bg": [
+     "21 век"
+    ],
+    "lt": [
+     "XXI amžius"
+    ],
+    "lv": [
+     "21. gadsimts"
+    ],
+    "hr": [
+     "21. stoljeće"
+    ],
+    "fr": [
+     "XXIe siècle"
+    ],
+    "hu": [
+     "21. század"
+    ],
+    "sk": [
+     "21. storočie"
+    ],
+    "sl": [
+     "21. stoletje"
+    ],
+    "ga": [
+     "21ú haois"
+    ],
+    "ca": [
+     "Segle XXI"
+    ],
+    "sv": [
+     "2000-talet"
+    ],
+    "el": [
+     "21ος αιώνας"
+    ],
+    "en": [
+     "21st century"
+    ],
+    "it": [
+     "XXI secolo"
+    ],
+    "es": [
+     "Siglo XXI"
+    ],
+    "et": [
+     "21. sajand"
+    ],
+    "eu": [
+     "XXI. mendea"
+    ],
+    "cs": [
+     "21. století"
+    ],
+    "zxx": [
+     "2012-01-01"
+    ],
+    "pl": [
+     "XXI wiek"
+    ],
+    "ro": [
+     "Secolul al XXI-lea"
+    ],
+    "da": [
+     "21. århundrede"
+    ],
+    "nl": [
+     "21e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "224_Museu_CNR"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/224/A_C_oai_Archive_sup_xml_719?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/224/A_C_oai_Archive_sup_xml_719",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/224/A_C_oai_Archive_sup_xml_719.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1088",
+    "http://data.europeana.eu/organization/1613",
+    "http://data.europeana.eu/organization/4388"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "MUSEU"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+   ],
+   "score": 7.294638,
+   "timestamp": 1788049129204,
+   "timestamp_created": "2020-05-22T18:45:13.398Z",
+   "timestamp_created_epoch": 1590173113398,
+   "timestamp_update": "2026-01-12T11:52:42.585Z",
+   "timestamp_update_epoch": 1768218762585,
+   "title": [
+    "Archéologie sous-marine: relevé et réalité virtuelle pour l’étude de sites inaccessibles"
+   ],
+   "type": "TEXT",
+   "ugc": [
+    false
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "Epigraphic Database Roma",
+     "count": 3
+    },
+    {
+     "label": "Cineteca di Bologna",
+     "count": 1
+    },
+    {
+     "label": "The Institute of Heritage Sciences",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "MUSEU",
+     "count": 4
+    },
+    {
+     "label": "The European Film Gateway",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

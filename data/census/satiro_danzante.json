@@ -1,0 +1,6050 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 15,
+ "totalResults": 15,
+ "items": [
+  {
+   "completeness": 9,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Catalogo Collettivo digitale IMAGO"
+   ],
+   "dcCreator": [
+    "Anonimo Italiano"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "Anonimo Italiano"
+    ]
+   },
+   "dcDescription": [
+    "[*Satiro danzante con tamburello]. - [Italia, 1800-1850]. - 1 disegno : matita su carta ; 140 x 98 mm. ((Titolo del catalogatore. - Dati di esecuzione del catalogatore su base stilistica."
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "[*Satiro danzante con tamburello]. - [Italia, 1800-1850]. - 1 disegno : matita su carta ; 140 x 98 mm. ((Titolo del catalogatore. - Dati di esecuzione del catalogatore su base stilistica."
+    ]
+   },
+   "dcLanguage": [
+    "zxx",
+    "zxx"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "zxx",
+     "zxx"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Mitologia - Personaggi - Satiro",
+     "http://culturaitalia.it/pico/thesaurus/4.2#disegni"
+    ]
+   },
+   "dcTitleLangAware": {
+    "it": [
+     "[Satiro danzante con tamburello]"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://www.wikidata.org/entity/Q93184",
+     "http://data.europeana.eu/concept/35"
+    ],
+    "it": [
+     "Disegno"
+    ]
+   },
+   "edmConcept": [
+    "http://www.wikidata.org/entity/Q93184",
+    "http://culturaitalia.it/pico/thesaurus/4.2#disegni",
+    "http://data.europeana.eu/concept/35"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Zeichnung"
+    },
+    {
+     "def": "Zeichnung"
+    },
+    {
+     "def": "piirustus"
+    },
+    {
+     "def": "Piirustus"
+    },
+    {
+     "def": "рисунок"
+    },
+    {
+     "def": "Рисунок"
+    },
+    {
+     "def": "desenho"
+    },
+    {
+     "def": "Desenho"
+    },
+    {
+     "def": "рисунка"
+    },
+    {
+     "def": "Рисунка"
+    },
+    {
+     "def": "piešimas"
+    },
+    {
+     "def": "Piešimas"
+    },
+    {
+     "def": "zīmējums"
+    },
+    {
+     "def": "Zīmējums"
+    },
+    {
+     "def": "crtež"
+    },
+    {
+     "def": "Crtež"
+    },
+    {
+     "def": "dessin"
+    },
+    {
+     "def": "Dessin"
+    },
+    {
+     "def": "rajz"
+    },
+    {
+     "def": "Rajz"
+    },
+    {
+     "def": "kresba"
+    },
+    {
+     "def": "Kresba"
+    },
+    {
+     "def": "risba"
+    },
+    {
+     "def": "Risba"
+    },
+    {
+     "def": "líníocht"
+    },
+    {
+     "def": "Líníocht"
+    },
+    {
+     "def": "dibuix"
+    },
+    {
+     "def": "Dibuix"
+    },
+    {
+     "def": "teckning"
+    },
+    {
+     "def": "Teckning"
+    },
+    {
+     "def": "σχέδιο"
+    },
+    {
+     "def": "Σχέδιο"
+    },
+    {
+     "def": "drawing"
+    },
+    {
+     "def": "Drawings"
+    },
+    {
+     "def": "Drawing"
+    },
+    {
+     "def": "disegno"
+    },
+    {
+     "def": "Disegni"
+    },
+    {
+     "def": "Disegno"
+    },
+    {
+     "def": "dibujo"
+    },
+    {
+     "def": "Dibujo"
+    },
+    {
+     "def": "joonistus"
+    },
+    {
+     "def": "Joonistus"
+    },
+    {
+     "def": "kresba"
+    },
+    {
+     "def": "Kresba"
+    },
+    {
+     "def": "marrazki"
+    },
+    {
+     "def": "Marrazki"
+    },
+    {
+     "def": "rysunek"
+    },
+    {
+     "def": "Rysunek"
+    },
+    {
+     "def": "desen"
+    },
+    {
+     "def": "Desen"
+    },
+    {
+     "def": "tegning"
+    },
+    {
+     "def": "Tegning"
+    },
+    {
+     "def": "tekening"
+    },
+    {
+     "def": "Tekening"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Zeichnung"
+    ],
+    "fi": [
+     "Piirustus",
+     "piirustus"
+    ],
+    "ru": [
+     "Рисунок",
+     "рисунок"
+    ],
+    "pt": [
+     "Desenho",
+     "desenho"
+    ],
+    "bg": [
+     "Рисунка",
+     "рисунка"
+    ],
+    "lt": [
+     "piešimas",
+     "Piešimas"
+    ],
+    "lv": [
+     "zīmējums",
+     "Zīmējums"
+    ],
+    "hr": [
+     "crtež",
+     "Crtež"
+    ],
+    "fr": [
+     "Dessin",
+     "dessin"
+    ],
+    "hu": [
+     "Rajz",
+     "rajz"
+    ],
+    "sk": [
+     "Kresba",
+     "kresba"
+    ],
+    "sl": [
+     "risba",
+     "Risba"
+    ],
+    "ga": [
+     "Líníocht",
+     "líníocht"
+    ],
+    "ca": [
+     "Dibuix",
+     "dibuix"
+    ],
+    "sv": [
+     "Teckning",
+     "teckning"
+    ],
+    "el": [
+     "Σχέδιο",
+     "σχέδιο"
+    ],
+    "en": [
+     "Drawing",
+     "drawing",
+     "Drawings"
+    ],
+    "it": [
+     "disegno",
+     "Disegni",
+     "Disegno"
+    ],
+    "es": [
+     "Dibujo",
+     "dibujo"
+    ],
+    "et": [
+     "Joonistus",
+     "joonistus"
+    ],
+    "cs": [
+     "Kresba",
+     "kresba"
+    ],
+    "eu": [
+     "marrazki",
+     "Marrazki"
+    ],
+    "pl": [
+     "rysunek",
+     "Rysunek"
+    ],
+    "ro": [
+     "Desen",
+     "desen"
+    ],
+    "da": [
+     "tegning",
+     "Tegning"
+    ],
+    "nl": [
+     "tekening",
+     "Tekening"
+    ]
+   },
+   "edmDatasetName": [
+    "1542_IMAGO"
+   ],
+   "edmIsShownAt": [
+    "https://imago.regione.emilia-romagna.it/opac/resource/IMA00145073"
+   ],
+   "edmIsShownBy": [
+    "https://imago-dl.regione.emilia-romagna.it/iiif/3/IMA00145073-MA.TUEmQ09NQHNmYy01NzA4/full/max/0/default.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fimago-dl.regione.emilia-romagna.it%2Fiiif%2F3%2FIMA00145073-MA.TUEmQ09NQHNmYy01NzA4%2Ffull%2Fmax%2F0%2Fdefault.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1850",
+    "http://data.europeana.eu/timespan/18",
+    "http://data.europeana.eu/timespan/19",
+    "#1800"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1850"
+    },
+    {
+     "def": "1800"
+    },
+    {
+     "def": "18. Jahrhundert"
+    },
+    {
+     "def": "19. Jahrhundert"
+    },
+    {
+     "def": "XVIII век"
+    },
+    {
+     "def": "XIX век"
+    },
+    {
+     "def": "1700-luku"
+    },
+    {
+     "def": "1800-luku"
+    },
+    {
+     "def": "Século XVIII"
+    },
+    {
+     "def": "Século XIX"
+    },
+    {
+     "def": "18 век"
+    },
+    {
+     "def": "19 век"
+    },
+    {
+     "def": "XVIII amžius"
+    },
+    {
+     "def": "XIX amžius"
+    },
+    {
+     "def": "18. gadsimts"
+    },
+    {
+     "def": "19. gadsimts"
+    },
+    {
+     "def": "18. stoljeće"
+    },
+    {
+     "def": "19. stoljeće"
+    },
+    {
+     "def": "XVIIIe siècle"
+    },
+    {
+     "def": "XIXe siècle"
+    },
+    {
+     "def": "18. század"
+    },
+    {
+     "def": "19. század"
+    },
+    {
+     "def": "18. storočie"
+    },
+    {
+     "def": "19. storočie"
+    },
+    {
+     "def": "18. stoletje"
+    },
+    {
+     "def": "19. stoletje"
+    },
+    {
+     "def": "18ú haois"
+    },
+    {
+     "def": "19ú haois"
+    },
+    {
+     "def": "Segle XVIII"
+    },
+    {
+     "def": "Segle XIX"
+    },
+    {
+     "def": "1700-talet"
+    },
+    {
+     "def": "1800-talet"
+    },
+    {
+     "def": "18ος αιώνας"
+    },
+    {
+     "def": "19ος αιώνας"
+    },
+    {
+     "def": "18th century"
+    },
+    {
+     "def": "19th century"
+    },
+    {
+     "def": "XVIII secolo"
+    },
+    {
+     "def": "XIX secolo"
+    },
+    {
+     "def": "Siglo XVIII"
+    },
+    {
+     "def": "Siglo XIX"
+    },
+    {
+     "def": "18. sajand"
+    },
+    {
+     "def": "19. sajand"
+    },
+    {
+     "def": "XVIII. mendea"
+    },
+    {
+     "def": "XIX. mendea"
+    },
+    {
+     "def": "18. století"
+    },
+    {
+     "def": "19. století"
+    },
+    {
+     "def": "XVIII wiek"
+    },
+    {
+     "def": "XIX wiek"
+    },
+    {
+     "def": "Secolul al XVIII-lea"
+    },
+    {
+     "def": "Secolul al XIX-lea"
+    },
+    {
+     "def": "18. århundrede"
+    },
+    {
+     "def": "19. århundrede"
+    },
+    {
+     "def": "18e eeuw"
+    },
+    {
+     "def": "19e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q7015"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85041401"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012474"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11976032c"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049671"
+    },
+    {
+     "def": "https://www.freebase.com/m/08b33"
+    },
+    {
+     "def": "https://g.co/kg/m/08b33"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.875"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404512"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/904058"
+    },
+    {
+     "def": "http://babelnet.org/rdf/s02814699n"
+    },
+    {
+     "def": "http://dbpedia.org/resource/18th_century"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6955"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85091984"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012475"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975999w"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049672"
+    },
+    {
+     "def": "https://www.freebase.com/m/08b3m"
+    },
+    {
+     "def": "https://g.co/kg/m/08b3m"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.937"
+    },
+    {
+     "def": "http://datos.bne.es/resource/XX4343988"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404513"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1037841"
+    },
+    {
+     "def": "http://babelnet.org/rdf/s02210346n"
+    },
+    {
+     "def": "http://dbpedia.org/resource/19th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "18. Jahrhundert",
+     "19. Jahrhundert"
+    ],
+    "ru": [
+     "XVIII век",
+     "XIX век"
+    ],
+    "fi": [
+     "1700-luku",
+     "1800-luku"
+    ],
+    "pt": [
+     "Século XVIII",
+     "Século XIX"
+    ],
+    "bg": [
+     "18 век",
+     "19 век"
+    ],
+    "lt": [
+     "XVIII amžius",
+     "XIX amžius"
+    ],
+    "lv": [
+     "18. gadsimts",
+     "19. gadsimts"
+    ],
+    "hr": [
+     "18. stoljeće",
+     "19. stoljeće"
+    ],
+    "fr": [
+     "XVIIIe siècle",
+     "XIXe siècle"
+    ],
+    "hu": [
+     "18. század",
+     "19. század"
+    ],
+    "sk": [
+     "18. storočie",
+     "19. storočie"
+    ],
+    "sl": [
+     "18. stoletje",
+     "19. stoletje"
+    ],
+    "ga": [
+     "18ú haois",
+     "19ú haois"
+    ],
+    "ca": [
+     "Segle XVIII",
+     "Segle XIX"
+    ],
+    "sv": [
+     "1700-talet",
+     "1800-talet"
+    ],
+    "el": [
+     "18ος αιώνας",
+     "19ος αιώνας"
+    ],
+    "en": [
+     "18th century",
+     "19th century"
+    ],
+    "it": [
+     "XVIII secolo",
+     "XIX secolo"
+    ],
+    "es": [
+     "Siglo XVIII",
+     "Siglo XIX"
+    ],
+    "et": [
+     "18. sajand",
+     "19. sajand"
+    ],
+    "eu": [
+     "XVIII. mendea",
+     "XIX. mendea"
+    ],
+    "cs": [
+     "18. století",
+     "19. století"
+    ],
+    "zxx": [
+     "1850",
+     "1800"
+    ],
+    "pl": [
+     "XVIII wiek",
+     "XIX wiek"
+    ],
+    "ro": [
+     "Secolul al XVIII-lea",
+     "Secolul al XIX-lea"
+    ],
+    "da": [
+     "18. århundrede",
+     "19. århundrede"
+    ],
+    "nl": [
+     "18e eeuw",
+     "19e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "1542_IMAGO"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/1542/IMA00145073?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/1542/IMA00145073",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/1542/IMA00145073.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5484",
+    "http://data.europeana.eu/organization/4563"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CulturaItalia"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/NoC-OKLR/1.0/"
+   ],
+   "score": 82.087326,
+   "timestamp": 1788028223822,
+   "timestamp_created": "2026-08-26T12:14:39.238Z",
+   "timestamp_created_epoch": 1787746479238,
+   "timestamp_update": "2026-08-26T12:14:39.238Z",
+   "timestamp_update_epoch": 1787746479238,
+   "title": [
+    "[Satiro danzante con tamburello]"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1800",
+    "1850"
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Historical Archive of the Presidency of the Republic"
+   ],
+   "dcLanguage": [
+    "zxx",
+    "zxx"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "zxx",
+     "zxx"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi",
+     "http://www.wikidata.org/wiki/Q1224",
+     "http://culturaitalia.it/pico/thesaurus/4.2#fotografie",
+     "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+    ],
+    "it": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi"
+    ]
+   },
+   "dcTitleLangAware": {
+    "it": [
+     "Il Presidente Ciampi durante l'inaugurazione dell'esposizione del Satiro Danzante, a Palazzo Montecitorio."
+    ]
+   },
+   "edmConcept": [
+    "http://culturaitalia.it/pico/thesaurus/4.2#fotografie"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Photographs"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "Photographs"
+    ],
+    "it": [
+     "Fotografie"
+    ]
+   },
+   "edmDatasetName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "edmIsShownAt": [
+    "http://www.culturaitalia.it/opencms/viewItem.jsp?language=en&case=&id=oai%3Aarchivio.quirinale.it%3Aphoto-003-033126-86096"
+   ],
+   "edmIsShownBy": [
+    "https://archivio.quirinale.it/image-h/Ciampi/grandi_immagini_21879.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farchivio.quirinale.it%2Fimage-h%2FCiampi%2Fgrandi_immagini_21879.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#2003-03-31",
+    "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2003-03-31"
+    },
+    {
+     "def": "21st cent."
+    },
+    {
+     "def": "sec. XXI"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "en": [
+     "21st cent."
+    ],
+    "it": [
+     "sec. XXI"
+    ],
+    "zxx": [
+     "2003-03-31"
+    ]
+   },
+   "europeanaCollectionName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/433/photo_003_033126_86096?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/433/photo_003_033126_86096",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/433/photo_003_033126_86096.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1117",
+    "http://data.europeana.eu/organization/4563"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CulturaItalia"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+   ],
+   "score": 54.3033,
+   "timestamp": 1787995366289,
+   "timestamp_created": "2021-02-28T13:16:02.754Z",
+   "timestamp_created_epoch": 1614518162754,
+   "timestamp_update": "2021-02-28T13:16:02.754Z",
+   "timestamp_update_epoch": 1614518162754,
+   "title": [
+    "Il Presidente Ciampi durante l'inaugurazione dell'esposizione del Satiro Danzante, a Palazzo Montecitorio."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 8,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Historical Archive of the Presidency of the Republic"
+   ],
+   "dcLanguage": [
+    "zxx",
+    "zxx"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "zxx",
+     "zxx"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi",
+     "http://www.wikidata.org/wiki/Q1224",
+     "http://culturaitalia.it/pico/thesaurus/4.2#fotografie",
+     "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+    ],
+    "it": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi"
+    ]
+   },
+   "dcTitleLangAware": {
+    "en": [
+     "President Ciampi with his wife Franca during the inauguration of the exhibition of the Satiro Danzante at Palazzo Montecitorio."
+    ],
+    "it": [
+     "Il Presidente Ciampi insieme alla moglie Franca, durante l'inaugurazione dell'esposizione del Satiro Danzante a Palazzo Montecitorio."
+    ]
+   },
+   "edmConcept": [
+    "http://culturaitalia.it/pico/thesaurus/4.2#fotografie"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Photographs"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "Photographs"
+    ],
+    "it": [
+     "Fotografie"
+    ]
+   },
+   "edmDatasetName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "edmIsShownAt": [
+    "http://www.culturaitalia.it/opencms/viewItem.jsp?language=en&case=&id=oai%3Aarchivio.quirinale.it%3Aphoto-003-033083-86074"
+   ],
+   "edmIsShownBy": [
+    "https://archivio.quirinale.it/image-h/Ciampi/grandi_immagini_21881.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farchivio.quirinale.it%2Fimage-h%2FCiampi%2Fgrandi_immagini_21881.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#2003-03-31",
+    "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2003-03-31"
+    },
+    {
+     "def": "21st cent."
+    },
+    {
+     "def": "sec. XXI"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "en": [
+     "21st cent."
+    ],
+    "it": [
+     "sec. XXI"
+    ],
+    "zxx": [
+     "2003-03-31"
+    ]
+   },
+   "europeanaCollectionName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "europeanaCompleteness": 8,
+   "guid": "https://www.europeana.eu/item/433/photo_003_033083_86074?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/433/photo_003_033083_86074",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/433/photo_003_033083_86074.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1117",
+    "http://data.europeana.eu/organization/4563"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CulturaItalia"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+   ],
+   "score": 50.52848,
+   "timestamp": 1787995363954,
+   "timestamp_created": "2021-02-28T13:16:02.754Z",
+   "timestamp_created_epoch": 1614518162754,
+   "timestamp_update": "2021-02-28T13:16:02.754Z",
+   "timestamp_update_epoch": 1614518162754,
+   "title": [
+    "President Ciampi with his wife Franca during the inauguration of the exhibition of the Satiro Danzante at Palazzo Montecitorio.",
+    "Il Presidente Ciampi insieme alla moglie Franca, durante l'inaugurazione dell'esposizione del Satiro Danzante a Palazzo Montecitorio."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Cinecittà - Luce"
+   ],
+   "dcDescription": [
+    "gelatina bromuro d'argento/vetro",
+    "gelatine silver bromide / glass"
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "gelatine silver bromide / glass"
+    ],
+    "it": [
+     "gelatina bromuro d'argento/vetro"
+    ]
+   },
+   "dcTitleLangAware": {
+    "en": [
+     "Villa of the mysteries: Mural painting with dancing satyr. Total"
+    ],
+    "it": [
+     "Villa dei Misteri: pittura murale con Satiro danzante. Totale"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300046300",
+     "http://data.europeana.eu/concept/48"
+    ]
+   },
+   "dctermsSpatial": [
+    "https://sws.geonames.org/3175395/",
+    "http://www.wikidata.org/entity/Q1459304",
+    "http://data.europeana.eu/concept/1673",
+    "http://data.europeana.eu/place/92"
+   ],
+   "edmConcept": [
+    "http://data.europeana.eu/concept/1673",
+    "http://data.europeana.eu/concept/48",
+    "http://www.wikidata.org/entity/Q1459304",
+    "http://vocab.getty.edu/aat/300046300"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Suchý želatinový proces"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "suchý želatinový proces"
+    },
+    {
+     "def": "Trockenes Gelatineverfahren"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Trockenes Gelatineverfahren"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Желатиносеребряный фотопроцесс"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Желатиносеребряный фотопроцесс"
+    },
+    {
+     "def": "Gelatina bromuro"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "gelatina bromuro"
+    },
+    {
+     "def": "fotografias (obras visuais)"
+    },
+    {
+     "def": "Gelatin dry plate process"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "gelatin dry plate process"
+    },
+    {
+     "def": "photographs"
+    },
+    {
+     "def": "Procedimento con lastre alla gelatina secca"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "procedimento con lastre alla gelatina secca"
+    },
+    {
+     "def": "fotografie"
+    },
+    {
+     "def": "Plaque sèche"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "plaque sèche"
+    },
+    {
+     "def": "photographies"
+    },
+    {
+     "def": "Technika bromo-żelatynowa"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Technika bromo-żelatynowa"
+    },
+    {
+     "def": "Droge gelatineplaatprocedé"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "droge gelatineplaatprocedé"
+    },
+    {
+     "def": "foto's"
+    },
+    {
+     "def": "Proceso de gelatina sobre placa seca"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "proceso de gelatina sobre placa seca"
+    },
+    {
+     "def": "fotografías (obra visual)"
+    },
+    {
+     "def": "Gelatina-bromur"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Gelatina-bromur"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie",
+     "Foto",
+     "Trockenes Gelatineverfahren"
+    ],
+    "ru": [
+     "Фотография",
+     "Желатиносеребряный фотопроцесс"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia",
+     "Gelatina bromuro",
+     "fotografias (obras visuais)",
+     "gelatina bromuro"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "photographies",
+     "plaque sèche",
+     "Plaque sèche",
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Gelatina-bromur",
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "photographs",
+     "Gelatin dry plate process",
+     "Photograph",
+     "gelatin dry plate process"
+    ],
+    "it": [
+     "fotografie",
+     "Procedimento con lastre alla gelatina secca",
+     "Fotografia",
+     "procedimento con lastre alla gelatina secca"
+    ],
+    "es": [
+     "Proceso de gelatina sobre placa seca",
+     "fotografías (obra visual)",
+     "Fotografía",
+     "proceso de gelatina sobre placa seca"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Suchý želatinový proces",
+     "Fotografie",
+     "suchý želatinový proces"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Technika bromo-żelatynowa",
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "foto's",
+     "Droge gelatineplaatprocedé",
+     "droge gelatineplaatprocedé",
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "08602_EFG_Instituto_Luce_Cinecitta"
+   ],
+   "edmIsShownAt": [
+    "https://patrimonio.archivioluce.com/luce-web/detail/IL0000039697/14/"
+   ],
+   "edmIsShownBy": [
+    "http://image.archivioluce.com/foto/high/L/L122/L00007998.JPG"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/9408658/",
+    "https://sws.geonames.org/6695072/",
+    "http://data.europeana.eu/place/92",
+    "https://sws.geonames.org/3175395/",
+    "https://sws.geonames.org/12217088/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Südeuropa"
+    },
+    {
+     "def": "Europäische Union"
+    },
+    {
+     "def": "Italienische Republik"
+    },
+    {
+     "def": "Южная Европа"
+    },
+    {
+     "def": "Европейский союз"
+    },
+    {
+     "def": "Итальянская Республика"
+    },
+    {
+     "def": "Europa meridional"
+    },
+    {
+     "def": "União Europeia"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "República da Itália"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "Pietų Europa"
+    },
+    {
+     "def": "Europos Sąjunga"
+    },
+    {
+     "def": "Italijos Respublika"
+    },
+    {
+     "def": "Europa meridionale"
+    },
+    {
+     "def": "Unione europea"
+    },
+    {
+     "def": "Repubblica Italiana"
+    },
+    {
+     "def": "RI"
+    },
+    {
+     "def": "Europe du Sud"
+    },
+    {
+     "def": "Union Européenne"
+    },
+    {
+     "def": "République italienne"
+    },
+    {
+     "def": "La République italienne"
+    },
+    {
+     "def": "It."
+    },
+    {
+     "def": "Ital."
+    },
+    {
+     "def": "Ita."
+    },
+    {
+     "def": "Europa meridional"
+    },
+    {
+     "def": "Unión Europea"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Den europeiske union"
+    },
+    {
+     "def": "Euroopan unioni"
+    },
+    {
+     "def": "Italian tasavalta"
+    },
+    {
+     "def": "Европейски съюз"
+    },
+    {
+     "def": "Италианска република"
+    },
+    {
+     "def": "Europska unija"
+    },
+    {
+     "def": "Republika Italija"
+    },
+    {
+     "def": "Eiropas Savienība"
+    },
+    {
+     "def": "Európai Unió"
+    },
+    {
+     "def": "Európska únia"
+    },
+    {
+     "def": "Talianska republika"
+    },
+    {
+     "def": "Evropska unija"
+    },
+    {
+     "def": "Italijanska republika"
+    },
+    {
+     "def": "Lepa dežela"
+    },
+    {
+     "def": "Italijanski škorenj"
+    },
+    {
+     "def": "An tAontas Eorpach"
+    },
+    {
+     "def": "Iodáil"
+    },
+    {
+     "def": "Unió Europea"
+    },
+    {
+     "def": "Estat Italià"
+    },
+    {
+     "def": "República Italiana"
+    },
+    {
+     "def": "Europeiska unionen"
+    },
+    {
+     "def": "Republiken Italien"
+    },
+    {
+     "def": "Ευρωπαϊκή Ένωση"
+    },
+    {
+     "def": "Ιταλική Δημοκρατία"
+    },
+    {
+     "def": "Unjoni Ewropea"
+    },
+    {
+     "def": "Repubblika Taljana"
+    },
+    {
+     "def": "European Union"
+    },
+    {
+     "def": "Italian Republic"
+    },
+    {
+     "def": "Republic of Italy"
+    },
+    {
+     "def": "Euroopa Liit"
+    },
+    {
+     "def": "Itaalia Vabariik"
+    },
+    {
+     "def": "Evropská unie"
+    },
+    {
+     "def": "Italská republika"
+    },
+    {
+     "def": "Unia Europejska"
+    },
+    {
+     "def": "Uniunea Europeană"
+    },
+    {
+     "def": "Republica Italiană"
+    },
+    {
+     "def": "Den Europæiske Union"
+    },
+    {
+     "def": "Europese Unie"
+    },
+    {
+     "def": "Italiaanse Republiek"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Republiek Italië"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Südeuropa",
+     "Europäische Union",
+     "Italienische Republik"
+    ],
+    "no": [
+     "Den europeiske union"
+    ],
+    "ru": [
+     "Южная Европа",
+     "Европейский союз",
+     "Итальянская Республика"
+    ],
+    "fi": [
+     "Euroopan unioni",
+     "Italian tasavalta"
+    ],
+    "pt": [
+     "Europa meridional",
+     "União Europeia",
+     "República Italiana",
+     "República da Itália",
+     "Repubblica Italiana"
+    ],
+    "bg": [
+     "Европейски съюз",
+     "Италианска република"
+    ],
+    "lt": [
+     "Pietų Europa",
+     "Europos Sąjunga",
+     "Italijos Respublika"
+    ],
+    "hr": [
+     "Europska unija",
+     "Republika Italija"
+    ],
+    "lv": [
+     "Eiropas Savienība"
+    ],
+    "fr": [
+     "Europe du Sud",
+     "Union Européenne",
+     "République italienne",
+     "La République italienne",
+     "It.",
+     "Ital.",
+     "Ita."
+    ],
+    "hu": [
+     "Európai Unió"
+    ],
+    "sk": [
+     "Európska únia",
+     "Talianska republika"
+    ],
+    "sl": [
+     "Evropska unija",
+     "Italijanska republika",
+     "Lepa dežela",
+     "Italijanski škorenj"
+    ],
+    "ga": [
+     "An tAontas Eorpach",
+     "Iodáil"
+    ],
+    "ca": [
+     "Unió Europea",
+     "Estat Italià",
+     "República Italiana"
+    ],
+    "sv": [
+     "Europeiska unionen",
+     "Republiken Italien"
+    ],
+    "el": [
+     "Ευρωπαϊκή Ένωση",
+     "Ιταλική Δημοκρατία"
+    ],
+    "mt": [
+     "Unjoni Ewropea",
+     "Repubblika Taljana"
+    ],
+    "en": [
+     "European Union",
+     "Italian Republic",
+     "Republic of Italy"
+    ],
+    "it": [
+     "Europa meridionale",
+     "Unione europea",
+     "Repubblica Italiana",
+     "RI"
+    ],
+    "es": [
+     "Europa meridional",
+     "Unión Europea",
+     "República Italiana"
+    ],
+    "et": [
+     "Euroopa Liit",
+     "Itaalia Vabariik"
+    ],
+    "cs": [
+     "Evropská unie",
+     "Italská republika"
+    ],
+    "pl": [
+     "Unia Europejska"
+    ],
+    "ro": [
+     "Uniunea Europeană",
+     "Republica Italiană"
+    ],
+    "da": [
+     "Den Europæiske Union"
+    ],
+    "nl": [
+     "Europese Unie",
+     "Italiaanse Republiek",
+     "Italie",
+     "Republiek Italië"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Southern Europe"
+    },
+    {
+     "def": "European Union"
+    },
+    {
+     "def": "Mediterranean Basin"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Itália"
+    },
+    {
+     "def": "Италия"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Itālija"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "Italie"
+    },
+    {
+     "def": "Olaszország"
+    },
+    {
+     "def": "Taliansko"
+    },
+    {
+     "def": "Italija"
+    },
+    {
+     "def": "An Iodáil"
+    },
+    {
+     "def": "Itàlia"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Ιταλία"
+    },
+    {
+     "def": "Italja"
+    },
+    {
+     "def": "Italy"
+    },
+    {
+     "def": "Italy"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Itaalia"
+    },
+    {
+     "def": "Itálie"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Włochy"
+    },
+    {
+     "def": "Italien"
+    },
+    {
+     "def": "Italia"
+    },
+    {
+     "def": "Italië"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Italien"
+    ],
+    "no": [
+     "Italia"
+    ],
+    "ru": [
+     "Италия"
+    ],
+    "fi": [
+     "Italia"
+    ],
+    "def": [
+     "Southern Europe",
+     "European Union",
+     "Mediterranean Basin"
+    ],
+    "pt": [
+     "Itália"
+    ],
+    "bg": [
+     "Италия"
+    ],
+    "lt": [
+     "Italija"
+    ],
+    "lv": [
+     "Itālija"
+    ],
+    "hr": [
+     "Italija"
+    ],
+    "fr": [
+     "Italie"
+    ],
+    "hu": [
+     "Olaszország"
+    ],
+    "sk": [
+     "Taliansko"
+    ],
+    "sl": [
+     "Italija"
+    ],
+    "ga": [
+     "An Iodáil"
+    ],
+    "ca": [
+     "Itàlia"
+    ],
+    "sv": [
+     "Italien"
+    ],
+    "el": [
+     "Ιταλία"
+    ],
+    "mt": [
+     "Italja"
+    ],
+    "en": [
+     "Italy",
+     "Italy"
+    ],
+    "it": [
+     "Italia"
+    ],
+    "es": [
+     "Italia"
+    ],
+    "et": [
+     "Itaalia"
+    ],
+    "cs": [
+     "Itálie"
+    ],
+    "eu": [
+     "Italia"
+    ],
+    "pl": [
+     "Włochy"
+    ],
+    "da": [
+     "Italien"
+    ],
+    "ro": [
+     "Italia"
+    ],
+    "nl": [
+     "Italië"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "41.34382",
+    "50.83857",
+    "42.5",
+    "35.78"
+   ],
+   "edmPlaceLongitude": [
+    "-3.33984",
+    "4.37599",
+    "12.5",
+    "19.33"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimage.archivioluce.com%2Ffoto%2Fhigh%2FL%2FL122%2FL00007998.JPG&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1931"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1931"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1931"
+    ]
+   },
+   "europeanaCollectionName": [
+    "08602_EFG_Instituto_Luce_Cinecitta"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/08602/SerieLL01_007998?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/08602/SerieLL01_007998",
+   "index": 0,
+   "language": [
+    "mul"
+   ],
+   "link": "https://api.europeana.eu/record/08602/SerieLL01_007998.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/2992",
+    "http://data.europeana.eu/organization/1585"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "The European Film Gateway"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 46.36981,
+   "timestamp": 1787959435770,
+   "timestamp_created": "2020-11-22T21:25:10.106Z",
+   "timestamp_created_epoch": 1606080310106,
+   "timestamp_update": "2022-04-13T07:48:20.507Z",
+   "timestamp_update_epoch": 1649836100507,
+   "title": [
+    "Villa dei Misteri: pittura murale con Satiro danzante. Totale",
+    "Villa of the mysteries: Mural painting with dancing satyr. Total"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1931"
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Historical Archive of the Presidency of the Republic"
+   ],
+   "dcLanguage": [
+    "zxx",
+    "zxx"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "zxx",
+     "zxx"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi",
+     "http://www.wikidata.org/wiki/Q1224",
+     "http://culturaitalia.it/pico/thesaurus/4.2#fotografie",
+     "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+    ],
+    "it": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi"
+    ]
+   },
+   "dcTitleLangAware": {
+    "en": [
+     "President Ciampi during the inauguration of the Dancing Satiro in Palazzo Montecitorio."
+    ],
+    "it": [
+     "Il Presidente Ciampi durante l'inaugurazione del Satiro Danzante a Palazzo Montecitorio."
+    ]
+   },
+   "edmConcept": [
+    "http://culturaitalia.it/pico/thesaurus/4.2#fotografie"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Photographs"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "Photographs"
+    ],
+    "it": [
+     "Fotografie"
+    ]
+   },
+   "edmDatasetName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "edmIsShownAt": [
+    "http://www.culturaitalia.it/opencms/viewItem.jsp?language=en&case=&id=oai%3Aarchivio.quirinale.it%3Aphoto-003-033085-86075"
+   ],
+   "edmIsShownBy": [
+    "https://archivio.quirinale.it/image-h/Ciampi/grandi_immagini_21882.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farchivio.quirinale.it%2Fimage-h%2FCiampi%2Fgrandi_immagini_21882.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#2003-03-31",
+    "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2003-03-31"
+    },
+    {
+     "def": "21st cent."
+    },
+    {
+     "def": "sec. XXI"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "en": [
+     "21st cent."
+    ],
+    "it": [
+     "sec. XXI"
+    ],
+    "zxx": [
+     "2003-03-31"
+    ]
+   },
+   "europeanaCollectionName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/433/photo_003_033085_86075?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/433/photo_003_033085_86075",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/433/photo_003_033085_86075.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1117",
+    "http://data.europeana.eu/organization/4563"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CulturaItalia"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+   ],
+   "score": 41.104332,
+   "timestamp": 1787995364016,
+   "timestamp_created": "2021-02-28T13:16:02.754Z",
+   "timestamp_created_epoch": 1614518162754,
+   "timestamp_update": "2021-02-28T13:16:02.754Z",
+   "timestamp_update_epoch": 1614518162754,
+   "title": [
+    "Il Presidente Ciampi durante l'inaugurazione del Satiro Danzante a Palazzo Montecitorio.",
+    "President Ciampi during the inauguration of the Dancing Satiro in Palazzo Montecitorio."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 9,
+   "country": [
+    "Italy"
+   ],
+   "dataProvider": [
+    "Historical Archive of the Presidency of the Republic"
+   ],
+   "dcLanguage": [
+    "zxx",
+    "zxx"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "zxx",
+     "zxx"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi",
+     "http://www.wikidata.org/wiki/Q1224",
+     "http://culturaitalia.it/pico/thesaurus/4.2#fotografie",
+     "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+    ],
+    "it": [
+     "Presidente della Repubblica Carlo Azeglio Ciampi"
+    ]
+   },
+   "dcTitleLangAware": {
+    "en": [
+     "President Ciampi with his wife Franca and the Speaker of the Chamber of Deputies Pier Ferdinando Casini during the inauguration of the Dancing Satiro in Palazzo Montecitorio."
+    ],
+    "it": [
+     "Il Presidente Ciampi insieme alla moglie Franca e il Presidente della Camera dei deputati Pier Ferdinando Casini durante l'inaugurazione del Satiro Danzante a Palazzo Montecitorio."
+    ]
+   },
+   "edmConcept": [
+    "http://culturaitalia.it/pico/thesaurus/4.2#fotografie"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Photographs"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "Photographs"
+    ],
+    "it": [
+     "Fotografie"
+    ]
+   },
+   "edmDatasetName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "edmIsShownAt": [
+    "http://www.culturaitalia.it/opencms/viewItem.jsp?language=en&case=&id=oai%3Aarchivio.quirinale.it%3Aphoto-003-033128-86097"
+   ],
+   "edmIsShownBy": [
+    "https://archivio.quirinale.it/image-h/Ciampi/grandi_immagini_21880.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farchivio.quirinale.it%2Fimage-h%2FCiampi%2Fgrandi_immagini_21880.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#2003-03-31",
+    "http://culturaitalia.it/pico/thesaurus/4.1#sec_xxi"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2003-03-31"
+    },
+    {
+     "def": "21st cent."
+    },
+    {
+     "def": "sec. XXI"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "en": [
+     "21st cent."
+    ],
+    "it": [
+     "sec. XXI"
+    ],
+    "zxx": [
+     "2003-03-31"
+    ]
+   },
+   "europeanaCollectionName": [
+    "433_CulturaItalia_Presidenza_della_Repubblica"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/433/photo_003_033128_86097?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/433/photo_003_033128_86097",
+   "index": 0,
+   "language": [
+    "it"
+   ],
+   "link": "https://api.europeana.eu/record/433/photo_003_033128_86097.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1117",
+    "http://data.europeana.eu/organization/4563"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CulturaItalia"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+   ],
+   "score": 24.737715,
+   "timestamp": 1787995366372,
+   "timestamp_created": "2021-02-28T13:16:02.754Z",
+   "timestamp_created_epoch": 1614518162754,
+   "timestamp_update": "2021-02-28T13:16:02.754Z",
+   "timestamp_update_epoch": 1614518162754,
+   "title": [
+    "President Ciampi with his wife Franca and the Speaker of the Chamber of Deputies Pier Ferdinando Casini during the inauguration of the Dancing Satiro in Palazzo Montecitorio.",
+    "Il Presidente Ciampi insieme alla moglie Franca e il Presidente della Camera dei deputati Pier Ferdinando Casini durante l'inaugurazione del Satiro Danzante a Palazzo Montecitorio."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Archaeological Museum"
+   ],
+   "dcCreator": [
+    "Pintor: Pintor del Sátiro danzante"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "Pintor: Pintor del Sátiro danzante"
+    ]
+   },
+   "dcDescription": [
+    "Las dos caras del vaso giran en torno al reino de Dioniso, con sátiros y ménades como protagonistas. Un tema, pues, apropiado a un estamno. Pero aquí -y en la mayoría de las obras coetáneas etruscas- el dios está ausente. El centro de atención no es ya el dios, sino una mujer en torno a la cual danzan con vivacidad de movimientos dos sátiros. Este protagonismo femenino, más habitual en Etruria, se acentúa en el reverso del estamno: la relación de tres mujeres vivaces.  La mujer del anverso vuelve su cabeza hacia la izquierda mientras danza, con gestualidad viva de manos. Contrasta con los saltos exagerados de los sátiros itifálicos, ambos con una de sus piernas levantadas o, mejor, patas pues éstas rematan en pezuñas de caballo. Un arcaísmo o tradición que conserva el pintor etrusco deseoso de mantener al máximo el rasgo demónico de estos seres híbridos. El contraste, por tanto, de su animalidad y desnudez con la mujer vestida es aquí llevado al máximo.  En el reverso, tres mujeres gesticulan con vivacidad. La mujer del centro, de largos cabellos liberados, marcha a la derecha pero vuelve por completo su rostro, cuerpo y brazos hacia atrás, en una incomprensible realización anatómica que muestra la libertad del pintor, mucho más preocupado por la gestualidad y la relación de las figuras entre sí que por las normas internas que estructuran y rigen los cuerpos. La mujer de la derecha lleva el característico peinado, cónico y muy elevado, de las mujeres etruscas, llamado tutulus."
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Las dos caras del vaso giran en torno al reino de Dioniso, con sátiros y ménades como protagonistas. Un tema, pues, apropiado a un estamno. Pero aquí -y en la mayoría de las obras coetáneas etruscas- el dios está ausente. El centro de atención no es ya el dios, sino una mujer en torno a la cual danzan con vivacidad de movimientos dos sátiros. Este protagonismo femenino, más habitual en Etruria, se acentúa en el reverso del estamno: la relación de tres mujeres vivaces.  La mujer del anverso vuelve su cabeza hacia la izquierda mientras danza, con gestualidad viva de manos. Contrasta con los saltos exagerados de los sátiros itifálicos, ambos con una de sus piernas levantadas o, mejor, patas pues éstas rematan en pezuñas de caballo. Un arcaísmo o tradición que conserva el pintor etrusco deseoso de mantener al máximo el rasgo demónico de estos seres híbridos. El contraste, por tanto, de su animalidad y desnudez con la mujer vestida es aquí llevado al máximo.  En el reverso, tres mujeres gesticulan con vivacidad. La mujer del centro, de largos cabellos liberados, marcha a la derecha pero vuelve por completo su rostro, cuerpo y brazos hacia atrás, en una incomprensible realización anatómica que muestra la libertad del pintor, mucho más preocupado por la gestualidad y la relación de las figuras entre sí que por las normas internas que estructuran y rigen los cuerpos. La mujer de la derecha lleva el característico peinado, cónico y muy elevado, de las mujeres etruscas, llamado tutulus."
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/31",
+     "http://data.europeana.eu/concept/1755",
+     "Estamno",
+     "Cerámica",
+     "Recipientes",
+     "Cultura Griega",
+     "Arcilla",
+     "Escena dionisiaca",
+     "Ménade",
+     "Sátiro",
+     "Pintor del Sátiro danzante"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Estamno"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Estamno"
+    ]
+   },
+   "dctermsSpatial": [
+    "Vulci"
+   ],
+   "edmConcept": [
+    "http://data.europeana.eu/concept/31",
+    "http://data.europeana.eu/concept/1755"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Keramik"
+    },
+    {
+     "def": "Ton"
+    },
+    {
+     "def": "Keraami"
+    },
+    {
+     "def": "Savi"
+    },
+    {
+     "def": "Керамика"
+    },
+    {
+     "def": "Глина"
+    },
+    {
+     "def": "Cerâmica"
+    },
+    {
+     "def": "Argila"
+    },
+    {
+     "def": "Керамика"
+    },
+    {
+     "def": "Глина"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Molis"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Māls"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Glina"
+    },
+    {
+     "def": "Céramique"
+    },
+    {
+     "def": "Argile"
+    },
+    {
+     "def": "Kerámia"
+    },
+    {
+     "def": "Agyag"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Íl"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Glina"
+    },
+    {
+     "def": "Ceirmeacht"
+    },
+    {
+     "def": "Cré"
+    },
+    {
+     "def": "Ceràmica"
+    },
+    {
+     "def": "Argila"
+    },
+    {
+     "def": "Keramik"
+    },
+    {
+     "def": "Lera"
+    },
+    {
+     "def": "Κεραμική"
+    },
+    {
+     "def": "Άργιλος"
+    },
+    {
+     "def": "Ceramic"
+    },
+    {
+     "def": "Clay"
+    },
+    {
+     "def": "Ceramica"
+    },
+    {
+     "def": "Argilla"
+    },
+    {
+     "def": "Cerámica"
+    },
+    {
+     "def": "Arcilla"
+    },
+    {
+     "def": "Keraamika"
+    },
+    {
+     "def": "Savi"
+    },
+    {
+     "def": "Keramika"
+    },
+    {
+     "def": "Jíl"
+    },
+    {
+     "def": "Zeramika"
+    },
+    {
+     "def": "Buztin"
+    },
+    {
+     "def": "Ceramika"
+    },
+    {
+     "def": "Glina"
+    },
+    {
+     "def": "Ceramică"
+    },
+    {
+     "def": "Argilă"
+    },
+    {
+     "def": "Keramik"
+    },
+    {
+     "def": "Ler"
+    },
+    {
+     "def": "Keramiek"
+    },
+    {
+     "def": "Klei"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Ton",
+     "Keramik"
+    ],
+    "fi": [
+     "Keraami",
+     "Savi"
+    ],
+    "ru": [
+     "Глина",
+     "Керамика"
+    ],
+    "pt": [
+     "Argila",
+     "Cerâmica"
+    ],
+    "bg": [
+     "Глина",
+     "Керамика"
+    ],
+    "lt": [
+     "Molis",
+     "Keramika"
+    ],
+    "lv": [
+     "Keramika",
+     "Māls"
+    ],
+    "hr": [
+     "Keramika",
+     "Glina"
+    ],
+    "fr": [
+     "Céramique",
+     "Argile"
+    ],
+    "hu": [
+     "Kerámia",
+     "Agyag"
+    ],
+    "sk": [
+     "Keramika",
+     "Íl"
+    ],
+    "sl": [
+     "Keramika",
+     "Glina"
+    ],
+    "ga": [
+     "Ceirmeacht",
+     "Cré"
+    ],
+    "ca": [
+     "Argila",
+     "Ceràmica"
+    ],
+    "sv": [
+     "Keramik",
+     "Lera"
+    ],
+    "el": [
+     "Κεραμική",
+     "Άργιλος"
+    ],
+    "en": [
+     "Clay",
+     "Ceramic"
+    ],
+    "it": [
+     "Argilla",
+     "Ceramica"
+    ],
+    "es": [
+     "Cerámica",
+     "Arcilla"
+    ],
+    "et": [
+     "Keraamika",
+     "Savi"
+    ],
+    "cs": [
+     "Jíl",
+     "Keramika"
+    ],
+    "eu": [
+     "Buztin",
+     "Zeramika"
+    ],
+    "pl": [
+     "Ceramika",
+     "Glina"
+    ],
+    "ro": [
+     "Ceramică",
+     "Argilă"
+    ],
+    "da": [
+     "Keramik",
+     "Ler"
+    ],
+    "nl": [
+     "Klei",
+     "Keramiek"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=80835&inventary=1999/99/154&table=FMUS&museum=MAN"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MAN&img=/MAN/fondos_pre/MANF1999_99_154_SEQ_002_P.JPG&Ninv=1999/99/154"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAN%26img%3D%2FMAN%2Ffondos_pre%2FMANF1999_99_154_SEQ_002_P.JPG%26Ninv%3D1999%2F99%2F154&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_80835_inventary_1999_99_154_table_FMUS_museum_MAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_80835_inventary_1999_99_154_table_FMUS_museum_MAN",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_80835_inventary_1999_99_154_table_FMUS_museum_MAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5159",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 18.997717,
+   "timestamp": 1787965646507,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Estamno"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "United Kingdom"
+   ],
+   "dataProvider": [
+    "Wellcome Collection"
+   ],
+   "dcDescription": [
+    "Lettering: Satiro danzante. Satyre dansant."
+   ],
+   "dcDescriptionLangAware": {
+    "en": [
+     "Lettering: Satiro danzante. Satyre dansant."
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "A dancing satyr, holding a casket. Engraving"
+    ]
+   },
+   "dcTypeLangAware": {
+    "en": [
+     "Engravings"
+    ]
+   },
+   "edmDatasetName": [
+    "9200579_Ag_UK_WellcomeCollection_IIIF"
+   ],
+   "edmIsShownAt": [
+    "https://wellcomecollection.org/works/y5gf4ggw"
+   ],
+   "edmIsShownBy": [
+    "https://iiif.wellcomecollection.org/image/V0038943.jpg/full/512,/0/default.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fiiif.wellcomecollection.org%2Fimage%2FV0038943.jpg%2Ffull%2F500%2C%2F0%2Fdefault.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "9200579_Ag_UK_WellcomeCollection_IIIF"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/9200579/y5gf4ggw?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/9200579/y5gf4ggw",
+   "index": 0,
+   "language": [
+    "en"
+   ],
+   "link": "https://api.europeana.eu/record/9200579/y5gf4ggw.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1191",
+    "http://data.europeana.eu/organization/1191"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Wellcome Collection"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by/4.0/"
+   ],
+   "score": 18.919863,
+   "timestamp": 1788017936359,
+   "timestamp_created": "2019-06-09T11:59:11.706Z",
+   "timestamp_created_epoch": 1560081551706,
+   "timestamp_update": "2019-06-09T11:59:11.706Z",
+   "timestamp_update_epoch": 1560081551706,
+   "title": [
+    "A dancing satyr, holding a casket. Engraving"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 5,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Archaeological Museum"
+   ],
+   "dcDescription": [
+    "Figurilla de sátiro danzante"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Figurilla de sátiro danzante"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Fotografía",
+     "Departamento de Protohistoria y Colonizaciones",
+     "Acetato de celulosa",
+     "http://data.europeana.eu/concept/48"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Fotografía"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Fotografía",
+     "http://data.europeana.eu/concept/48"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=287386&inventary=FD/A/14482&table=FDOC&museum=MAN"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MAN&img=/MAN/fondos_pre/MANFFD_A_14482_SEQ_001_P.JPG&Ninv=FD/A/14482"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAN%26img%3D%2FMAN%2Ffondos_pre%2FMANFFD_A_14482_SEQ_001_P.JPG%26Ninv%3DFD%2FA%2F14482&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1950",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1950"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1950"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_287386_inventary_FD_A_14482_table_FDOC_museum_MAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_287386_inventary_FD_A_14482_table_FDOC_museum_MAN",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_287386_inventary_FD_A_14482_table_FDOC_museum_MAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5159",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 18.551199,
+   "timestamp": 1787965267106,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Fotografía"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Archaeological Museum"
+   ],
+   "dcDescription": [
+    "Reverso de figurilla de sátiro danzante"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Reverso de figurilla de sátiro danzante"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/48",
+     "Fotografía",
+     "Departamento de Protohistoria y Colonizaciones",
+     "Acetato de celulosa"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Fotografía"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/48",
+     "Fotografía"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=287120&inventary=FD/A/14410&table=FDOC&museum=MAN"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MAN&img=/MAN/fondos_pre/MANFFD_A_14410_SEQ_001_P.JPG&Ninv=FD/A/14410"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAN%26img%3D%2FMAN%2Ffondos_pre%2FMANFFD_A_14410_SEQ_001_P.JPG%26Ninv%3DFD%2FA%2F14410&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1950",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1950"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1950"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_287120_inventary_FD_A_14410_table_FDOC_museum_MAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_287120_inventary_FD_A_14410_table_FDOC_museum_MAN",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_287120_inventary_FD_A_14410_table_FDOC_museum_MAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5159",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 18.247005,
+   "timestamp": 1787965263972,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Fotografía"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Archaeological Museum"
+   ],
+   "dcDescription": [
+    "Reverso de figurilla de sátiro danzante"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Reverso de figurilla de sátiro danzante"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Fotografía",
+     "Departamento de Protohistoria y Colonizaciones",
+     "Acetato de celulosa",
+     "http://data.europeana.eu/concept/48"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Fotografía"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Fotografía",
+     "http://data.europeana.eu/concept/48"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=287121&inventary=FD/A/14411&table=FDOC&museum=MAN"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MAN&img=/MAN/fondos_pre/MANFFD_A_14411_SEQ_001_P.JPG&Ninv=FD/A/14411"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAN%26img%3D%2FMAN%2Ffondos_pre%2FMANFFD_A_14411_SEQ_001_P.JPG%26Ninv%3DFD%2FA%2F14411&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1950",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1950"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1950"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_287121_inventary_FD_A_14411_table_FDOC_museum_MAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_287121_inventary_FD_A_14411_table_FDOC_museum_MAN",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_287121_inventary_FD_A_14411_table_FDOC_museum_MAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5159",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 18.235931,
+   "timestamp": 1787965264076,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Fotografía"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 7,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Archaeological Museum"
+   ],
+   "dcDescription": [
+    "Figura de bronce que representa un sátiro danzante, desnudo, sobre peana circular"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Figura de bronce que representa un sátiro danzante, desnudo, sobre peana circular"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/48",
+     "Fotografía",
+     "Departamento de Edad Moderna",
+     "Acetato de celulosa"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Fotografía"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/48",
+     "Fotografía"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=277499&inventary=FD/A/11002&table=FDOC&museum=MAN"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MAN&img=/MAN/fondos_pre/MANFFD_A_11002_SEQ_001_P.JPG&Ninv=FD/A/11002"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAN%26img%3D%2FMAN%2Ffondos_pre%2FMANFFD_A_11002_SEQ_001_P.JPG%26Ninv%3DFD%2FA%2F11002&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1950",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1950"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1950"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 7,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_277499_inventary_FD_A_11002_table_FDOC_museum_MAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_277499_inventary_FD_A_11002_table_FDOC_museum_MAN",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_277499_inventary_FD_A_11002_table_FDOC_museum_MAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5159",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 17.261377,
+   "timestamp": 1787965226096,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Fotografía"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 8,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "Museum of Costume. Ethnological Heritage Research Centre"
+   ],
+   "dcCreator": [
+    "García García, Juan José"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "García García, Juan José"
+    ]
+   },
+   "dcDescription": [
+    "Diseño con dos compartimentos rectangulares con decoración de figura femenina a la izquierda en actitud danzante, a la derecha figura de sátiro danzante tocando platillos."
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Diseño con dos compartimentos rectangulares con decoración de figura femenina a la izquierda en actitud danzante, a la derecha figura de sátiro danzante tocando platillos."
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/35",
+     "Dibujo",
+     "Reinado de Alfonso XIII",
+     "Papel kraft",
+     "García García, Juan José"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Dibujo"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/35",
+     "Dibujo"
+    ]
+   },
+   "dctermsSpatial": [
+    "Madrid (m)"
+   ],
+   "edmConcept": [
+    "http://data.europeana.eu/concept/35"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Zeichnung"
+    },
+    {
+     "def": "Piirustus"
+    },
+    {
+     "def": "Рисунок"
+    },
+    {
+     "def": "Desenho"
+    },
+    {
+     "def": "Рисунка"
+    },
+    {
+     "def": "Piešimas"
+    },
+    {
+     "def": "Zīmējums"
+    },
+    {
+     "def": "Crtež"
+    },
+    {
+     "def": "Dessin"
+    },
+    {
+     "def": "Rajz"
+    },
+    {
+     "def": "Kresba"
+    },
+    {
+     "def": "Risba"
+    },
+    {
+     "def": "Líníocht"
+    },
+    {
+     "def": "Dibuix"
+    },
+    {
+     "def": "Teckning"
+    },
+    {
+     "def": "Σχέδιο"
+    },
+    {
+     "def": "Drawing"
+    },
+    {
+     "def": "Disegno"
+    },
+    {
+     "def": "Dibujo"
+    },
+    {
+     "def": "Joonistus"
+    },
+    {
+     "def": "Kresba"
+    },
+    {
+     "def": "Marrazki"
+    },
+    {
+     "def": "Rysunek"
+    },
+    {
+     "def": "Desen"
+    },
+    {
+     "def": "Tegning"
+    },
+    {
+     "def": "Tekening"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Zeichnung"
+    ],
+    "fi": [
+     "Piirustus"
+    ],
+    "ru": [
+     "Рисунок"
+    ],
+    "pt": [
+     "Desenho"
+    ],
+    "bg": [
+     "Рисунка"
+    ],
+    "lt": [
+     "Piešimas"
+    ],
+    "lv": [
+     "Zīmējums"
+    ],
+    "hr": [
+     "Crtež"
+    ],
+    "fr": [
+     "Dessin"
+    ],
+    "hu": [
+     "Rajz"
+    ],
+    "sk": [
+     "Kresba"
+    ],
+    "sl": [
+     "Risba"
+    ],
+    "ga": [
+     "Líníocht"
+    ],
+    "ca": [
+     "Dibuix"
+    ],
+    "sv": [
+     "Teckning"
+    ],
+    "el": [
+     "Σχέδιο"
+    ],
+    "en": [
+     "Drawing"
+    ],
+    "it": [
+     "Disegno"
+    ],
+    "es": [
+     "Dibujo"
+    ],
+    "et": [
+     "Joonistus"
+    ],
+    "cs": [
+     "Kresba"
+    ],
+    "eu": [
+     "Marrazki"
+    ],
+    "pl": [
+     "Rysunek"
+    ],
+    "ro": [
+     "Desen"
+    ],
+    "da": [
+     "Tegning"
+    ],
+    "nl": [
+     "Tekening"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=195931&inventary=CE114305&table=FMUS&museum=MT"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MT&img=/MT/fondos_pre/MTFCE114305_SEQ_001_P.JPG&Ninv=CE114305"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMT%26img%3D%2FMT%2Ffondos_pre%2FMTFCE114305_SEQ_001_P.JPG%26Ninv%3DCE114305&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1926",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1926"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1926"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 8,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_195931_inventary_CE114305_table_FMUS_museum_MT?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_195931_inventary_CE114305_table_FMUS_museum_MT",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_195931_inventary_CE114305_table_FMUS_museum_MT.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5272",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 15.488514,
+   "timestamp": 1787964964327,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Dibujo"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ],
+   "year": [
+    "1926"
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "Archaeological Museum of Seville"
+   ],
+   "dcDescription": [
+    "Forma irregular, ligeramente convexo, destinado a la fabricación de discos de lucernas. Contiene escena báquica con sátiro danzante elevando la mano izquierda por encima de la cabeza, y prendiendo con la derecha, la túnica de una ménade, la cual se dispone a mantenerlo alejado extendiendo el brazo derecho. Pasta beige clara, bien decantada. En la cara posterior, huellas dactilares del alfarero"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Forma irregular, ligeramente convexo, destinado a la fabricación de discos de lucernas. Contiene escena báquica con sátiro danzante elevando la mano izquierda por encima de la cabeza, y prendiendo con la derecha, la túnica de una ménade, la cual se dispone a mantenerlo alejado extendiendo el brazo derecho. Pasta beige clara, bien decantada. En la cara posterior, huellas dactilares del alfarero"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "Molde",
+     "Cerámica. Herramientas y Útiles",
+     "Alto Imperio Romano",
+     "Barro"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Molde"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Molde"
+    ]
+   },
+   "dctermsSpatial": [
+    "Dos Hermanas"
+   ],
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=160301&inventary=CE1998/175&table=FMUS&museum=MASE"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MASE&img=/MASE/fondos_pre/MASEFCE1998_175_P.JPG&Ninv=CE1998/175"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMASE%26img%3D%2FMASE%2Ffondos_pre%2FMASEFCE1998_175_P.JPG%26Ninv%3DCE1998%2F175&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_160301_inventary_CE1998_175_table_FMUS_museum_MASE?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_160301_inventary_CE1998_175_table_FMUS_museum_MASE",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_160301_inventary_CE1998_175_table_FMUS_museum_MASE.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/5232",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 14.54869,
+   "timestamp": 1787964758589,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Molde"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Spain"
+   ],
+   "dataProvider": [
+    "National Museum of Decorative Arts"
+   ],
+   "dcCreator": [
+    "Diseño decorativo: Horejc, Jaroslav (Lugar de nacimiento: Praga, 15/06/1886 - Lugar de defunción: Praga, 03/01/1983)"
+   ],
+   "dcCreatorLangAware": {
+    "def": [
+     "Diseño decorativo: Horejc, Jaroslav (Lugar de nacimiento: Praga, 15/06/1886 - Lugar de defunción: Praga, 03/01/1983)"
+    ]
+   },
+   "dcDescription": [
+    "Esta copa de cristal soplado traslúcido y grabado. Con pie circular y vástago troncocónico hueco, rematado en un nudo, presenta en el depósito, en su zona central, un sátiro danzante tocando un instrumento, es un diseño de Jaroslav Horejc, escultor, grabador, diseñador y profesor checoslovaco. Horejc se especializó en metalistería y grabado y ejerció la docencia en la Escuela de Joyería, Oro, Plata y Metales en Praga, así como en la Escuela de Artes Decorativas de la misma ciudad (1906-1910). Su entorno fue el de las artes decorativas , lo que le llevó a asociarse en 1909 con Artel, una institución especializada en las artes aplicadas en Checoslovaquía, que pudiera recordar a los Wiener Werkstätte (Talleres Vieneses), formada por artistas y teóricos del arte, creada a modo de cooperativa que apostaba por la creación de objetos de uso cotidiano y cuya actividad ocupó fundamentalmente el primer cuarto del siglo XX. Esta pieza que hizo hacia 1923, muestra su dominio del grabado en cristal, y es una de las numerosas piezas luego distribuidas por J. & L. Lobmeyr (Viena). La imagen del sátiro es una de las más frecuentes del mundo de la mitología en la decoración en cristal, como se puede ver en otras piezas de la colección del Museo Nacional de Artes Decorativas"
+   ],
+   "dcDescriptionLangAware": {
+    "def": [
+     "Esta copa de cristal soplado traslúcido y grabado. Con pie circular y vástago troncocónico hueco, rematado en un nudo, presenta en el depósito, en su zona central, un sátiro danzante tocando un instrumento, es un diseño de Jaroslav Horejc, escultor, grabador, diseñador y profesor checoslovaco. Horejc se especializó en metalistería y grabado y ejerció la docencia en la Escuela de Joyería, Oro, Plata y Metales en Praga, así como en la Escuela de Artes Decorativas de la misma ciudad (1906-1910). Su entorno fue el de las artes decorativas , lo que le llevó a asociarse en 1909 con Artel, una institución especializada en las artes aplicadas en Checoslovaquía, que pudiera recordar a los Wiener Werkstätte (Talleres Vieneses), formada por artistas y teóricos del arte, creada a modo de cooperativa que apostaba por la creación de objetos de uso cotidiano y cuya actividad ocupó fundamentalmente el primer cuarto del siglo XX. Esta pieza que hizo hacia 1923, muestra su dominio del grabado en cristal, y es una de las numerosas piezas luego distribuidas por J. & L. Lobmeyr (Viena). La imagen del sátiro es una de las más frecuentes del mundo de la mitología en la decoración en cristal, como se puede ver en otras piezas de la colección del Museo Nacional de Artes Decorativas"
+    ]
+   },
+   "dcLanguage": [
+    "spa",
+    "spa"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "spa",
+     "spa"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "def": [
+     "http://data.europeana.eu/concept/1764",
+     "Copa",
+     "Vidrio y cristal",
+     "Arte/diseño industrial",
+     "Ajuar de mesa",
+     "Edad Contemporánea",
+     "Diseño de Vanguardia",
+     "Vidrio",
+     "Pan (mitología)",
+     "Aerófono",
+     "Sátiro",
+     "Horejc, Jaroslav"
+    ]
+   },
+   "dcTitleLangAware": {
+    "def": [
+     "Copa"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "Copa"
+    ]
+   },
+   "dctermsSpatial": [
+    "http://data.europeana.eu/place/79",
+    "República Checa"
+   ],
+   "edmConcept": [
+    "http://data.europeana.eu/concept/1764"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Glas"
+    },
+    {
+     "def": "Стекло"
+    },
+    {
+     "def": "Lasi"
+    },
+    {
+     "def": "Vidro"
+    },
+    {
+     "def": "Стъкло"
+    },
+    {
+     "def": "Stiklas"
+    },
+    {
+     "def": "Stikls"
+    },
+    {
+     "def": "Staklo"
+    },
+    {
+     "def": "Verre"
+    },
+    {
+     "def": "Üveg"
+    },
+    {
+     "def": "Sklo"
+    },
+    {
+     "def": "Steklo"
+    },
+    {
+     "def": "Gloine"
+    },
+    {
+     "def": "Vidre"
+    },
+    {
+     "def": "Glas"
+    },
+    {
+     "def": "Ħġieġ"
+    },
+    {
+     "def": "Γυαλί"
+    },
+    {
+     "def": "Glass"
+    },
+    {
+     "def": "Vetro"
+    },
+    {
+     "def": "Vidrio"
+    },
+    {
+     "def": "Klaas"
+    },
+    {
+     "def": "Beira"
+    },
+    {
+     "def": "Sklo"
+    },
+    {
+     "def": "Szkło"
+    },
+    {
+     "def": "Sticlă"
+    },
+    {
+     "def": "Glas"
+    },
+    {
+     "def": "Glas"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Glas"
+    ],
+    "ru": [
+     "Стекло"
+    ],
+    "fi": [
+     "Lasi"
+    ],
+    "pt": [
+     "Vidro"
+    ],
+    "bg": [
+     "Стъкло"
+    ],
+    "lt": [
+     "Stiklas"
+    ],
+    "lv": [
+     "Stikls"
+    ],
+    "hr": [
+     "Staklo"
+    ],
+    "fr": [
+     "Verre"
+    ],
+    "hu": [
+     "Üveg"
+    ],
+    "sk": [
+     "Sklo"
+    ],
+    "sl": [
+     "Steklo"
+    ],
+    "ga": [
+     "Gloine"
+    ],
+    "ca": [
+     "Vidre"
+    ],
+    "sv": [
+     "Glas"
+    ],
+    "mt": [
+     "Ħġieġ"
+    ],
+    "el": [
+     "Γυαλί"
+    ],
+    "en": [
+     "Glass"
+    ],
+    "it": [
+     "Vetro"
+    ],
+    "es": [
+     "Vidrio"
+    ],
+    "et": [
+     "Klaas"
+    ],
+    "eu": [
+     "Beira"
+    ],
+    "cs": [
+     "Sklo"
+    ],
+    "pl": [
+     "Szkło"
+    ],
+    "ro": [
+     "Sticlă"
+    ],
+    "da": [
+     "Glas"
+    ],
+    "nl": [
+     "Glas"
+    ]
+   },
+   "edmDatasetName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "edmIsShownAt": [
+    "http://ceres.mcu.es/pages/Main?idt=17928&inventary=CE25339&table=FMUS&museum=MNAD"
+   ],
+   "edmIsShownBy": [
+    "http://ceres.mcu.es/pages/Viewer?raw=y&accion=42&AMuseo=MNAD&img=/MNAD/fondos_pre/MNADMFCE25339_SEQ_001_P.JPG&Ninv=CE25339"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/79"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Tschechische Republik"
+    },
+    {
+     "def": "Czechia"
+    },
+    {
+     "def": "Tšekin tasavalta"
+    },
+    {
+     "def": "Tšekinmaa"
+    },
+    {
+     "def": "Tshekki"
+    },
+    {
+     "def": "Tshekin tasavalta"
+    },
+    {
+     "def": "Tshekinmaa"
+    },
+    {
+     "def": "Tsekki"
+    },
+    {
+     "def": "Чешская Республика"
+    },
+    {
+     "def": "Republiken Tjeckien"
+    },
+    {
+     "def": "Tjeckiska republiken"
+    },
+    {
+     "def": "República Checa"
+    },
+    {
+     "def": "Tchéquia"
+    },
+    {
+     "def": "Чешка република"
+    },
+    {
+     "def": "Република Чехия"
+    },
+    {
+     "def": "Τσεχική Δημοκρατία"
+    },
+    {
+     "def": "Ċekja"
+    },
+    {
+     "def": "Čekijos Respublika"
+    },
+    {
+     "def": "Czechia"
+    },
+    {
+     "def": "Cechia"
+    },
+    {
+     "def": "La République tchèque"
+    },
+    {
+     "def": "Rép. tchèque"
+    },
+    {
+     "def": "Tchèque (rép.)"
+    },
+    {
+     "def": "Rep. Tcheque"
+    },
+    {
+     "def": "Cseh Köztársaság"
+    },
+    {
+     "def": "Bohemia"
+    },
+    {
+     "def": "Chequia"
+    },
+    {
+     "def": "Tšehhi Vabariik"
+    },
+    {
+     "def": "ČR"
+    },
+    {
+     "def": "Česká republika"
+    },
+    {
+     "def": "Češka republika"
+    },
+    {
+     "def": "Česká republika"
+    },
+    {
+     "def": "Seic"
+    },
+    {
+     "def": "An tSeic"
+    },
+    {
+     "def": "Poblacht na Seice"
+    },
+    {
+     "def": "Republika Czeska"
+    },
+    {
+     "def": "Czechia"
+    },
+    {
+     "def": "Česko"
+    },
+    {
+     "def": "ČR"
+    },
+    {
+     "def": "Česká republika"
+    },
+    {
+     "def": "República Txeca"
+    },
+    {
+     "def": "Tsjechische Republiek"
+    },
+    {
+     "def": "Tsjechie"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Tschechische Republik",
+     "Czechia"
+    ],
+    "fi": [
+     "Tšekin tasavalta",
+     "Tšekinmaa",
+     "Tshekki",
+     "Tshekin tasavalta",
+     "Tshekinmaa",
+     "Tsekki"
+    ],
+    "ru": [
+     "Чешская Республика"
+    ],
+    "sv": [
+     "Republiken Tjeckien",
+     "Tjeckiska republiken"
+    ],
+    "pt": [
+     "República Checa",
+     "Tchéquia"
+    ],
+    "bg": [
+     "Чешка република",
+     "Република Чехия"
+    ],
+    "el": [
+     "Τσεχική Δημοκρατία"
+    ],
+    "mt": [
+     "Ċekja"
+    ],
+    "lt": [
+     "Čekijos Respublika"
+    ],
+    "en": [
+     "Czechia"
+    ],
+    "it": [
+     "Cechia"
+    ],
+    "fr": [
+     "La République tchèque",
+     "Rép. tchèque",
+     "Tchèque (rép.)",
+     "Rep. Tcheque"
+    ],
+    "hu": [
+     "Cseh Köztársaság"
+    ],
+    "es": [
+     "Bohemia",
+     "Chequia"
+    ],
+    "et": [
+     "Tšehhi Vabariik"
+    ],
+    "cs": [
+     "ČR"
+    ],
+    "sk": [
+     "Česká republika"
+    ],
+    "sl": [
+     "Češka republika",
+     "Česká republika"
+    ],
+    "ga": [
+     "Seic",
+     "An tSeic",
+     "Poblacht na Seice"
+    ],
+    "pl": [
+     "Republika Czeska",
+     "Czechia",
+     "Česko",
+     "ČR",
+     "Česká republika"
+    ],
+    "ca": [
+     "República Txeca"
+    ],
+    "nl": [
+     "Tsjechische Republiek",
+     "Tsjechie"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Tschechien"
+    },
+    {
+     "def": "Tsjekkia"
+    },
+    {
+     "def": "Чехия"
+    },
+    {
+     "def": "Tšekki"
+    },
+    {
+     "def": "Chéquia"
+    },
+    {
+     "def": "Чехия"
+    },
+    {
+     "def": "Čekija"
+    },
+    {
+     "def": "Čehija"
+    },
+    {
+     "def": "Češka"
+    },
+    {
+     "def": "Tchéquie"
+    },
+    {
+     "def": "Csehország"
+    },
+    {
+     "def": "Česko"
+    },
+    {
+     "def": "Češka"
+    },
+    {
+     "def": "An tSeicia"
+    },
+    {
+     "def": "Txèquia"
+    },
+    {
+     "def": "Tjeckien"
+    },
+    {
+     "def": "Repubblika Ċeka"
+    },
+    {
+     "def": "Τσεχία"
+    },
+    {
+     "def": "Czech Republic"
+    },
+    {
+     "def": "Repubblica Ceca"
+    },
+    {
+     "def": "República Checa"
+    },
+    {
+     "def": "Tšehhi"
+    },
+    {
+     "def": "Txekia"
+    },
+    {
+     "def": "Česko"
+    },
+    {
+     "def": "Czechy"
+    },
+    {
+     "def": "Cehia"
+    },
+    {
+     "def": "Tjekkiet"
+    },
+    {
+     "def": "Tsjechië"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Tschechien"
+    ],
+    "no": [
+     "Tsjekkia"
+    ],
+    "ru": [
+     "Чехия"
+    ],
+    "fi": [
+     "Tšekki"
+    ],
+    "pt": [
+     "Chéquia"
+    ],
+    "bg": [
+     "Чехия"
+    ],
+    "lt": [
+     "Čekija"
+    ],
+    "lv": [
+     "Čehija"
+    ],
+    "hr": [
+     "Češka"
+    ],
+    "fr": [
+     "Tchéquie"
+    ],
+    "hu": [
+     "Csehország"
+    ],
+    "sk": [
+     "Česko"
+    ],
+    "sl": [
+     "Češka"
+    ],
+    "ga": [
+     "An tSeicia"
+    ],
+    "ca": [
+     "Txèquia"
+    ],
+    "sv": [
+     "Tjeckien"
+    ],
+    "mt": [
+     "Repubblika Ċeka"
+    ],
+    "el": [
+     "Τσεχία"
+    ],
+    "en": [
+     "Czech Republic"
+    ],
+    "it": [
+     "Repubblica Ceca"
+    ],
+    "es": [
+     "República Checa"
+    ],
+    "et": [
+     "Tšehhi"
+    ],
+    "eu": [
+     "Txekia"
+    ],
+    "cs": [
+     "Česko"
+    ],
+    "pl": [
+     "Czechy"
+    ],
+    "ro": [
+     "Cehia"
+    ],
+    "da": [
+     "Tjekkiet"
+    ],
+    "nl": [
+     "Tsjechië"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "50.0"
+   ],
+   "edmPlaceLongitude": [
+    "15.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMNAD%26img%3D%2FMNAD%2Ffondos_pre%2FMNADMFCE25339_SEQ_001_P.JPG%26Ninv%3DCE25339&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1923",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1923"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1923"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2022703_Ag_ES_Hispana_eseceres"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/2022703/pages_Main_idt_17928_inventary_CE25339_table_FMUS_museum_MNAD?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2022703/pages_Main_idt_17928_inventary_CE25339_table_FMUS_museum_MNAD",
+   "index": 0,
+   "language": [
+    "es"
+   ],
+   "link": "https://api.europeana.eu/record/2022703/pages_Main_idt_17928_inventary_CE25339_table_FMUS_museum_MNAD.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4382",
+    "http://data.europeana.eu/organization/1579",
+    "http://data.europeana.eu/organization/3934"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "Hispana"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 8.05622,
+   "timestamp": 1787964858747,
+   "timestamp_created": "2024-09-10T08:48:56.947Z",
+   "timestamp_created_epoch": 1725958136947,
+   "timestamp_update": "2025-06-02T12:01:41.664Z",
+   "timestamp_update_epoch": 1748865701664,
+   "title": [
+    "Copa"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "National Archaeological Museum",
+     "count": 5
+    },
+    {
+     "label": "Historical Archive of the Presidency of the Republic",
+     "count": 4
+    },
+    {
+     "label": "Archaeological Museum of Seville",
+     "count": 1
+    },
+    {
+     "label": "Catalogo Collettivo digitale IMAGO",
+     "count": 1
+    },
+    {
+     "label": "Cinecittà - Luce",
+     "count": 1
+    },
+    {
+     "label": "Museum of Costume. Ethnological Heritage Research Centre",
+     "count": 1
+    },
+    {
+     "label": "National Museum of Decorative Arts",
+     "count": 1
+    },
+    {
+     "label": "Wellcome Collection",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "Hispana",
+     "count": 8
+    },
+    {
+     "label": "CulturaItalia",
+     "count": 5
+    },
+    {
+     "label": "The European Film Gateway",
+     "count": 1
+    },
+    {
+     "label": "Wellcome Collection",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

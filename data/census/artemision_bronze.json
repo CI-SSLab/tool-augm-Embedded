@@ -1,0 +1,7663 @@
+{
+ "apikey": "REDACTED",
+ "success": true,
+ "requestNumber": 999,
+ "itemsCount": 21,
+ "totalResults": 21,
+ "items": [
+  {
+   "completeness": 5,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Documentation Center for Art History - Marburg Picture Index"
+   ],
+   "dcSubjectLangAware": {
+    "de": [
+     "die Geschichte des Jupiter (Zeus)",
+     "Freiskulptur",
+     "Rundplastik"
+    ],
+    "en": [
+     "The Story of Jupiter (Zeus)",
+     "Free-culpture",
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Zeus vom Kap Artemision"
+    ],
+    "en": [
+     "Zeus of Cape Artemision"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300047600"
+    ]
+   },
+   "dctermsSpatial": [
+    "Artemision (Fund)",
+    "http://vocab.getty.edu/tgn/7001393",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://data.europeana.eu/place/87",
+    "Artemision (Fund)",
+    "Athens",
+    "Athínai",
+    "Atenas",
+    "Atene",
+    "Athènes"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300047600",
+    "http://vocab.getty.edu/aat/300010957",
+    "http://data.europeana.eu/concept/1769"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "statues"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "statua"
+    },
+    {
+     "def": "bronzo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "statue"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "standbeelden"
+    },
+    {
+     "def": "brons"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "estatuas"
+    },
+    {
+     "def": "bronce (metal)"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronze"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze"
+    ],
+    "fi": [
+     "Pronssi"
+    ],
+    "ru": [
+     "Бронза"
+    ],
+    "pt": [
+     "Bronze",
+     "bronze"
+    ],
+    "bg": [
+     "Бронз"
+    ],
+    "lt": [
+     "Bronza"
+    ],
+    "lv": [
+     "Bronza"
+    ],
+    "hr": [
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "statue",
+     "bronze (metal)"
+    ],
+    "hu": [
+     "Bronz"
+    ],
+    "sk": [
+     "Bronz"
+    ],
+    "sl": [
+     "Bron"
+    ],
+    "ga": [
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze"
+    ],
+    "sv": [
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος"
+    ],
+    "en": [
+     "Bronze",
+     "statues",
+     "bronze (metal)"
+    ],
+    "it": [
+     "bronzo",
+     "statua",
+     "Bronzo"
+    ],
+    "es": [
+     "Bronce",
+     "estatuas",
+     "bronce (metal)"
+    ],
+    "et": [
+     "Pronks"
+    ],
+    "cs": [
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze"
+    ],
+    "pl": [
+     "Brąz"
+    ],
+    "ro": [
+     "Bronz"
+    ],
+    "da": [
+     "Bronze"
+    ],
+    "nl": [
+     "standbeelden",
+     "Brons",
+     "brons"
+    ]
+   },
+   "edmDatasetName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "edmIsShownAt": [
+    "http://www.bildindex.de/document/obj20322585"
+   ],
+   "edmIsShownBy": [
+    "http://www.bildindex.de/bilder/d/fm134198"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://vocab.getty.edu/tgn/7001393",
+    "http://data.europeana.eu/place/87"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "Àtics"
+    },
+    {
+     "def": "Àthica"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Attische Halbinsel"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Ático"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "Periferia de Atica"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Periferia de Ática"
+    },
+    {
+     "def": "Prefectura de Ática"
+    },
+    {
+     "def": "Prefectura de Atica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Αττική",
+     "Attische Halbinsel",
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Attica",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "pt": [
+     "Ático"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "Periferia de Atica",
+     "Atica",
+     "Periferia de Ática",
+     "Prefectura de Ática",
+     "Prefectura de Atica",
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "et": [
+     "Atika"
+    ],
+    "cs": [
+     "Atény",
+     "Atika"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Atica",
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "Àtics",
+     "Àthica",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Attika",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Аттика"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Атика"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Periferija Atika"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Attique"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ataic"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Àtica"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Atika piirkond"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Attyka"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Griekenland"
+    },
+    {
+     "def": "Athínai"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Atene"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Attika",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Attika",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Аттика",
+     "Греция"
+    ],
+    "def": [
+     "Athínai",
+     "Athens",
+     "Atenas",
+     "Athènes",
+     "Athen",
+     "Atene"
+    ],
+    "pt": [
+     "Atenas",
+     "Ática",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Атика",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Atika",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Periferija Atika",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Atika",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Attique",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Attika",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Atika",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Atika",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ataic",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Àtica",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Attika",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αττική",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Attica",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Attica",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Ática",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Atika piirkond",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Attika",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Atika",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Attyka",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Attika",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Attica",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Attica",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.984165",
+    "38.0027",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.728056",
+    "23.81",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Ffm134198&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "europeanaCompleteness": 5,
+   "guid": "https://www.europeana.eu/item/199/item_6ZLQGMQRYUZ2J5BAGRS7UPVHL2BJWUVX?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/199/item_6ZLQGMQRYUZ2J5BAGRS7UPVHL2BJWUVX",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/199/item_6ZLQGMQRYUZ2J5BAGRS7UPVHL2BJWUVX.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4556",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 112.935776,
+   "timestamp": 1787965075718,
+   "timestamp_created": "2022-01-31T11:04:15.728Z",
+   "timestamp_created_epoch": 1643627055728,
+   "timestamp_update": "2022-01-31T11:04:15.728Z",
+   "timestamp_update_epoch": 1643627055728,
+   "title": [
+    "Zeus vom Kap Artemision",
+    "Zeus of Cape Artemision"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Documentation Center for Art History - Marburg Picture Index"
+   ],
+   "dcDescription": [
+    "Status: Fragment",
+    "Status: Fragment",
+    "Status: Fragment"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Status: Fragment"
+    ],
+    "def": [
+     "Status: Fragment"
+    ],
+    "en": [
+     "Status: Fragment"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Jockey",
+     "Freiskulptur",
+     "Rundplastik"
+    ],
+    "en": [
+     "Jockey",
+     "Free-culpture",
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Reiterknabe vom Kap Artemision"
+    ],
+    "en": [
+     "Horseman boy from Cape Artemision"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300047600"
+    ]
+   },
+   "dctermsSpatial": [
+    "Artemision (Fund)",
+    "Athens",
+    "Athínai",
+    "Atenas",
+    "Atene",
+    "Athènes",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://data.europeana.eu/place/87",
+    "Artemision (Fund)",
+    "http://vocab.getty.edu/tgn/7001393"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300047600",
+    "http://vocab.getty.edu/aat/300010957",
+    "http://data.europeana.eu/concept/1769"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "statues"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "statua"
+    },
+    {
+     "def": "bronzo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "statue"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "standbeelden"
+    },
+    {
+     "def": "brons"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "estatuas"
+    },
+    {
+     "def": "bronce (metal)"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronze"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze"
+    ],
+    "fi": [
+     "Pronssi"
+    ],
+    "ru": [
+     "Бронза"
+    ],
+    "pt": [
+     "Bronze",
+     "bronze"
+    ],
+    "bg": [
+     "Бронз"
+    ],
+    "lt": [
+     "Bronza"
+    ],
+    "lv": [
+     "Bronza"
+    ],
+    "hr": [
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "statue",
+     "bronze (metal)"
+    ],
+    "hu": [
+     "Bronz"
+    ],
+    "sk": [
+     "Bronz"
+    ],
+    "sl": [
+     "Bron"
+    ],
+    "ga": [
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze"
+    ],
+    "sv": [
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος"
+    ],
+    "en": [
+     "Bronze",
+     "statues",
+     "bronze (metal)"
+    ],
+    "it": [
+     "bronzo",
+     "statua",
+     "Bronzo"
+    ],
+    "es": [
+     "Bronce",
+     "estatuas",
+     "bronce (metal)"
+    ],
+    "et": [
+     "Pronks"
+    ],
+    "cs": [
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze"
+    ],
+    "pl": [
+     "Brąz"
+    ],
+    "ro": [
+     "Bronz"
+    ],
+    "da": [
+     "Bronze"
+    ],
+    "nl": [
+     "standbeelden",
+     "Brons",
+     "brons"
+    ]
+   },
+   "edmDatasetName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "edmIsShownAt": [
+    "http://www.bildindex.de/document/obj20322587"
+   ],
+   "edmIsShownBy": [
+    "http://www.bildindex.de/bilder/d/fm134992"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://vocab.getty.edu/tgn/7001393",
+    "http://data.europeana.eu/place/87"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "Àtics"
+    },
+    {
+     "def": "Àthica"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Attische Halbinsel"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Ático"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "Periferia de Atica"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Periferia de Ática"
+    },
+    {
+     "def": "Prefectura de Ática"
+    },
+    {
+     "def": "Prefectura de Atica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Αττική",
+     "Attische Halbinsel",
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Attica",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "pt": [
+     "Ático"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "Periferia de Atica",
+     "Atica",
+     "Periferia de Ática",
+     "Prefectura de Ática",
+     "Prefectura de Atica",
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "et": [
+     "Atika"
+    ],
+    "cs": [
+     "Atény",
+     "Atika"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Atica",
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "Àtics",
+     "Àthica",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Attika",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Аттика"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Атика"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Periferija Atika"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Attique"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ataic"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Àtica"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Atika piirkond"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Attyka"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Griekenland"
+    },
+    {
+     "def": "Athínai"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Atene"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Attika",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Attika",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Аттика",
+     "Греция"
+    ],
+    "def": [
+     "Athínai",
+     "Athens",
+     "Atenas",
+     "Athènes",
+     "Athen",
+     "Atene"
+    ],
+    "pt": [
+     "Atenas",
+     "Ática",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Атика",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Atika",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Periferija Atika",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Atika",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Attique",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Attika",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Atika",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Atika",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ataic",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Àtica",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Attika",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αττική",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Attica",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Attica",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Ática",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Atika piirkond",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Attika",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Atika",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Attyka",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Attika",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Attica",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Attica",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.984165",
+    "38.0027",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.728056",
+    "23.81",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Ffm134992&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/199/item_L5ZT64BU5TVW4HO3NNZBRC2RAAEJXWS4?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/199/item_L5ZT64BU5TVW4HO3NNZBRC2RAAEJXWS4",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/199/item_L5ZT64BU5TVW4HO3NNZBRC2RAAEJXWS4.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4556",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 109.17334,
+   "timestamp": 1787965756987,
+   "timestamp_created": "2019-04-16T11:24:48.708Z",
+   "timestamp_created_epoch": 1555413888708,
+   "timestamp_update": "2022-01-31T11:04:15.728Z",
+   "timestamp_update_epoch": 1643627055728,
+   "title": [
+    "Horseman boy from Cape Artemision",
+    "Reiterknabe vom Kap Artemision"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Documentation Center for Art History - Marburg Picture Index"
+   ],
+   "dcSubjectLangAware": {
+    "de": [
+     "Pferd",
+     "Skulptur",
+     "Rundplastik"
+    ],
+    "en": [
+     "sculpture",
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Pferd des Reiterknaben vom Kap Artemision"
+    ],
+    "en": [
+     "Horse of the Horseman of Cape Artemision"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300047600"
+    ]
+   },
+   "dctermsSpatial": [
+    "Artemision (Fund)",
+    "Athens",
+    "Athínai",
+    "Atenas",
+    "Atene",
+    "Athènes",
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://data.europeana.eu/place/87",
+    "Artemision (Fund)",
+    "http://vocab.getty.edu/tgn/7001393"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300047600",
+    "http://vocab.getty.edu/aat/300010957",
+    "http://data.europeana.eu/concept/1769"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "statues"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "statua"
+    },
+    {
+     "def": "bronzo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "statue"
+    },
+    {
+     "def": "bronze (metal)"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "standbeelden"
+    },
+    {
+     "def": "brons"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "estatuas"
+    },
+    {
+     "def": "bronce (metal)"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "bronze"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Bronze"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze"
+    ],
+    "fi": [
+     "Pronssi"
+    ],
+    "ru": [
+     "Бронза"
+    ],
+    "pt": [
+     "Bronze",
+     "bronze"
+    ],
+    "bg": [
+     "Бронз"
+    ],
+    "lt": [
+     "Bronza"
+    ],
+    "lv": [
+     "Bronza"
+    ],
+    "hr": [
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "statue",
+     "bronze (metal)"
+    ],
+    "hu": [
+     "Bronz"
+    ],
+    "sk": [
+     "Bronz"
+    ],
+    "sl": [
+     "Bron"
+    ],
+    "ga": [
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze"
+    ],
+    "sv": [
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος"
+    ],
+    "en": [
+     "Bronze",
+     "statues",
+     "bronze (metal)"
+    ],
+    "it": [
+     "bronzo",
+     "statua",
+     "Bronzo"
+    ],
+    "es": [
+     "Bronce",
+     "estatuas",
+     "bronce (metal)"
+    ],
+    "et": [
+     "Pronks"
+    ],
+    "cs": [
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze"
+    ],
+    "pl": [
+     "Brąz"
+    ],
+    "ro": [
+     "Bronz"
+    ],
+    "da": [
+     "Bronze"
+    ],
+    "nl": [
+     "standbeelden",
+     "Brons",
+     "brons"
+    ]
+   },
+   "edmDatasetName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "edmIsShownAt": [
+    "http://www.bildindex.de/document/obj20322843"
+   ],
+   "edmIsShownBy": [
+    "http://www.bildindex.de/bilder/d/gr00072a12"
+   ],
+   "edmPlace": [
+    "http://data.europeana.eu/place/84257",
+    "http://data.europeana.eu/place/84829",
+    "http://vocab.getty.edu/tgn/7001393",
+    "http://data.europeana.eu/place/87"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenska republiken"
+    },
+    {
+     "def": "Αθήναι"
+    },
+    {
+     "def": "Ελλάς"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδας"
+    },
+    {
+     "def": "Δημοκρατία της Ελλάδος"
+    },
+    {
+     "def": "Ελλάς, Ελλάδα"
+    },
+    {
+     "def": "Athens city"
+    },
+    {
+     "def": "Athenae"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Gr"
+    },
+    {
+     "def": "el"
+    },
+    {
+     "def": "Greek Republic"
+    },
+    {
+     "def": "Ellada"
+    },
+    {
+     "def": "Hellas, Greece"
+    },
+    {
+     "def": "Athenes"
+    },
+    {
+     "def": "Grece"
+    },
+    {
+     "def": "Hellas, Grèce"
+    },
+    {
+     "def": "Cetines"
+    },
+    {
+     "def": "Àtics"
+    },
+    {
+     "def": "Àthica"
+    },
+    {
+     "def": "República Hel·lènica"
+    },
+    {
+     "def": "Elláda"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Athene (stad)"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Helleense Republiek"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Attische Halbinsel"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Hellenische Republik"
+    },
+    {
+     "def": "Hellas, Griechenland"
+    },
+    {
+     "def": "Ático"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Republica Elenă"
+    },
+    {
+     "def": "Republica Greacă"
+    },
+    {
+     "def": "Periferia de Atica"
+    },
+    {
+     "def": "Atica"
+    },
+    {
+     "def": "Periferia de Ática"
+    },
+    {
+     "def": "Prefectura de Ática"
+    },
+    {
+     "def": "Prefectura de Atica"
+    },
+    {
+     "def": "República Helénica"
+    },
+    {
+     "def": "Hélade"
+    },
+    {
+     "def": "Hellás"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Kreikan tasavalta"
+    },
+    {
+     "def": "Helleenien tasavalta"
+    },
+    {
+     "def": "Hellas"
+    },
+    {
+     "def": "Греческая Республика"
+    },
+    {
+     "def": "Эллада"
+    },
+    {
+     "def": "Република Гърция"
+    },
+    {
+     "def": "Repubblika Ellenika"
+    },
+    {
+     "def": "Graikijos Respublika"
+    },
+    {
+     "def": "Republika Grčka"
+    },
+    {
+     "def": "Repubblica Ellenica"
+    },
+    {
+     "def": "Grécka republika"
+    },
+    {
+     "def": "Helenska republika"
+    },
+    {
+     "def": "Helada"
+    },
+    {
+     "def": "Poblacht Heilléineach"
+    },
+    {
+     "def": "Poblacht Heilléanach"
+    },
+    {
+     "def": "Gréig"
+    },
+    {
+     "def": "Republika Grecka"
+    },
+    {
+     "def": "Hellada"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "de": [
+     "Αττική",
+     "Attische Halbinsel",
+     "Hellas",
+     "Hellenische Republik",
+     "Hellas, Griechenland"
+    ],
+    "sv": [
+     "Athen",
+     "Attica",
+     "Hellas",
+     "Hellenska republiken"
+    ],
+    "fi": [
+     "Kreikan tasavalta",
+     "Helleenien tasavalta",
+     "Hellas"
+    ],
+    "ru": [
+     "Греческая Республика",
+     "Эллада"
+    ],
+    "pt": [
+     "Ático"
+    ],
+    "bg": [
+     "Република Гърция"
+    ],
+    "el": [
+     "Αθήναι",
+     "Ελλάς",
+     "Δημοκρατία της Ελλάδας",
+     "Δημοκρατία της Ελλάδος",
+     "Ελλάς, Ελλάδα"
+    ],
+    "mt": [
+     "Repubblika Ellenika"
+    ],
+    "lt": [
+     "Graikijos Respublika"
+    ],
+    "en": [
+     "Athens city",
+     "Athenae",
+     "Hellas",
+     "Gr",
+     "el",
+     "Greek Republic",
+     "Ellada",
+     "Hellas, Greece"
+    ],
+    "hr": [
+     "Republika Grčka"
+    ],
+    "it": [
+     "Repubblica Ellenica"
+    ],
+    "fr": [
+     "Athenes",
+     "Grece",
+     "Hellas, Grèce"
+    ],
+    "es": [
+     "Periferia de Atica",
+     "Atica",
+     "Periferia de Ática",
+     "Prefectura de Ática",
+     "Prefectura de Atica",
+     "República Helénica",
+     "Hélade",
+     "Hellás"
+    ],
+    "et": [
+     "Atika"
+    ],
+    "cs": [
+     "Atény",
+     "Atika"
+    ],
+    "sk": [
+     "Grécka republika"
+    ],
+    "sl": [
+     "Helenska republika",
+     "Helada"
+    ],
+    "ga": [
+     "Poblacht Heilléineach",
+     "Poblacht Heilléanach",
+     "Gréig"
+    ],
+    "pl": [
+     "Republika Grecka",
+     "Hellada"
+    ],
+    "ro": [
+     "Atica",
+     "Republica Elenă",
+     "Republica Greacă"
+    ],
+    "ca": [
+     "Cetines",
+     "Àtics",
+     "Àthica",
+     "República Hel·lènica",
+     "Elláda",
+     "Hellás"
+    ],
+    "nl": [
+     "Athene (stad)",
+     "Attika",
+     "Helleense Republiek"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Griechenland"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Kreikka"
+    },
+    {
+     "def": "Афины"
+    },
+    {
+     "def": "Аттика"
+    },
+    {
+     "def": "Греция"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grécia"
+    },
+    {
+     "def": "Атина"
+    },
+    {
+     "def": "Атика"
+    },
+    {
+     "def": "Гърция"
+    },
+    {
+     "def": "Atėnai"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Graikija"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Periferija Atika"
+    },
+    {
+     "def": "Grčka"
+    },
+    {
+     "def": "Atēnas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grieķija"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Attique"
+    },
+    {
+     "def": "Grèce"
+    },
+    {
+     "def": "Athén"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Görögország"
+    },
+    {
+     "def": "Atény"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grécko"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grčija"
+    },
+    {
+     "def": "An Aithin"
+    },
+    {
+     "def": "An Ataic"
+    },
+    {
+     "def": "An Ghréig"
+    },
+    {
+     "def": "Atenes"
+    },
+    {
+     "def": "Àtica"
+    },
+    {
+     "def": "Grècia"
+    },
+    {
+     "def": "Aten"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grekland"
+    },
+    {
+     "def": "Αθήνα"
+    },
+    {
+     "def": "Αττική"
+    },
+    {
+     "def": "Ελλάδα"
+    },
+    {
+     "def": "Ateni"
+    },
+    {
+     "def": "Greċja"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Greece"
+    },
+    {
+     "def": "Atene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Ática"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Ateena"
+    },
+    {
+     "def": "Atika piirkond"
+    },
+    {
+     "def": "Kreeka"
+    },
+    {
+     "def": "Athény"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Řecko"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Atika"
+    },
+    {
+     "def": "Grezia"
+    },
+    {
+     "def": "Ateny"
+    },
+    {
+     "def": "Attyka"
+    },
+    {
+     "def": "Grecja"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Attika"
+    },
+    {
+     "def": "Grækenland"
+    },
+    {
+     "def": "Atena"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Grecia"
+    },
+    {
+     "def": "Athene"
+    },
+    {
+     "def": "Attica"
+    },
+    {
+     "def": "Griekenland"
+    },
+    {
+     "def": "Athínai"
+    },
+    {
+     "def": "Athens"
+    },
+    {
+     "def": "Atenas"
+    },
+    {
+     "def": "Athènes"
+    },
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Atene"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Attika",
+     "Griechenland"
+    ],
+    "fi": [
+     "Ateena",
+     "Attika",
+     "Kreikka"
+    ],
+    "ru": [
+     "Афины",
+     "Аттика",
+     "Греция"
+    ],
+    "def": [
+     "Athínai",
+     "Athens",
+     "Atenas",
+     "Athènes",
+     "Athen",
+     "Atene"
+    ],
+    "pt": [
+     "Atenas",
+     "Ática",
+     "Grécia"
+    ],
+    "bg": [
+     "Атина",
+     "Атика",
+     "Гърция"
+    ],
+    "lt": [
+     "Atėnai",
+     "Atika",
+     "Graikija"
+    ],
+    "hr": [
+     "Atena",
+     "Periferija Atika",
+     "Grčka"
+    ],
+    "lv": [
+     "Atēnas",
+     "Atika",
+     "Grieķija"
+    ],
+    "fr": [
+     "Athènes",
+     "Attique",
+     "Grèce"
+    ],
+    "hu": [
+     "Athén",
+     "Attika",
+     "Görögország"
+    ],
+    "sk": [
+     "Atény",
+     "Atika",
+     "Grécko"
+    ],
+    "sl": [
+     "Atene",
+     "Atika",
+     "Grčija"
+    ],
+    "ga": [
+     "An Aithin",
+     "An Ataic",
+     "An Ghréig"
+    ],
+    "ca": [
+     "Atenes",
+     "Àtica",
+     "Grècia"
+    ],
+    "sv": [
+     "Aten",
+     "Attika",
+     "Grekland"
+    ],
+    "el": [
+     "Αθήνα",
+     "Αττική",
+     "Ελλάδα"
+    ],
+    "mt": [
+     "Ateni",
+     "Greċja"
+    ],
+    "en": [
+     "Athens",
+     "Attica",
+     "Greece"
+    ],
+    "it": [
+     "Atene",
+     "Attica",
+     "Grecia"
+    ],
+    "es": [
+     "Atenas",
+     "Ática",
+     "Grecia"
+    ],
+    "et": [
+     "Ateena",
+     "Atika piirkond",
+     "Kreeka"
+    ],
+    "cs": [
+     "Athény",
+     "Attika",
+     "Řecko"
+    ],
+    "eu": [
+     "Atenas",
+     "Atika",
+     "Grezia"
+    ],
+    "pl": [
+     "Ateny",
+     "Attyka",
+     "Grecja"
+    ],
+    "da": [
+     "Athen",
+     "Attika",
+     "Grækenland"
+    ],
+    "ro": [
+     "Atena",
+     "Attica",
+     "Grecia"
+    ],
+    "nl": [
+     "Athene",
+     "Attica",
+     "Griekenland"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.984165",
+    "38.0027",
+    "38.5"
+   ],
+   "edmPlaceLongitude": [
+    "23.728056",
+    "23.81",
+    "23.0"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Fgr00072a12&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "199_DDB_BildarchivFotoMarburg"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/199/item_GOT4UACS3BTVYCUBBKJR5EIHANMTRUAJ?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/199/item_GOT4UACS3BTVYCUBBKJR5EIHANMTRUAJ",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/199/item_GOT4UACS3BTVYCUBBKJR5EIHANMTRUAJ.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4556",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 93.85083,
+   "timestamp": 1787965500721,
+   "timestamp_created": "2019-04-16T12:43:06.522Z",
+   "timestamp_created_epoch": 1555418586522,
+   "timestamp_update": "2022-01-31T11:04:15.728Z",
+   "timestamp_update_epoch": 1643627055728,
+   "title": [
+    "Horse of the Horseman of Cape Artemision",
+    "Pferd des Reiterknaben vom Kap Artemision"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Media library of Art and Visual History of Humboldt University of Berlin"
+   ],
+   "dcDescription": [
+    "Beschriftung: griech. Plastik: Kalamis (?) / Poseidon v. Kap. Artemision, ~460 // Athen, NM, 15161 / 84"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Beschriftung: griech. Plastik: Kalamis (?) / Poseidon v. Kap. Artemision, ~460 // Athen, NM, 15161 / 84"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "unbekannt, Artemision-Bronze (Zeus von Artemision)"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300128371"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300128371"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "glissade"
+    },
+    {
+     "def": "slides (photographs)"
+    },
+    {
+     "def": "diapositivas (fotografías)"
+    },
+    {
+     "def": "diapositieven"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "slides (photographs)"
+    ],
+    "fr": [
+     "glissade"
+    ],
+    "es": [
+     "diapositivas (fotografías)"
+    ],
+    "nl": [
+     "diapositieven"
+    ]
+   },
+   "edmDatasetName": [
+    "626_DDB_mediathek"
+   ],
+   "edmIsShownAt": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/view.php?ref=10273"
+   ],
+   "edmIsShownBy": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/download.php?ref=10273"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/2950159/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Berliini"
+    },
+    {
+     "def": "Berlim"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Βερολίνο"
+    },
+    {
+     "def": "Berlynas"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlīne"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlino"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berliin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Beirlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlijn"
+    },
+    {
+     "def": "Estat de Berlín"
+    },
+    {
+     "def": "Berlín"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "no": [
+     "Berlin"
+    ],
+    "ru": [
+     "Берлин"
+    ],
+    "fi": [
+     "Berliini"
+    ],
+    "pt": [
+     "Berlim"
+    ],
+    "bg": [
+     "Берлин"
+    ],
+    "lt": [
+     "Berlynas"
+    ],
+    "lv": [
+     "Berlīne"
+    ],
+    "hr": [
+     "Berlin"
+    ],
+    "fr": [
+     "Berlin"
+    ],
+    "hu": [
+     "Berlin"
+    ],
+    "sk": [
+     "Berlín"
+    ],
+    "sl": [
+     "Berlin"
+    ],
+    "ga": [
+     "Beirlín"
+    ],
+    "ca": [
+     "Estat de Berlín",
+     "Berlín"
+    ],
+    "sv": [
+     "Berlin"
+    ],
+    "el": [
+     "Βερολίνο"
+    ],
+    "en": [
+     "Berlin"
+    ],
+    "it": [
+     "Berlino"
+    ],
+    "es": [
+     "Berlín"
+    ],
+    "et": [
+     "Berliin"
+    ],
+    "cs": [
+     "Berlín"
+    ],
+    "pl": [
+     "Berlin"
+    ],
+    "da": [
+     "Berlin"
+    ],
+    "ro": [
+     "Berlin"
+    ],
+    "nl": [
+     "Berlijn"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Berlin"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Berlin"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "52.52437"
+   ],
+   "edmPlaceLongitude": [
+    "13.41053"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Frs.cms.hu-berlin.de%2Fikb_mediathek%2Fpages%2Fdownload.php%3Fref%3D10273&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1984",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1984"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1984"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "626_DDB_mediathek"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/626/item_JXGKES7CTHEHPC5JYNDN7GRHYJUFOHCM?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/626/item_JXGKES7CTHEHPC5JYNDN7GRHYJUFOHCM",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/626/item_JXGKES7CTHEHPC5JYNDN7GRHYJUFOHCM.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1247",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-sa/4.0/"
+   ],
+   "score": 92.53249,
+   "timestamp": 1788039418499,
+   "timestamp_created": "2021-12-20T15:24:25.687Z",
+   "timestamp_created_epoch": 1640013865687,
+   "timestamp_update": "2026-05-05T08:22:34.515Z",
+   "timestamp_update_epoch": 1777969354515,
+   "title": [
+    "unbekannt, Artemision-Bronze (Zeus von Artemision)"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 6,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Institute of Art History and Archaeology of Europe, Martin Luther University Halle Wittenberg"
+   ],
+   "dcSubjectLangAware": {
+    "de": [
+     "Plastik und Skulptur"
+    ],
+    "def": [
+     "Athen"
+    ],
+    "en": [
+     "Plastic and sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen, Kopf des Poseidon vom Kap Artemision. Nationalmuseum"
+    ],
+    "en": [
+     "Athens, head of Poseidon from Cape Artemision. National Museum"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "def": [
+     "https://d-nb.info/gnd/4045895-7",
+     "http://vocab.getty.edu/page/aat/300128374",
+     "http://vocab.getty.edu/page/aat/300138191"
+    ],
+    "en": [
+     "Photograph"
+    ]
+   },
+   "dctermsSpatial": [
+    "https://d-nb.info/gnd/4023025-9"
+   ],
+   "edmConcept": [
+    "https://d-nb.info/gnd/4045895-7"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ]
+   },
+   "edmDatasetName": [
+    "737_DDB_Bildarchiv_MLU"
+   ],
+   "edmIsShownAt": [
+    "https://diathek.kunstgesch.uni-halle.de/dbview/fullview.php?id=10433"
+   ],
+   "edmIsShownBy": [
+    "https://diathek.kunstgesch.uni-halle.de/dbview/diathek/durchl/jpg/01t0433d.jpg"
+   ],
+   "edmPlace": [
+    "http://d-nb.info/gnd/4023025-9",
+    "https://d-nb.info/gnd/4023025-9"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Halle an der Saale HAL"
+    },
+    {
+     "def": "Halle (Saale)"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Halle an der Saale HAL",
+     "Halle (Saale)"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fdiathek.kunstgesch.uni-halle.de%2Fdbview%2Fdiathek%2Fdurchl%2Fjpg%2F01t0433d.jpg&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "737_DDB_Bildarchiv_MLU"
+   ],
+   "europeanaCompleteness": 6,
+   "guid": "https://www.europeana.eu/item/737/item_Y6RKQ4F3VM5Y43GYV7W3DVMCGWLRT5SL?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/737/item_Y6RKQ4F3VM5Y43GYV7W3DVMCGWLRT5SL",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/737/item_Y6RKQ4F3VM5Y43GYV7W3DVMCGWLRT5SL.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1213",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 83.352554,
+   "timestamp": 1788044044580,
+   "timestamp_created": "2022-04-12T08:51:47.645Z",
+   "timestamp_created_epoch": 1649753507645,
+   "timestamp_update": "2022-04-12T08:51:47.645Z",
+   "timestamp_update_epoch": 1649753507645,
+   "title": [
+    "Athen, Kopf des Poseidon vom Kap Artemision. Nationalmuseum",
+    "Athens, head of Poseidon from Cape Artemision. National Museum"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Media library of Art and Visual History of Humboldt University of Berlin"
+   ],
+   "dcCreator": [
+    "unbekannt (Künstler/Hersteller)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "unbekannt (Künstler/Hersteller)"
+    ]
+   },
+   "dcDescription": [
+    "Beschriftung: griech. Plastik: Kalamis (?) / Poseidon v. Kap Artemision, ~460 // Athen, NM (15161)",
+    "Erschaffung des abgebildeten Objekts : unbekannt, Artemision-Bronze (Zeus von Artemision) (Herstellung)"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Beschriftung: griech. Plastik: Kalamis (?) / Poseidon v. Kap Artemision, ~460 // Athen, NM (15161)",
+     "Erschaffung des abgebildeten Objekts : unbekannt, Artemision-Bronze (Zeus von Artemision) (Herstellung)"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "unbekannt, Artemision-Bronze (Zeus von Artemision) : Ansicht schräg von vorn"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300128371"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300128371"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "glissade"
+    },
+    {
+     "def": "slides (photographs)"
+    },
+    {
+     "def": "diapositivas (fotografías)"
+    },
+    {
+     "def": "diapositieven"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "slides (photographs)"
+    ],
+    "fr": [
+     "glissade"
+    ],
+    "es": [
+     "diapositivas (fotografías)"
+    ],
+    "nl": [
+     "diapositieven"
+    ]
+   },
+   "edmDatasetName": [
+    "626_DDB_mediathek"
+   ],
+   "edmIsShownAt": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/view.php?ref=10272"
+   ],
+   "edmIsShownBy": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/download.php?ref=10272"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/2950159/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Berliini"
+    },
+    {
+     "def": "Berlim"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Βερολίνο"
+    },
+    {
+     "def": "Berlynas"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlīne"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlino"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berliin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Beirlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlijn"
+    },
+    {
+     "def": "Estat de Berlín"
+    },
+    {
+     "def": "Berlín"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "no": [
+     "Berlin"
+    ],
+    "ru": [
+     "Берлин"
+    ],
+    "fi": [
+     "Berliini"
+    ],
+    "pt": [
+     "Berlim"
+    ],
+    "bg": [
+     "Берлин"
+    ],
+    "lt": [
+     "Berlynas"
+    ],
+    "lv": [
+     "Berlīne"
+    ],
+    "hr": [
+     "Berlin"
+    ],
+    "fr": [
+     "Berlin"
+    ],
+    "hu": [
+     "Berlin"
+    ],
+    "sk": [
+     "Berlín"
+    ],
+    "sl": [
+     "Berlin"
+    ],
+    "ga": [
+     "Beirlín"
+    ],
+    "ca": [
+     "Estat de Berlín",
+     "Berlín"
+    ],
+    "sv": [
+     "Berlin"
+    ],
+    "el": [
+     "Βερολίνο"
+    ],
+    "en": [
+     "Berlin"
+    ],
+    "it": [
+     "Berlino"
+    ],
+    "es": [
+     "Berlín"
+    ],
+    "et": [
+     "Berliin"
+    ],
+    "cs": [
+     "Berlín"
+    ],
+    "pl": [
+     "Berlin"
+    ],
+    "da": [
+     "Berlin"
+    ],
+    "ro": [
+     "Berlin"
+    ],
+    "nl": [
+     "Berlijn"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Berlin"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Berlin"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "52.52437"
+   ],
+   "edmPlaceLongitude": [
+    "13.41053"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Frs.cms.hu-berlin.de%2Fikb_mediathek%2Fpages%2Fdownload.php%3Fref%3D10272&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1984",
+    "http://data.europeana.eu/timespan/20"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1984"
+    },
+    {
+     "def": "20. Jahrhundert"
+    },
+    {
+     "def": "XX век"
+    },
+    {
+     "def": "1900-luku"
+    },
+    {
+     "def": "Século XX"
+    },
+    {
+     "def": "20 век"
+    },
+    {
+     "def": "XX amžius"
+    },
+    {
+     "def": "20. gadsimts"
+    },
+    {
+     "def": "20. stoljeće"
+    },
+    {
+     "def": "XXe siècle"
+    },
+    {
+     "def": "20. század"
+    },
+    {
+     "def": "20. storočie"
+    },
+    {
+     "def": "20. stoletje"
+    },
+    {
+     "def": "20ú haois"
+    },
+    {
+     "def": "Segle XX"
+    },
+    {
+     "def": "1900-talet"
+    },
+    {
+     "def": "20ός αιώνας"
+    },
+    {
+     "def": "20th century"
+    },
+    {
+     "def": "XX secolo"
+    },
+    {
+     "def": "Siglo XX"
+    },
+    {
+     "def": "20. sajand"
+    },
+    {
+     "def": "XX. mendea"
+    },
+    {
+     "def": "20. století"
+    },
+    {
+     "def": "XX wiek"
+    },
+    {
+     "def": "Secolul al XX-lea"
+    },
+    {
+     "def": "20. århundrede"
+    },
+    {
+     "def": "20e eeuw"
+    },
+    {
+     "def": "http://www.wikidata.org/entity/Q6927"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh85139020"
+    },
+    {
+     "def": "http://id.loc.gov/authorities/names/sh2002012476"
+    },
+    {
+     "def": "http://data.bnf.fr/ark:/12148/cb11975995h"
+    },
+    {
+     "def": "http://www.idref.fr/086305646/id"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/D049673"
+    },
+    {
+     "def": "https://www.freebase.com/m/089_x"
+    },
+    {
+     "def": "https://g.co/kg/m/089_x"
+    },
+    {
+     "def": "http://id.nlm.nih.gov/mesh/K01.400.504.968"
+    },
+    {
+     "def": "http://vocab.getty.edu/aat/300404514"
+    },
+    {
+     "def": "http://id.worldcat.org/fast/1159810"
+    },
+    {
+     "def": "http://dbpedia.org/resource/20th_century"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "de": [
+     "20. Jahrhundert"
+    ],
+    "ru": [
+     "XX век"
+    ],
+    "fi": [
+     "1900-luku"
+    ],
+    "pt": [
+     "Século XX"
+    ],
+    "bg": [
+     "20 век"
+    ],
+    "lt": [
+     "XX amžius"
+    ],
+    "lv": [
+     "20. gadsimts"
+    ],
+    "hr": [
+     "20. stoljeće"
+    ],
+    "fr": [
+     "XXe siècle"
+    ],
+    "hu": [
+     "20. század"
+    ],
+    "sk": [
+     "20. storočie"
+    ],
+    "sl": [
+     "20. stoletje"
+    ],
+    "ga": [
+     "20ú haois"
+    ],
+    "ca": [
+     "Segle XX"
+    ],
+    "sv": [
+     "1900-talet"
+    ],
+    "el": [
+     "20ός αιώνας"
+    ],
+    "en": [
+     "20th century"
+    ],
+    "it": [
+     "XX secolo"
+    ],
+    "es": [
+     "Siglo XX"
+    ],
+    "et": [
+     "20. sajand"
+    ],
+    "eu": [
+     "XX. mendea"
+    ],
+    "cs": [
+     "20. století"
+    ],
+    "zxx": [
+     "1984"
+    ],
+    "pl": [
+     "XX wiek"
+    ],
+    "ro": [
+     "Secolul al XX-lea"
+    ],
+    "da": [
+     "20. århundrede"
+    ],
+    "nl": [
+     "20e eeuw"
+    ]
+   },
+   "europeanaCollectionName": [
+    "626_DDB_mediathek"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/626/item_XIZKZJL5WQBIXT5J6FZJ7PS4PWDNQ4Z2?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/626/item_XIZKZJL5WQBIXT5J6FZJ7PS4PWDNQ4Z2",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/626/item_XIZKZJL5WQBIXT5J6FZJ7PS4PWDNQ4Z2.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1247",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://creativecommons.org/licenses/by-sa/4.0/"
+   ],
+   "score": 81.77443,
+   "timestamp": 1788039464318,
+   "timestamp_created": "2021-12-20T15:24:25.687Z",
+   "timestamp_created_epoch": 1640013865687,
+   "timestamp_update": "2026-05-05T08:22:34.515Z",
+   "timestamp_update_epoch": 1777969354515,
+   "title": [
+    "unbekannt, Artemision-Bronze (Zeus von Artemision) : Ansicht schräg von vorn"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 9,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athens. Archaeological National Museum 15161. Head of Poseidon of Cape Artemision",
+    "made of plastic",
+    "Athen. Archäologisches Nationalmuseum 15161. Kopf Poseidons von Kap Artemision",
+    "aus Kunststoff"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Kopf Poseidons von Kap Artemision",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Head of Poseidon of Cape Artemision",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Kopf Poseidons von Kap Artemision"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Head of Poseidon of Cape Artemision"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "188_DDB_SLUB_0"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482346"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000410_01.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000410_01.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1983"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1983"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1983"
+    ]
+   },
+   "europeanaCollectionName": [
+    "188_DDB_SLUB_0"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/188/item_GP5O6HJKGPYL346EBPTA4YG6TSKD4BUA?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/188/item_GP5O6HJKGPYL346EBPTA4YG6TSKD4BUA",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/188/item_GP5O6HJKGPYL346EBPTA4YG6TSKD4BUA.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 80.58133,
+   "timestamp": 1787963974091,
+   "timestamp_created": "2022-01-27T09:19:05.373Z",
+   "timestamp_created_epoch": 1643275145373,
+   "timestamp_update": "2022-01-27T09:19:05.373Z",
+   "timestamp_update_epoch": 1643275145373,
+   "title": [
+    "Athens. Archaeological National Museum 15161. Head of Poseidon of Cape Artemision",
+    "Athen. Archäologisches Nationalmuseum 15161. Kopf Poseidons von Kap Artemision"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 9,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athens, Archaeological National Museum, ANM 15161. Head of Poseidon of Cape Artemision.",
+    "made of plastic",
+    "Athen, Archäologisches Nationalmuseum, ANM 15161. Kopf Poseidons von Kap Artemision.",
+    "aus Kunststoff"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum, ANM 15161. Kopf Poseidons von Kap Artemision.",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens, Archaeological National Museum, ANM 15161. Head of Poseidon of Cape Artemision.",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Poseidon",
+     "Euböa",
+     "Griechenland",
+     "Skulptur"
+    ],
+    "en": [
+     "Poseidon",
+     "Euböa",
+     "Greece",
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum, ANM 15161. Kopf Poseidons von Kap Artemision."
+    ],
+    "en": [
+     "Athens, Archaeological National Museum, ANM 15161. Head of Poseidon of Cape Artemision."
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "463_DDB_SLUB_3"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71435314"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000051_05.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000051_05.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1983"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1983"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1983"
+    ]
+   },
+   "europeanaCollectionName": [
+    "463_DDB_SLUB_3"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/463/item_SVHXPSHUPQFT3J4LRNBHXH2XOARR3P7K?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/463/item_SVHXPSHUPQFT3J4LRNBHXH2XOARR3P7K",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/463/item_SVHXPSHUPQFT3J4LRNBHXH2XOARR3P7K.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 76.16109,
+   "timestamp": 1787996842276,
+   "timestamp_created": "2022-01-28T10:12:32.633Z",
+   "timestamp_created_epoch": 1643364752633,
+   "timestamp_update": "2022-01-28T10:12:32.633Z",
+   "timestamp_update_epoch": 1643364752633,
+   "title": [
+    "Athens, Archaeological National Museum, ANM 15161. Head of Poseidon of Cape Artemision.",
+    "Athen, Archäologisches Nationalmuseum, ANM 15161. Kopf Poseidons von Kap Artemision."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 9,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460, nordostpeloponnesisch",
+    "aus Kunststoff",
+    "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460, Nordostpeloponnesian",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460, nordostpeloponnesisch",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460, Nordostpeloponnesian",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460, nordostpeloponnesisch"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460, Nordostpeloponnesian"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "437_DDB_SLUB_1"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482342"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_09.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_09.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1966"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1966"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1966"
+    ]
+   },
+   "europeanaCollectionName": [
+    "437_DDB_SLUB_1"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/437/item_BVJ6IXZ3GNCO7C27Z7U26ABCS2F75MX6?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/437/item_BVJ6IXZ3GNCO7C27Z7U26ABCS2F75MX6",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/437/item_BVJ6IXZ3GNCO7C27Z7U26ABCS2F75MX6.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 74.77994,
+   "timestamp": 1787960978358,
+   "timestamp_created": "2021-01-04T09:02:24.127Z",
+   "timestamp_created_epoch": 1609750944127,
+   "timestamp_update": "2022-01-27T10:24:41.207Z",
+   "timestamp_update_epoch": 1643279081207,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460, nordostpeloponnesisch",
+    "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460, Nordostpeloponnesian"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 9,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460 BC",
+    "made of plastic",
+    "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460 v. Chr",
+    "aus Kunststoff"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460 BC",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460 v. Chr"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460 BC"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "440_DDB_SLUB_2"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482344"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_11.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_11.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1966"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1966"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1966"
+    ]
+   },
+   "europeanaCollectionName": [
+    "440_DDB_SLUB_2"
+   ],
+   "europeanaCompleteness": 9,
+   "guid": "https://www.europeana.eu/item/440/item_YYHTILNGTCRP2O25NP4IRRYYJPYN3FNK?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/440/item_YYHTILNGTCRP2O25NP4IRRYYJPYN3FNK",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/440/item_YYHTILNGTCRP2O25NP4IRRYYJPYN3FNK.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 73.00676,
+   "timestamp": 1787963840814,
+   "timestamp_created": "2021-01-13T10:17:17.054Z",
+   "timestamp_created_epoch": 1610533037054,
+   "timestamp_update": "2022-01-28T08:02:13.084Z",
+   "timestamp_update_epoch": 1643356933084,
+   "title": [
+    "Athens. Archaeological National Museum. Bronze Poseidon of Cape Artemision, circa 460 BC",
+    "Athen. Archäologisches Nationalmuseum. Bronze-Poseidon von Kap Artemision, um 460 v. Chr"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Archaeological Institute"
+   ],
+   "dcLanguage": [
+    "deu"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "deu"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Rundplastik"
+    ],
+    "def": [
+     "http://vocab.getty.edu/aat/300234110",
+     "http://data.europeana.eu/concept/26"
+    ],
+    "en": [
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Statue eines reitenden Knaben, sog. Jockey vom Kap Artemision"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "objekt"
+    ],
+    "en": [
+     "object"
+    ]
+   },
+   "dctermsSpatial": [
+    "Kap Artemision",
+    "http://gazetteer.dainst.org/place/2359504",
+    "Cape Artemision",
+    "Kap Artemision"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/1769",
+    "http://data.europeana.eu/concept/26"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze",
+     "Artefakt",
+     "archäologisches Objekt"
+    ],
+    "fi": [
+     "Pronssi",
+     "Artefakti"
+    ],
+    "ru": [
+     "Бронза",
+     "Артефакт"
+    ],
+    "pt": [
+     "Bronze",
+     "Artefato"
+    ],
+    "bg": [
+     "Бронз",
+     "Артефакт"
+    ],
+    "lt": [
+     "Bronza",
+     "Archeologinis radinys"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts",
+     "Bronza"
+    ],
+    "hr": [
+     "Artefakt",
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy",
+     "Bronz"
+    ],
+    "sk": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "sl": [
+     "Bron",
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta",
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze",
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt",
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος",
+     "Τέχνεργο"
+    ],
+    "en": [
+     "Bronze",
+     "archaeological objects",
+     "Archaeological artefact"
+    ],
+    "it": [
+     "Bronzo",
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "Bronce",
+     "Artefacto arqueológico"
+    ],
+    "et": [
+     "Artefakt",
+     "Pronks"
+    ],
+    "cs": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze",
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Brąz",
+     "Artefakt archeologiczny"
+    ],
+    "ro": [
+     "Artefact",
+     "Bronz"
+    ],
+    "da": [
+     "Bronze",
+     "Artefakt"
+    ],
+    "nl": [
+     "Brons",
+     "archeologische objecten",
+     "Artefact"
+    ]
+   },
+   "edmDatasetName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "edmIsShownAt": [
+    "https://arachne.dainst.org/entity/1061321"
+   ],
+   "edmIsShownBy": [
+    "https://arachne.dainst.org/data/image/99039"
+   ],
+   "edmPlace": [
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Piräus (Regionalbezirk)"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Piräus (Regionalbezirk)"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.989033"
+   ],
+   "edmPlaceLongitude": [
+    "23.732496"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farachne.dainst.org%2Fdata%2Fimage%2F99039&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://arachne.dainst.org/datierung/75588"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "hellenistisch,  (um 140 v. Chr.)"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "def": [
+     "hellenistisch,  (um 140 v. Chr.)"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/2020707/https___arachne_dainst_org_entity_1061321?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2020707/https___arachne_dainst_org_entity_1061321",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/2020707/https___arachne_dainst_org_entity_1061321.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4493",
+    "http://data.europeana.eu/organization/1617"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CARARE"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 68.03308,
+   "timestamp": 1788012610708,
+   "timestamp_created": "2019-06-18T11:58:40.282Z",
+   "timestamp_created_epoch": 1560859120282,
+   "timestamp_update": "2019-06-18T11:58:40.282Z",
+   "timestamp_update_epoch": 1560859120282,
+   "title": [
+    "Statue eines reitenden Knaben, sog. Jockey vom Kap Artemision"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Media library of Art and Visual History of Humboldt University of Berlin"
+   ],
+   "dcDescription": [
+    "Beschriftung:  [gedruckte Beschriftungen]"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Beschriftung:  [gedruckte Beschriftungen]"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "unbekannt, Artemision-Bronze (Zeus von Artemision) : Detail: Kopf im Profil"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://vocab.getty.edu/aat/300128371"
+    ]
+   },
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300128371"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "glissade"
+    },
+    {
+     "def": "slides (photographs)"
+    },
+    {
+     "def": "diapositivas (fotografías)"
+    },
+    {
+     "def": "diapositieven"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "en": [
+     "slides (photographs)"
+    ],
+    "fr": [
+     "glissade"
+    ],
+    "es": [
+     "diapositivas (fotografías)"
+    ],
+    "nl": [
+     "diapositieven"
+    ]
+   },
+   "edmDatasetName": [
+    "626_DDB_mediathek"
+   ],
+   "edmIsShownAt": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/view.php?ref=10285"
+   ],
+   "edmIsShownBy": [
+    "https://rs.cms.hu-berlin.de/ikb_mediathek/pages/download.php?ref=10285"
+   ],
+   "edmPlace": [
+    "https://sws.geonames.org/2950159/"
+   ],
+   "edmPlaceAltLabel": [
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Berliini"
+    },
+    {
+     "def": "Berlim"
+    },
+    {
+     "def": "Берлин"
+    },
+    {
+     "def": "Βερολίνο"
+    },
+    {
+     "def": "Berlynas"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlīne"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlino"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berliin"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Beirlín"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlin"
+    },
+    {
+     "def": "Berlijn"
+    },
+    {
+     "def": "Estat de Berlín"
+    },
+    {
+     "def": "Berlín"
+    }
+   ],
+   "edmPlaceAltLabelLangAware": {
+    "no": [
+     "Berlin"
+    ],
+    "ru": [
+     "Берлин"
+    ],
+    "fi": [
+     "Berliini"
+    ],
+    "pt": [
+     "Berlim"
+    ],
+    "bg": [
+     "Берлин"
+    ],
+    "lt": [
+     "Berlynas"
+    ],
+    "lv": [
+     "Berlīne"
+    ],
+    "hr": [
+     "Berlin"
+    ],
+    "fr": [
+     "Berlin"
+    ],
+    "hu": [
+     "Berlin"
+    ],
+    "sk": [
+     "Berlín"
+    ],
+    "sl": [
+     "Berlin"
+    ],
+    "ga": [
+     "Beirlín"
+    ],
+    "ca": [
+     "Estat de Berlín",
+     "Berlín"
+    ],
+    "sv": [
+     "Berlin"
+    ],
+    "el": [
+     "Βερολίνο"
+    ],
+    "en": [
+     "Berlin"
+    ],
+    "it": [
+     "Berlino"
+    ],
+    "es": [
+     "Berlín"
+    ],
+    "et": [
+     "Berliin"
+    ],
+    "cs": [
+     "Berlín"
+    ],
+    "pl": [
+     "Berlin"
+    ],
+    "da": [
+     "Berlin"
+    ],
+    "ro": [
+     "Berlin"
+    ],
+    "nl": [
+     "Berlijn"
+    ]
+   },
+   "edmPlaceLabel": [
+    {
+     "def": "Berlin"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Berlin"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "52.52437"
+   ],
+   "edmPlaceLongitude": [
+    "13.41053"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Frs.cms.hu-berlin.de%2Fikb_mediathek%2Fpages%2Fdownload.php%3Fref%3D10285&type=IMAGE"
+   ],
+   "europeanaCollectionName": [
+    "626_DDB_mediathek"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/626/item_FWBVT4MS5EDLPPDYWFHMKCLMUUO2FJAN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/626/item_FWBVT4MS5EDLPPDYWFHMKCLMUUO2FJAN",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/626/item_FWBVT4MS5EDLPPDYWFHMKCLMUUO2FJAN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/1247",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 65.32648,
+   "timestamp": 1788039410714,
+   "timestamp_created": "2021-12-20T15:24:25.687Z",
+   "timestamp_created_epoch": 1640013865687,
+   "timestamp_update": "2026-05-05T08:22:34.515Z",
+   "timestamp_update_epoch": 1777969354515,
+   "title": [
+    "unbekannt, Artemision-Bronze (Zeus von Artemision) : Detail: Kopf im Profil"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen, Archäologisches Nationalmuseum, ANM 15161. Poseidon von Kap Artemision, 1928. 2,09m Höhe. Kalamis oder Onatas.",
+    "aus Kunststoff",
+    "Athens, Archaeological National Museum, ANM 15161. Poseidon of Cape Artemision, 1928. 2.09m height. Kalamis or Onatas.",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum, ANM 15161. Poseidon von Kap Artemision, 1928. 2,09m Höhe. Kalamis oder Onatas.",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens, Archaeological National Museum, ANM 15161. Poseidon of Cape Artemision, 1928. 2.09m height. Kalamis or Onatas.",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Poseidon",
+     "Euböa",
+     "Griechenland",
+     "Skulptur"
+    ],
+    "en": [
+     "Poseidon",
+     "Euböa",
+     "Greece",
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen, Archäologisches Nationalmuseum, ANM 15161. Poseidon von Kap Artemision, 1928. 2,09m Höhe. Kalamis oder Onatas."
+    ],
+    "en": [
+     "Athens, Archaeological National Museum, ANM 15161. Poseidon of Cape Artemision, 1928. 2.09m height. Kalamis or Onatas."
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "440_DDB_SLUB_2"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71435313"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000051_04.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000051_04.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1983"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1983"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1983"
+    ]
+   },
+   "europeanaCollectionName": [
+    "440_DDB_SLUB_2"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/440/item_KAH4EZAMOPJN2QEBWLLFCRCKCEF4NH4L?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/440/item_KAH4EZAMOPJN2QEBWLLFCRCKCEF4NH4L",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/440/item_KAH4EZAMOPJN2QEBWLLFCRCKCEF4NH4L.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 60.39891,
+   "timestamp": 1787962561394,
+   "timestamp_created": "2022-01-28T08:02:13.084Z",
+   "timestamp_created_epoch": 1643356933084,
+   "timestamp_update": "2022-01-28T08:02:13.084Z",
+   "timestamp_update_epoch": 1643356933084,
+   "title": [
+    "Athen, Archäologisches Nationalmuseum, ANM 15161. Poseidon von Kap Artemision, 1928. 2,09m Höhe. Kalamis oder Onatas.",
+    "Athens, Archaeological National Museum, ANM 15161. Poseidon of Cape Artemision, 1928. 2.09m height. Kalamis or Onatas."
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Archaeological Institute"
+   ],
+   "dcDescription": [
+    "Erhaltungszustand: die ursprünglich eingesetzten Augen sind verloren, ebenso das Attribut der rechten Hand"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Erhaltungszustand: die ursprünglich eingesetzten Augen sind verloren, ebenso das Attribut der rechten Hand"
+    ]
+   },
+   "dcLanguage": [
+    "deu"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "deu"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Rundplastik"
+    ],
+    "def": [
+     "http://data.europeana.eu/concept/26",
+     "http://vocab.getty.edu/aat/300234110"
+    ],
+    "en": [
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Statue des Zeus oder Poseidon (sog. Gott aus dem Meer, sog. Poseidon vom Kap Artemision)"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "objekt"
+    ],
+    "en": [
+     "object"
+    ]
+   },
+   "dctermsSpatial": [
+    "at Cape Artemision (Euböa)",
+    "beim Kap Artemision (Euböa)",
+    "beim Kap Artemision (Euböa)",
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/1769",
+    "http://data.europeana.eu/concept/26"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze",
+     "Artefakt",
+     "archäologisches Objekt"
+    ],
+    "fi": [
+     "Pronssi",
+     "Artefakti"
+    ],
+    "ru": [
+     "Бронза",
+     "Артефакт"
+    ],
+    "pt": [
+     "Bronze",
+     "Artefato"
+    ],
+    "bg": [
+     "Бронз",
+     "Артефакт"
+    ],
+    "lt": [
+     "Bronza",
+     "Archeologinis radinys"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts",
+     "Bronza"
+    ],
+    "hr": [
+     "Artefakt",
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy",
+     "Bronz"
+    ],
+    "sk": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "sl": [
+     "Bron",
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta",
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze",
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt",
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος",
+     "Τέχνεργο"
+    ],
+    "en": [
+     "Bronze",
+     "archaeological objects",
+     "Archaeological artefact"
+    ],
+    "it": [
+     "Bronzo",
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "Bronce",
+     "Artefacto arqueológico"
+    ],
+    "et": [
+     "Artefakt",
+     "Pronks"
+    ],
+    "cs": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze",
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Brąz",
+     "Artefakt archeologiczny"
+    ],
+    "ro": [
+     "Artefact",
+     "Bronz"
+    ],
+    "da": [
+     "Bronze",
+     "Artefakt"
+    ],
+    "nl": [
+     "Brons",
+     "archeologische objecten",
+     "Artefact"
+    ]
+   },
+   "edmDatasetName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "edmIsShownAt": [
+    "https://arachne.dainst.org/entity/1101564"
+   ],
+   "edmIsShownBy": [
+    "https://arachne.dainst.org/data/image/150988"
+   ],
+   "edmPlace": [
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Piräus (Regionalbezirk)"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Piräus (Regionalbezirk)"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.989033"
+   ],
+   "edmPlaceLongitude": [
+    "23.732496"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farachne.dainst.org%2Fdata%2Fimage%2F150988&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://arachne.dainst.org/datierung/65668",
+    "http://arachne.dainst.org/datierung/65667"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "Original:  (um 460 v. Chr. )"
+    },
+    {
+     "def": "Original: frühklassisch, 2. Viertel, 5. Jh.v. Chr."
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "def": [
+     "Original:  (um 460 v. Chr. )",
+     "Original: frühklassisch, 2. Viertel, 5. Jh.v. Chr."
+    ]
+   },
+   "europeanaCollectionName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/2020707/https___arachne_dainst_org_entity_1101564?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2020707/https___arachne_dainst_org_entity_1101564",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/2020707/https___arachne_dainst_org_entity_1101564.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4493",
+    "http://data.europeana.eu/organization/1617"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CARARE"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 56.455833,
+   "timestamp": 1788012705582,
+   "timestamp_created": "2019-06-18T12:12:05.032Z",
+   "timestamp_created_epoch": 1560859925032,
+   "timestamp_update": "2019-06-18T12:12:05.032Z",
+   "timestamp_update_epoch": 1560859925032,
+   "title": [
+    "Statue des Zeus oder Poseidon (sog. Gott aus dem Meer, sog. Poseidon vom Kap Artemision)"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC",
+    "made of plastic",
+    "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer. Werk vermutlich von Onatas von Aigina, 460 v. Chr",
+    "aus Kunststoff"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer. Werk vermutlich von Onatas von Aigina, 460 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer. Werk vermutlich von Onatas von Aigina, 460 v. Chr"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "437_DDB_SLUB_1"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482345"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_12.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_12.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1981"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1981"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1981"
+    ]
+   },
+   "europeanaCollectionName": [
+    "437_DDB_SLUB_1"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/437/item_GIDFMN2OCVXSKPT4HL2KHCMRQUFYTEMN?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/437/item_GIDFMN2OCVXSKPT4HL2KHCMRQUFYTEMN",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/437/item_GIDFMN2OCVXSKPT4HL2KHCMRQUFYTEMN.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 51.403297,
+   "timestamp": 1787961575598,
+   "timestamp_created": "2021-01-04T09:02:24.127Z",
+   "timestamp_created_epoch": 1609750944127,
+   "timestamp_update": "2022-01-27T10:24:41.207Z",
+   "timestamp_update_epoch": 1643279081207,
+   "title": [
+    "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC",
+    "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer. Werk vermutlich von Onatas von Aigina, 460 v. Chr"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer gehoben. Werk vermutlich von Onatas von Aigina, 460 v. Chr",
+    "aus Kunststoff",
+    "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, lifted from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer gehoben. Werk vermutlich von Onatas von Aigina, 460 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, lifted from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC",
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer gehoben. Werk vermutlich von Onatas von Aigina, 460 v. Chr"
+    ],
+    "en": [
+     "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, lifted from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4129665-5"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "463_DDB_SLUB_3"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482343"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_10.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_10.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1981"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1981"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1981"
+    ]
+   },
+   "europeanaCollectionName": [
+    "463_DDB_SLUB_3"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/463/item_WSDVZAUHIFIJ7REUOTIAGJIQ7XODRAZL?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/463/item_WSDVZAUHIFIJ7REUOTIAGJIQ7XODRAZL",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/463/item_WSDVZAUHIFIJ7REUOTIAGJIQ7XODRAZL.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 49.80588,
+   "timestamp": 1787997051263,
+   "timestamp_created": "2022-01-28T10:12:32.633Z",
+   "timestamp_created_epoch": 1643364752633,
+   "timestamp_update": "2022-01-28T10:12:32.633Z",
+   "timestamp_update_epoch": 1643364752633,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum 15161. Poseidon von Kap Artemision, 1928 aus dem Meer gehoben. Werk vermutlich von Onatas von Aigina, 460 v. Chr",
+    "Athens. Archaeological National Museum 15161. Poseidon of Cape Artemision, lifted from the sea in 1928. Plant probably by Onatas von Aigina, 460 BC"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Neger, um 140 v. Chr. 1",
+    "aus Kunststoff",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Neger, um 140 v. Chr. 1",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Neger, um 140 v. Chr. 1"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4045895-7"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "440_DDB_SLUB_2"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482336"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_03.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_03.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1980"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1980"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1980"
+    ]
+   },
+   "europeanaCollectionName": [
+    "440_DDB_SLUB_2"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/440/item_X6XCZNRWF3ARM6D2EM575UC3Z3KNKXNP?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/440/item_X6XCZNRWF3ARM6D2EM575UC3Z3KNKXNP",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/440/item_X6XCZNRWF3ARM6D2EM575UC3Z3KNKXNP.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 45.670223,
+   "timestamp": 1787963674479,
+   "timestamp_created": "2022-01-28T08:02:13.084Z",
+   "timestamp_created_epoch": 1643356933084,
+   "timestamp_update": "2022-01-28T08:02:13.084Z",
+   "timestamp_update_epoch": 1643356933084,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Neger, um 140 v. Chr. 1"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Afrikanischer Jockey, um 140 v. Chr",
+    "aus Kunststoff",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Afrikanischer Jockey, um 140 v. Chr",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Skulptur"
+    ],
+    "en": [
+     "sculpture"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Afrikanischer Jockey, um 140 v. Chr"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4045895-7"
+    ]
+   },
+   "dctermsSpatial": [
+    "Athen ((Standort))"
+   ],
+   "edmDatasetName": [
+    "188_DDB_SLUB_0"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71482335"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000409_02.jpg"
+   ],
+   "edmPlace": [
+    "3RYMB4O53F253OTV536O2WJ2WYEHZB6K"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen"
+    ]
+   },
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000409_02.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1979"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1979"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1979"
+    ]
+   },
+   "europeanaCollectionName": [
+    "188_DDB_SLUB_0"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/188/item_2DESXCCL2HAV7PXH3MYW2ATC4WTWSHP3?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/188/item_2DESXCCL2HAV7PXH3MYW2ATC4WTWSHP3",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/188/item_2DESXCCL2HAV7PXH3MYW2ATC4WTWSHP3.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 45.670223,
+   "timestamp": 1787962537921,
+   "timestamp_created": "2020-12-16T09:50:12.330Z",
+   "timestamp_created_epoch": 1608112212330,
+   "timestamp_update": "2022-01-27T09:19:05.373Z",
+   "timestamp_update_epoch": 1643275145373,
+   "title": [
+    "Athen. Archäologisches Nationalmuseum 15177. Pferd und Reiterknabe von Kap Artemision. Afrikanischer Jockey, um 140 v. Chr"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Helbig, Konrad (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Helbig, Konrad (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Pappádes, Nord-Euböa. Apollonfichten-Gebirgswald bei Pappádes. Blick gegen Kap Artemision, Trikkeri und Skiathos. Ott.9",
+    "aus Kunststoff",
+    "made of plastic"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Pappádes, Nord-Euböa. Apollonfichten-Gebirgswald bei Pappádes. Blick gegen Kap Artemision, Trikkeri und Skiathos. Ott.9",
+     "aus Kunststoff"
+    ],
+    "en": [
+     "made of plastic"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Wald",
+     "Nadelwald",
+     "Gebirge",
+     "Küste",
+     "Euböa",
+     "Griechenland",
+     "Fotografie"
+    ],
+    "def": [
+     "Pappádes",
+     "http://data.europeana.eu/concept/48"
+    ],
+    "en": [
+     "Forest",
+     "Mountains",
+     "Coast",
+     "Euböa",
+     "Greece",
+     "Photograph"
+    ],
+    "pl": [
+     "Pappádes"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Pappádes, Nord-Euböa. Apollonfichten-Gebirgswald bei Pappádes. Blick gegen Kap Artemision, Trikkeri und Skiathos. Ott.9"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4045895-7"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "188_DDB_SLUB_0"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71435255"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_kh-dia_0000043_07.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_kh-dia_0000043_07.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#1969"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "1969"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "1969"
+    ]
+   },
+   "europeanaCollectionName": [
+    "188_DDB_SLUB_0"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/188/item_2GRP26PGMXJ3IX5KAKSCJSW7AVJCOU3H?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/188/item_2GRP26PGMXJ3IX5KAKSCJSW7AVJCOU3H",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/188/item_2GRP26PGMXJ3IX5KAKSCJSW7AVJCOU3H.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 45.609028,
+   "timestamp": 1787962550286,
+   "timestamp_created": "2020-12-16T09:50:12.330Z",
+   "timestamp_created_epoch": 1608112212330,
+   "timestamp_update": "2022-01-27T09:19:05.373Z",
+   "timestamp_update_epoch": 1643275145373,
+   "title": [
+    "Pappádes, Nord-Euböa. Apollonfichten-Gebirgswald bei Pappádes. Blick gegen Kap Artemision, Trikkeri und Skiathos. Ott.9"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 10,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "Deutsche Fotothek"
+   ],
+   "dcCreator": [
+    "Gerig, Uwe (Herstellung) (Fotograf)"
+   ],
+   "dcCreatorLangAware": {
+    "zxx": [
+     "Gerig, Uwe (Herstellung) (Fotograf)"
+    ]
+   },
+   "dcDescription": [
+    "Rhodos (Stadt). Nachguss einer seltenen griechischen Originalbronze, die den Meergott Poseidon darstellt. Die Skulptur entstand um die Mitte des 5. Jh. v. Chr. und wurde erst vor wenigen Jahren von Fischern im Meer bei Kap Artemision gefunden. Nachguss als Souvenirstück in einem Andenkenladen in Rhodos-Stadt",
+    "Rhodes (city). An aftercasting of a rare original Greek bronze representing the sea god Poseidon. The sculpture was built around the middle of the 5th century. BC and was found only a few years ago by fishermen in the sea near Cape Artemision. Casting as a souvenir piece in a souvenir shop in Rhodes City"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "Rhodos (Stadt). Nachguss einer seltenen griechischen Originalbronze, die den Meergott Poseidon darstellt. Die Skulptur entstand um die Mitte des 5. Jh. v. Chr. und wurde erst vor wenigen Jahren von Fischern im Meer bei Kap Artemision gefunden. Nachguss als Souvenirstück in einem Andenkenladen in Rhodos-Stadt"
+    ],
+    "en": [
+     "Rhodes (city). An aftercasting of a rare original Greek bronze representing the sea god Poseidon. The sculpture was built around the middle of the 5th century. BC and was found only a few years ago by fishermen in the sea near Cape Artemision. Casting as a souvenir piece in a souvenir shop in Rhodes City"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Souvenir",
+     "Andenken",
+     "Skulptur",
+     "Büste",
+     "Nachbildung",
+     "Fotografie",
+     "Rhodos"
+    ],
+    "def": [
+     "Rhodos",
+     "http://data.europeana.eu/concept/48"
+    ],
+    "en": [
+     "Souvenir",
+     "memory",
+     "sculpture",
+     "Bust",
+     "Replica",
+     "Photograph",
+     "Rhodes"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Rhodos (Stadt). Nachguss einer seltenen griechischen Originalbronze, die den Meergott Poseidon darstellt. Die Skulptur entstand um die Mitte des 5. Jh. v. Chr. und wurde erst vor wenigen Jahren von Fischern im Meer bei Kap Artemision gefunden. Nachguss als Souvenirstück in einem Andenkenladen in Rhodos-Stadt"
+    ],
+    "en": [
+     "Rhodes (city). An aftercasting of a rare original Greek bronze representing the sea god Poseidon. The sculpture was built around the middle of the 5th century. BC and was found only a few years ago by fishermen in the sea near Cape Artemision. Casting as a souvenir piece in a souvenir shop in Rhodes City"
+    ]
+   },
+   "dcTypeLangAware": {
+    "def": [
+     "http://d-nb.info/gnd/4045895-7"
+    ]
+   },
+   "edmConcept": [
+    "http://data.europeana.eu/concept/48"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Фотография"
+    },
+    {
+     "def": "Valokuva"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Снимка"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Fotoattēls"
+    },
+    {
+     "def": "Photographie"
+    },
+    {
+     "def": "Fénykép"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Grianghraf"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografija"
+    },
+    {
+     "def": "Φωτογραφία"
+    },
+    {
+     "def": "Photograph"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografía"
+    },
+    {
+     "def": "Foto"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Argazki"
+    },
+    {
+     "def": "Fotografia"
+    },
+    {
+     "def": "Fotografi"
+    },
+    {
+     "def": "Fotografie"
+    },
+    {
+     "def": "Foto"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Fotografie"
+    ],
+    "ru": [
+     "Фотография"
+    ],
+    "fi": [
+     "Valokuva"
+    ],
+    "pt": [
+     "Fotografia"
+    ],
+    "bg": [
+     "Снимка"
+    ],
+    "lt": [
+     "Fotografija"
+    ],
+    "hr": [
+     "Fotografija"
+    ],
+    "lv": [
+     "Fotoattēls"
+    ],
+    "fr": [
+     "Photographie"
+    ],
+    "hu": [
+     "Fénykép"
+    ],
+    "sk": [
+     "Fotografia"
+    ],
+    "sl": [
+     "Fotografija"
+    ],
+    "ga": [
+     "Grianghraf"
+    ],
+    "ca": [
+     "Fotografia"
+    ],
+    "sv": [
+     "Fotografi"
+    ],
+    "mt": [
+     "Fotografija"
+    ],
+    "el": [
+     "Φωτογραφία"
+    ],
+    "en": [
+     "Photograph"
+    ],
+    "it": [
+     "Fotografia"
+    ],
+    "es": [
+     "Fotografía"
+    ],
+    "et": [
+     "Foto"
+    ],
+    "cs": [
+     "Fotografie"
+    ],
+    "eu": [
+     "Argazki"
+    ],
+    "pl": [
+     "Fotografia"
+    ],
+    "da": [
+     "Fotografi"
+    ],
+    "ro": [
+     "Fotografie"
+    ],
+    "nl": [
+     "Foto"
+    ]
+   },
+   "edmDatasetName": [
+    "440_DDB_SLUB_2"
+   ],
+   "edmIsShownAt": [
+    "http://www.deutschefotothek.de/documents/obj/71026761"
+   ],
+   "edmIsShownBy": [
+    "http://fotothek.slub-dresden.de/fotos/df_ge_0003573.jpg"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_ge_0003573.jpg&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "#2006"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "2006"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "zxx": [
+     "2006"
+    ]
+   },
+   "europeanaCollectionName": [
+    "440_DDB_SLUB_2"
+   ],
+   "europeanaCompleteness": 10,
+   "guid": "https://www.europeana.eu/item/440/item_SGWJEC7FIHKRGDCKNJC7OEUK5DDMKK5B?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/440/item_SGWJEC7FIHKRGDCKNJC7OEUK5DDMKK5B",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/440/item_SGWJEC7FIHKRGDCKNJC7OEUK5DDMKK5B.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/3833",
+    "http://data.europeana.eu/organization/1548"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "German Digital Library"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC-EDU/1.0/"
+   ],
+   "score": 28.256647,
+   "timestamp": 1787963194640,
+   "timestamp_created": "2021-01-13T10:17:17.054Z",
+   "timestamp_created_epoch": 1610533037054,
+   "timestamp_update": "2022-01-28T08:02:13.084Z",
+   "timestamp_update_epoch": 1643356933084,
+   "title": [
+    "Rhodos (Stadt). Nachguss einer seltenen griechischen Originalbronze, die den Meergott Poseidon darstellt. Die Skulptur entstand um die Mitte des 5. Jh. v. Chr. und wurde erst vor wenigen Jahren von Fischern im Meer bei Kap Artemision gefunden. Nachguss als Souvenirstück in einem Andenkenladen in Rhodos-Stadt",
+    "Rhodes (city). An aftercasting of a rare original Greek bronze representing the sea god Poseidon. The sculpture was built around the middle of the 5th century. BC and was found only a few years ago by fishermen in the sea near Cape Artemision. Casting as a souvenir piece in a souvenir shop in Rhodes City"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  },
+  {
+   "completeness": 0,
+   "country": [
+    "Germany"
+   ],
+   "dataProvider": [
+    "German Archaeological Institute"
+   ],
+   "dcDescription": [
+    "Conservation status: many parts of the horse and the tail are damaged/missing;",
+    "BearbeitungenModern: viele Körperteile des Pferdes und der Schweif wurden restauriert",
+    "Erhaltungszustand: viele Körperteile des Pferdes und der Schweif sind beschädigt/fehlen;"
+   ],
+   "dcDescriptionLangAware": {
+    "de": [
+     "BearbeitungenModern: viele Körperteile des Pferdes und der Schweif wurden restauriert",
+     "Erhaltungszustand: viele Körperteile des Pferdes und der Schweif sind beschädigt/fehlen;"
+    ],
+    "en": [
+     "Conservation status: many parts of the horse and the tail are damaged/missing;"
+    ]
+   },
+   "dcLanguage": [
+    "deu"
+   ],
+   "dcLanguageLangAware": {
+    "def": [
+     "deu"
+    ]
+   },
+   "dcSubjectLangAware": {
+    "de": [
+     "Rundplastik"
+    ],
+    "def": [
+     "http://data.europeana.eu/concept/26",
+     "http://vocab.getty.edu/aat/300234110"
+    ],
+    "en": [
+     "round plastic"
+    ]
+   },
+   "dcTitleLangAware": {
+    "de": [
+     "Bronzestatue eines Pferdes"
+    ]
+   },
+   "dcTypeLangAware": {
+    "de": [
+     "objekt"
+    ],
+    "en": [
+     "object"
+    ]
+   },
+   "dctermsSpatial": [
+    "Cape Artemision",
+    "Kap Artemision",
+    "Kap Artemision",
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmConcept": [
+    "http://vocab.getty.edu/aat/300234110",
+    "http://data.europeana.eu/concept/1769",
+    "http://data.europeana.eu/concept/26"
+   ],
+   "edmConceptLabel": [
+    {
+     "def": "archaeological objects"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Archaeological artefact"
+    },
+    {
+     "def": "archäologisches Objekt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "oggetti di scavo"
+    },
+    {
+     "def": "Bronzo"
+    },
+    {
+     "def": "Manufatto"
+    },
+    {
+     "def": "archeologische objecten"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "objetos arqueológicos"
+    },
+    {
+     "def": "Bronce"
+    },
+    {
+     "def": "Artefacto arqueológico"
+    },
+    {
+     "def": "Pronssi"
+    },
+    {
+     "def": "Artefakti"
+    },
+    {
+     "def": "Бронза"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefato"
+    },
+    {
+     "def": "Бронз"
+    },
+    {
+     "def": "Артефакт"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Archeologinis radinys"
+    },
+    {
+     "def": "Bronza"
+    },
+    {
+     "def": "Arheoloģisks artefakts"
+    },
+    {
+     "def": "Bronca"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefact archéologique"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Megmunkált tárgy"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bron"
+    },
+    {
+     "def": "Arheološki artefakt"
+    },
+    {
+     "def": "Cré-umha"
+    },
+    {
+     "def": "Déantán seandálaíochta"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Objecte arqueològic"
+    },
+    {
+     "def": "Brons"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Μπρούντζος"
+    },
+    {
+     "def": "Τέχνεργο"
+    },
+    {
+     "def": "Pronks"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefakt"
+    },
+    {
+     "def": "Brontze"
+    },
+    {
+     "def": "Artefaktu arkeologiko"
+    },
+    {
+     "def": "Brąz"
+    },
+    {
+     "def": "Artefakt archeologiczny"
+    },
+    {
+     "def": "Bronz"
+    },
+    {
+     "def": "Artefact"
+    },
+    {
+     "def": "Bronze"
+    },
+    {
+     "def": "Artefakt"
+    }
+   ],
+   "edmConceptPrefLabelLangAware": {
+    "de": [
+     "Bronze",
+     "Artefakt",
+     "archäologisches Objekt"
+    ],
+    "fi": [
+     "Pronssi",
+     "Artefakti"
+    ],
+    "ru": [
+     "Бронза",
+     "Артефакт"
+    ],
+    "pt": [
+     "Bronze",
+     "Artefato"
+    ],
+    "bg": [
+     "Бронз",
+     "Артефакт"
+    ],
+    "lt": [
+     "Bronza",
+     "Archeologinis radinys"
+    ],
+    "lv": [
+     "Arheoloģisks artefakts",
+     "Bronza"
+    ],
+    "hr": [
+     "Artefakt",
+     "Bronca"
+    ],
+    "fr": [
+     "Bronze",
+     "Artefact archéologique"
+    ],
+    "hu": [
+     "Megmunkált tárgy",
+     "Bronz"
+    ],
+    "sk": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "sl": [
+     "Bron",
+     "Arheološki artefakt"
+    ],
+    "ga": [
+     "Déantán seandálaíochta",
+     "Cré-umha"
+    ],
+    "ca": [
+     "Bronze",
+     "Objecte arqueològic"
+    ],
+    "sv": [
+     "Artefakt",
+     "Brons"
+    ],
+    "el": [
+     "Μπρούντζος",
+     "Τέχνεργο"
+    ],
+    "en": [
+     "Bronze",
+     "archaeological objects",
+     "Archaeological artefact"
+    ],
+    "it": [
+     "Bronzo",
+     "Manufatto",
+     "oggetti di scavo"
+    ],
+    "es": [
+     "objetos arqueológicos",
+     "Bronce",
+     "Artefacto arqueológico"
+    ],
+    "et": [
+     "Artefakt",
+     "Pronks"
+    ],
+    "cs": [
+     "Artefakt",
+     "Bronz"
+    ],
+    "eu": [
+     "Brontze",
+     "Artefaktu arkeologiko"
+    ],
+    "pl": [
+     "Brąz",
+     "Artefakt archeologiczny"
+    ],
+    "ro": [
+     "Artefact",
+     "Bronz"
+    ],
+    "da": [
+     "Bronze",
+     "Artefakt"
+    ],
+    "nl": [
+     "Brons",
+     "archeologische objecten",
+     "Artefact"
+    ]
+   },
+   "edmDatasetName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "edmIsShownAt": [
+    "https://arachne.dainst.org/entity/1171845"
+   ],
+   "edmIsShownBy": [
+    "https://arachne.dainst.org/data/image/254594"
+   ],
+   "edmPlace": [
+    "http://gazetteer.dainst.org/place/2359504"
+   ],
+   "edmPlaceLabel": [
+    {
+     "def": "Athen"
+    },
+    {
+     "def": "Piräus (Regionalbezirk)"
+    }
+   ],
+   "edmPlaceLabelLangAware": {
+    "de": [
+     "Athen",
+     "Piräus (Regionalbezirk)"
+    ]
+   },
+   "edmPlaceLatitude": [
+    "37.989033"
+   ],
+   "edmPlaceLongitude": [
+    "23.732496"
+   ],
+   "edmPreview": [
+    "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Farachne.dainst.org%2Fdata%2Fimage%2F254594&type=IMAGE"
+   ],
+   "edmTimespan": [
+    "http://arachne.dainst.org/datierung/76426"
+   ],
+   "edmTimespanLabel": [
+    {
+     "def": "hellenistisch,  (um 140 v. Chr.)"
+    }
+   ],
+   "edmTimespanLabelLangAware": {
+    "def": [
+     "hellenistisch,  (um 140 v. Chr.)"
+    ]
+   },
+   "europeanaCollectionName": [
+    "2020707_Ag_EU_CARARE_GAI"
+   ],
+   "europeanaCompleteness": 0,
+   "guid": "https://www.europeana.eu/item/2020707/https___arachne_dainst_org_entity_1171845?utm_source=api&utm_medium=api&utm_campaign=REDACTED",
+   "id": "/2020707/https___arachne_dainst_org_entity_1171845",
+   "index": 0,
+   "language": [
+    "de"
+   ],
+   "link": "https://api.europeana.eu/record/2020707/https___arachne_dainst_org_entity_1171845.json?wskey=REDACTED",
+   "organizations": [
+    "http://data.europeana.eu/organization/4493",
+    "http://data.europeana.eu/organization/1617"
+   ],
+   "previewNoDistribute": false,
+   "provider": [
+    "CARARE"
+   ],
+   "rights": [
+    "http://rightsstatements.org/vocab/InC/1.0/"
+   ],
+   "score": 26.533035,
+   "timestamp": 1788012943484,
+   "timestamp_created": "2019-06-18T11:55:54.930Z",
+   "timestamp_created_epoch": 1560858954930,
+   "timestamp_update": "2019-06-18T11:55:54.930Z",
+   "timestamp_update_epoch": 1560858954930,
+   "title": [
+    "Bronzestatue eines Pferdes"
+   ],
+   "type": "IMAGE",
+   "ugc": [
+    false
+   ]
+  }
+ ],
+ "facets": [
+  {
+   "name": "DATA_PROVIDER",
+   "fields": [
+    {
+     "label": "Deutsche Fotothek",
+     "count": 11
+    },
+    {
+     "label": "German Archaeological Institute",
+     "count": 3
+    },
+    {
+     "label": "German Documentation Center for Art History - Marburg Picture Index",
+     "count": 3
+    },
+    {
+     "label": "Media library of Art and Visual History of Humboldt University of Berlin",
+     "count": 3
+    },
+    {
+     "label": "Institute of Art History and Archaeology of Europe, Martin Luther University Halle Wittenberg",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "name": "PROVIDER",
+   "fields": [
+    {
+     "label": "German Digital Library",
+     "count": 18
+    },
+    {
+     "label": "CARARE",
+     "count": 3
+    }
+   ]
+  }
+ ]
+}
