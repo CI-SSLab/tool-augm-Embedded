@@ -3,14 +3,18 @@
 Candidates (object views + linked ArCo site) are listed by hand below; this
 script only fetches metadata from the sources, so every value in the CSV is
 traceable to Europeana or ICCD/ArCo. Status "to_verify" rows need a human check.
+Same layout as evaluation/evaluate.py: candidates as a module constant, main()
+with --out / --dry-run, CSV output.
 
-Usage: python eval/underwater/build_curated_group.py
+Usage:
+    python eval/underwater/build_curated_group.py [--out data/census/curated_group.csv] [--dry-run]
 """
+import argparse
 import csv
+import logging
 import os
-from pathlib import Path
-
 import sys
+from pathlib import Path
 
 from dotenv import load_dotenv
 
@@ -21,6 +25,9 @@ from sources.arco import fetch_sites  # noqa: E402
 from sources.europeana import fetch_by_ids, item_url  # noqa: E402
 
 OUT = ROOT / "data" / "census" / "curated_group.csv"
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)-8s  %(message)s", datefmt="%H:%M:%S")
+log = logging.getLogger(__name__)
 
 PUNTA_EPITAFFIO = "1500910318"
 
@@ -80,7 +87,20 @@ CANDIDATES = [
 ]
 
 
+def parse_args():
+    p = argparse.ArgumentParser(description="Build the curated-group ground-truth CSV")
+    p.add_argument("--out", type=str, default=str(OUT))
+    p.add_argument("--dry-run", action="store_true")
+    return p.parse_args()
+
+
 def main():
+    args = parse_args()
+    if args.dry_run:
+        for obj_id, name, typology, ids, site, status, _ in CANDIDATES:
+            print(f"  {obj_id:26} {typology:18} views={len(ids):>2} site={site or '-':10} {status}")
+        return
+
     load_dotenv(ROOT / ".env")
     api_key = os.getenv("EUROPEANA_API_KEY")
     if not api_key:
@@ -110,17 +130,19 @@ def main():
             "note": note,
         })
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with OUT.open("w", newline="", encoding="utf-8") as f:
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with out.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
 
-    print(f"wrote {OUT} ({len(rows)} objects); Europeana ids found {len(all_ids) - len(missing)}/{len(all_ids)}")
+    log.info("CSV saved -> %s  (%d objects); Europeana ids found %d/%d",
+             out, len(rows), len(all_ids) - len(missing), len(all_ids))
     for m in missing:
-        print("  MISSING on Europeana:", m)
+        log.warning("  MISSING on Europeana: %s", m)
     for site in {c[4] for c in CANDIDATES if c[4]} - set(sites):
-        print("  MISSING on ArCo:", site)
+        log.warning("  MISSING on ArCo: %s", site)
 
 
 if __name__ == "__main__":
