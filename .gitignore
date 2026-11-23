@@ -12,3 +12,6 @@ data/index_images/
 
 # SLURM job logs
 logs/
+
+# Evaluation outputs (checkpoints, CSV)
+eval/underwater/results/
