@@ -2,9 +2,9 @@
 
 Answers the question: before any extension, does the paper pipeline already
 retrieve source records for these objects and sites?
-Writes data/census/baseline_text_results.json.
+Writes data/census/baseline_text_results.json and .csv (opera, domanda, risposta).
 
-Usage: python eval/underwater/baseline_text.py
+Usage: python eval/underwater/baseline_text.py [--csv-only]
 """
 import csv
 import json
@@ -69,10 +69,33 @@ def main():
         print(f'{obj_id:24} q="{row["tool_query"][:40]}" items={row["n_items"]} hits={row["hits_curated_record"]} '
               f'urls={row["answer_urls"]} err={bool(row["tool_error"])} {row["seconds"]}s', flush=True)
 
-    out = ROOT / "data/census/baseline_text_results.json"
-    out.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("wrote", out)
+    OUT_JSON.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("wrote", OUT_JSON)
+    write_csv(results)
+
+
+OUT_JSON = ROOT / "data/census/baseline_text_results.json"
+OUT_CSV = ROOT / "data/census/baseline_text_results.csv"
+
+
+def write_csv(results: list):
+    """One row per question: object, question, what the tool found, final answer (readable in a spreadsheet)."""
+    names = {r["object_id"]: r["name"] for r in csv.DictReader(open(ROOT / "data/census/curated_group.csv"))}
+    with OUT_CSV.open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["opera", "object_id", "domanda", "query_al_tool", "record_trovati", "record_pertinenti",
+                    "errore_tool", "risposta"])
+        for r in results:
+            m = re.search(r"<<<RISPOSTA>>>(.*?)(?:<<<FINE>>>|$)", r["answer"], re.DOTALL)
+            w.writerow([names.get(r["object_id"], ""), r["object_id"], r["question"], r["tool_query"],
+                        " ;; ".join(r["items"]), r["hits_curated_record"], r["tool_error"] or "",
+                        (m.group(1) if m else r["answer"]).strip()])
+    print("wrote", OUT_CSV)
 
 
 if __name__ == "__main__":
-    main()
+    # --csv-only: rebuild the CSV from the saved JSON without calling the agent again
+    if "--csv-only" in sys.argv:
+        write_csv(json.loads(OUT_JSON.read_text(encoding="utf-8")))
+    else:
+        main()
