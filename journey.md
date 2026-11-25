@@ -97,3 +97,24 @@ Restano tre problemi.
 3. Dove le fonti non hanno niente (Efebo e Filosofo di Anticitera, bronzi di Artemisio, Dioniso, Portus Julius) la regola aggiunta al prompt non viene rispettata: l'agente continua a dare luogo, epoca e materiale inventati ("artista contemporaneo italiano", "marmo di Carrara", Portus Julius "porto di Roma" o "in provincia di Caserta"). Antonia Augusta non arriva mai allo stadio 4, perché la cascata trova le monete.
 
 Le metriche del paper salgono, ma per i casi senza fonte non migliora nulla, e dove la fonte c'è compaiono errori nuovi sui dettagli che la scheda non contiene. Un'istruzione nel prompt non basta a far rispettare la graceful degradation a gpt-oss-20b: andrebbe imposta in codice.
+
+## 25 novembre, secondo giro: indirizzo ICCD e testo fisso senza fonti
+
+Due modifiche dopo il primo giro con lo stadio 4: i record ICCD ora portano anche l'indirizzo della scheda ("Italia, Campania, NA, Bacoli"), e quando il tool torna senza record la risposta non la scrive più l'LLM. Un guardrail del Task di CrewAI la sostituisce con un testo fisso: l'oggetto non è nelle fonti consultate, quindi niente luogo, datazione, autore o materiale. Le due modifiche valgono solo con il flag acceso.
+
+| Metrica | Flag spento (23/11) | Stadio 4 (25/11) | Stadio 4 + indirizzo + testo fisso |
+|---|---|---|---|
+| almeno una fonte citata | 21,2% | 48,5% | 45,5% |
+| almeno un anno nella risposta (agente) | 27,3% | 36,4% | 21,2% |
+| CRR | 90,9% | 95,5% | 95,5% |
+| SIR | 90,9% | 100% | 90,9% |
+| tool chiamato, per turno | 98,7% | 100% | 100% |
+| almeno una fonte, per turno | 24,7% | 48,1% | 45,5% |
+
+File: `eval/underwater/results/iccd/results_20261125_170800.csv` e `results_multiturn_20261125_172701.csv`.
+
+Il testo fisso è scattato in 16 risposte su 33: tutte quelle sui bronzi di Artemisio e di Anticitera, su Portus Julius e una su Dioniso. In nessuna di queste compare più un dato inventato. Il calo dell'anno presente nella risposta viene da qui: chi non ha fonti non dà date, ed è il comportamento voluto.
+
+Punta Epitaffio, il Parco Sommerso e Miseno ora sono collocati tutti a Bacoli, in provincia di Napoli. Il Parco non è più "istituito nel 1987": la risposta dice che gli interventi di tutela sono iniziati nel 1987, come la scheda.
+
+Restano i casi in cui il tool restituisce record che non c'entrano, e lì il testo fisso non scatta. Per Antonia Augusta la cascata trova le monete con Antonia come autorità emittente, e l'LLM scrive per esempio che fu "la prima moglie di Claudio, 39-54 d.C.". Per Dioniso, in due risposte su tre l'LLM ha cercato solo "Dionysus" e il filtro sull'autore ha accettato iscrizioni d'album olandesi di persone che si chiamano Dionysus. Ulisse viene ancora descritto con i dati del sito, come se statua e sito fossero la stessa cosa. Questi casi richiedono di controllare se i record trovati parlano davvero dell'oggetto, che è il compito del tool immagine e della lettura per ID.
