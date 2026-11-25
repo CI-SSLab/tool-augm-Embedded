@@ -71,3 +71,29 @@ Per valutare l'estensione servono, oltre alle metriche del paper, due controlli 
 Indice costruito da `curated_group.csv` con EmbeddingGemma 2 (budget 280): 42 viste di catalogo per 13 elementi. Ogni vista usata come query ritrova il proprio oggetto (42/42).
 
 I punteggi sono molto vicini tra loro: viste dello stesso oggetto tra 0,72 e 0,97 (mediana 0,87), oggetti diversi fino a 0,93 (Efebo di Anticitera contro Zeus di Artemisio). Una foto del Bronzo A di Riace, che nell'indice non c'è, viene presa per l'Efebo di Anticitera con 0,916 e un distacco di 0,04 dal secondo. Con queste distanze una soglia sul solo punteggio massimo non basta a rifiutare: soglia e margine vanno tarati su un validation set, e i bronzi non indicizzati vanno tra i negativi difficili.
+
+## 25 novembre: stadio 4 ICCD acceso (`--iccd`)
+
+Stessa batteria di domande e stessi script dei pre-test del 23 novembre, con `ENABLE_ICCD_FALLBACK=true`: quando la cascata Europeana trova meno di 2 record, il tool cerca tra le 68 schede ICCD con contesto subacqueo, e il prompt riceve un blocco in più (cerca il reperto o il sito, non un artista; cita le schede ICCD; se non trovi nulla non indicare luogo, epoca o autore). La metrica di aderenza conta anche gli URL del catalogo ICCD.
+
+| Metrica | Flag spento (23/11) | Flag acceso (25/11) |
+|---|---|---|
+| tool chiamato | 100% | 100% |
+| almeno una fonte citata | 21,2% | 48,5% |
+| almeno un anno nella risposta (agente) | 27,3% | 36,4% |
+| CRR | 90,9% | 95,5% |
+| SIR | 90,9% | 100% |
+| tool chiamato, per turno | 98,7% | 100% |
+| almeno una fonte, per turno | 24,7% | 48,1% |
+
+File: `eval/underwater/results/iccd/results_20261125_161123.csv` e `results_multiturn_20261125_162847.csv`.
+
+Dove ArCo ha la scheda (Punta Epitaffio, Parco Sommerso di Baia, Miseno) le risposte cambiano davvero: non parlano più di un artista, riportano i dati della scheda (ninfeo di età imperiale, primo scavo di Nino Lamboglia nel 1959, strutture fino a 400 m dalla riva; parco di 176 ettari sul litorale di Bacoli e Pozzuoli; molo in gettata cementizia vicino al faro di Capo Miseno) e citano la scheda.
+
+Restano tre problemi.
+
+1. Dove la scheda non dice in che regione si trova il sito, l'LLM la inventa: Punta Epitaffio finisce "sul Mar Adriatico", "in provincia di Cosenza", "in provincia di Cagliari" e "nel Lazio" in quattro risposte diverse. La scheda ICCD l'indirizzo lo ha ("Italia, Campania, NA, Bacoli"), ma lo stadio 4 per ora non lo passa.
+2. L'LLM mescola il dato con la conoscenza generale: per il Parco Sommerso dice "istituito nel 1987", mentre la scheda dice che nel 1987 sono iniziati gli interventi di tutela, e trasforma 176 ettari in "circa 80.000 mq" (sono due numeri diversi della scheda). La statua di Ulisse viene descritta con i dati del sito, come se fossero la stessa cosa.
+3. Dove le fonti non hanno niente (Efebo e Filosofo di Anticitera, bronzi di Artemisio, Dioniso, Portus Julius) la regola aggiunta al prompt non viene rispettata: l'agente continua a dare luogo, epoca e materiale inventati ("artista contemporaneo italiano", "marmo di Carrara", Portus Julius "porto di Roma" o "in provincia di Caserta"). Antonia Augusta non arriva mai allo stadio 4, perché la cascata trova le monete.
+
+Le metriche del paper salgono, ma per i casi senza fonte non migliora nulla, e dove la fonte c'è compaiono errori nuovi sui dettagli che la scheda non contiene. Un'istruzione nel prompt non basta a far rispettare la graceful degradation a gpt-oss-20b: andrebbe imposta in codice.
