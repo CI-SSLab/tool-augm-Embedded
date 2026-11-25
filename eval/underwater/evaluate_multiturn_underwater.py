@@ -14,7 +14,7 @@ T1 always starts with "Tell me about" or names X directly, because update_curren
 only recognises a new entity after the intro prefixes in evaluate_multiturn._ARTIST_INTROS.
 
 Usage:
-    scripts/slurm/run.sh .venv/bin/python eval/underwater/evaluate_multiturn_underwater.py [--dry-run]
+    scripts/slurm/run.sh .venv/bin/python eval/underwater/evaluate_multiturn_underwater.py [--iccd] [--dry-run]
 """
 import sys
 from pathlib import Path
@@ -24,7 +24,7 @@ sys.path.insert(0, str(ROOT / "evaluation"))
 sys.path.insert(0, str(ROOT / "eval" / "underwater"))
 
 import evaluate_multiturn as base  # noqa: E402
-from evaluate_underwater import OUT, UNDERWATER_SEEDS  # noqa: E402
+from evaluate_underwater import UNDERWATER_SEEDS, apply_iccd_flag  # noqa: E402
 
 if __name__ == "__main__":
     base.MT_ARTIST_SEEDS = UNDERWATER_SEEDS
@@ -32,6 +32,7 @@ if __name__ == "__main__":
     base.SCENARIO_B_TURNS = ["Tell me about {artist_1}.", "Tell me about {artist_2}."]
     base.SCENARIO_C_TURNS = ["Where was {artist} found?", "What else is known about that site?"]
     base.MIN_RECORDS = 0  # same reason as evaluate_underwater.py
+    out = apply_iccd_flag(base)
     if "--out" not in sys.argv:
-        sys.argv += ["--out", OUT]
+        sys.argv += ["--out", out]
     base.main()

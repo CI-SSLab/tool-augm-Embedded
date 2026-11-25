@@ -1,5 +1,8 @@
 from crewai import Task
 
+from crew.tasks.underwater_prompt import UNDERWATER_BLOCK
+from sources.arco import iccd_fallback_enabled
+
 
 def build_answer_task(agent):
     #Costruisce il task con il prompt che guida la risposta dell'agente.
@@ -40,7 +43,7 @@ def build_answer_task(agent):
             "Racchiudi la risposta finale tra i marcatori <<<RISPOSTA>>> e <<<FINE>>>. "
             "Termina la risposta con una sezione 'FONTI:' seguita dagli url del tool, "
             "uno per riga. Se non hai url, scrivi 'FONTI: nessuna fonte Europeana disponibile'."
-        ),
+        ) + (UNDERWATER_BLOCK if iccd_fallback_enabled() else ""),  # extension, off by default
         expected_output=(
             "Testo italiano racchiuso tra <<<RISPOSTA>>> e <<<FINE>>> "
             "con sezione FONTI conclusiva."

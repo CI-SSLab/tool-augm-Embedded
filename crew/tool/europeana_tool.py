@@ -6,6 +6,8 @@ import requests
 from dotenv import load_dotenv
 from crewai.tools import tool
 
+from sources.arco import iccd_fallback_enabled, iccd_items  # stage 4 extension, off by default
+
 EUROPEANA_URL = "https://api.europeana.eu/record/v2/search.json"
 
 # Tengo traccia dell'ultima chiamata per il pannello "Dettagli esecuzione"
@@ -197,6 +199,10 @@ def europeana_search(question: str) -> str:
                 break
         except Exception as e:
             last_error = e
+
+    # Stage 4 (extension): ICCD underwater sites when stages 1-3 give < 2 results
+    if len(items) < 2 and iccd_fallback_enabled():
+        items = items + iccd_items(name)
 
     if items:
         result = _payload(name, items=items)
