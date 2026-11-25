@@ -129,6 +129,7 @@ def parse_args():
     p.add_argument("--colour", default="none", choices=["none", "grayworld", "clahe"])
     p.add_argument("--llm", action="store_true", help="also run the LLM answer for each row")
     p.add_argument("--limit", type=int, default=0, help="first N rows only (0 = all)")
+    p.add_argument("--split", default="", help="only rows with this split (val / test), if the CSV has one")
     p.add_argument("--out", default=str(OUT))
     return p.parse_args()
 
@@ -141,6 +142,9 @@ def main():
     from image_search.index import cached_image
 
     queries = list(csv.DictReader(open(args.queries, encoding="utf-8")))
+    # Rows nobody has labelled yet cannot be scored
+    queries = [q for q in queries if q.get("label_status") != "to_label"
+               and (not args.split or q.get("split") == args.split)]
     if args.limit:
         queries = queries[:args.limit]
     if args.llm:
@@ -177,7 +181,7 @@ def main():
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = out_dir / f"results_images_{run_id}.csv"
+    path = out_dir / f"results_images_{args.group}_{args.colour}_{run_id}.csv"
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
