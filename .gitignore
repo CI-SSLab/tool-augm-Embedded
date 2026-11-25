@@ -4,8 +4,8 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
-CLAUDE.md
 .env
+info/
 
 # Cached catalogue photos for the image index (mostly In Copyright)
 data/index_images/
@@ -16,3 +16,6 @@ logs/
 # Evaluation outputs (checkpoints, CSV)
 eval/underwater/results/
 eval/famous/results/
+
+# Regression A runs of the paper benchmark
+eval/regression/
