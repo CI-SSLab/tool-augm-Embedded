@@ -1,6 +1,6 @@
 # Stato del lavoro: estensione subacquea
 
-Aggiornato al 23 novembre 2026. Branch `feat/image-search`.
+Aggiornato al 23 novembre 2026.
 
 ## Da dove partiamo
 
@@ -40,7 +40,7 @@ Non ha trovato nessun record pertinente. Sulle statue di Baia il tool ha cercato
 
 Le risposte sono il problema più serio. Il prompt chiede all'agente di rispondere comunque con la conoscenza generale quando il tool non trova nulla, e su questi oggetti la conoscenza generale di gpt-oss-20b non regge: ha scritto che "Baia" è uno scultore, che Capo Artemisio è un artista greco, che l'Efebo di Anticitera è uno scultore del V secolo, che Miseno è in provincia di Salerno e che Punta Epitaffio è vicino a Roma. Il tool è costruito attorno al nome di un artista (regex, filtro `who:`, controllo sul creatore) e qui non c'è nessun artista da estrarre.
 
-Senza un modo diverso di identificare l'oggetto, il sistema produce le invenzioni che il paper voleva evitare, ed è il motivo principale per fare l'estensione. I risultati completi sono in `data/census/baseline_text_results.json`.
+Senza un modo diverso di identificare l'oggetto, il sistema produce le invenzioni che il paper voleva evitare, ed è il motivo principale per fare l'estensione. Le prove, con i risultati e i file, sono descritte in `journey.md`.
 
 ## Decisioni da prendere
 
@@ -55,7 +55,7 @@ Il prossimo pezzo è il modulo di embedding con l'indice: encoder intercambiabil
 
 ## Test previsti
 
-Le query saranno sempre coppie foto più domanda, con tre modelli di domanda: cos'è, a che epoca risale, da quale sito proviene.
+Le query saranno sempre coppie foto più domanda, con quattro modelli di domanda: cos'è, a che epoca risale, da quale sito proviene, e una domanda con una premessa falsa (per esempio "È la statua trovata a Pompei?" su un oggetto di Baia). L'ultima serve a vedere se il modello o la pipeline prendono per buono quello che scrive l'utente: la risposta deve riportare il sito della scheda, o dire che il dato non c'è, senza confermare Pompei.
 
 | Insieme | Contenuto | Scopo | Quante |
 |---|---|---|---|
