@@ -136,3 +136,27 @@ Prima prova con l'LLM, su foto che sono nell'indice o ne derivano (quindi non è
 | scheda di Punta Epitaffio, "Che cos'è e dove si trova?" | ninfeo sommerso, scavo di Lamboglia del 1959, Bacoli, fino a 400 m dalla riva |
 
 Nella risposta sulla premessa falsa l'LLM non dice in modo esplicito che Pompei è sbagliato: si limita a riportare Baia. Per Ulisse il collegamento con la scheda di Punta Epitaffio non passa ancora, perché va prima verificato a mano.
+
+## 25 novembre: test del tool immagine su opere famose
+
+Per vedere se il tool regge anche fuori dal subacqueo abbiamo costruito un secondo gruppo, separato da quello sommerso: le opere più note (per numero di voci Wikipedia, da Wikidata) degli artisti delle domande del paper. Un'opera entra nell'indice solo se Europeana ne ha il record dallo stesso museo che la possiede secondo Wikidata, con titolo e autore corrispondenti e senza stampe o foto tratte dall'opera. Così la verità non dipende dall'encoder che stiamo testando. Ne escono 34 opere di 25 artisti, quasi sempre con una sola foto. Gli italiani sono quasi assenti: Uffizi, chiese e musei romani non mandano i loro dipinti su Europeana. Un caso è da verificare: per "La città che sale" di Boccioni il record è della GAM di Torino e potrebbe essere uno studio.
+
+Le foto di query vengono da Wikimedia Commons, quindi da una fonte diversa dall'indice, e nella repo ci sono solo gli url (`data/eval/famous_queries.csv`). Ogni opera ha la foto originale e tre versioni degradate in modo controllato: un dettaglio ritagliato, una foto storta su un muro grigio, luce calda con sfocatura e JPEG pesante. I negativi sono altre opere famose degli stessi artisti, non indicizzate: lo stesso stile, la stessa mano, ma un'altra opera. Ogni foto ha una domanda, a rotazione fra "cos'è", "chi l'ha realizzata", "a che anno risale" e una premessa falsa ("È un'opera di ...?").
+
+| Insieme | Foto | Top-1 | Top-5 | Esiti con τ = 0,80 |
+|---|---|---|---|---|
+| originale Commons | 34 | 97,1% | 100% | 32 match giusti, 1 ambiguo giusto, 1 rifiuto sbagliato |
+| luce calda e JPEG | 34 | 97,1% | 100% | 32 match giusti, 1 ambiguo, 1 match sbagliato |
+| dettaglio ritagliato | 34 | 97,1% | 97,1% | 33 match giusti, 1 sbagliato |
+| foto storta su muro | 34 | 97,1% | 97,1% | 32 match giusti, 1 ambiguo, 1 rifiuto sbagliato |
+| negativi, stesso artista | 58 | — | — | 26 rifiuti giusti, 22 ambigui, 10 match sbagliati |
+
+Il riconoscimento è molto buono anche con le degradazioni, ma 14 foto Commons su 34 sono quasi identiche alla foto dell'indice (coseno ≥ 0,95), perché il museo ha caricato la stessa scansione: quei casi sono facili. Il problema vero è il rifiuto. Con la soglia provvisoria di 0,80 il tool accetta più di metà dei negativi, cioè scambia un'altra opera dello stesso pittore per quella indicizzata. Alzando la soglia:
+
+| τ | foto positive accettate | top-1 giusto fra le accettate | negativi accettati |
+|---|---|---|---|
+| 0,80 | 134 / 136 | 98,5% | 32 / 58 |
+| 0,85 | 128 / 136 | 100% | 7 / 58 |
+| 0,90 | 110 / 136 | 100% | 0 / 58 |
+
+Per i dipinti una soglia fra 0,85 e 0,90 separa quasi del tutto i due casi. Non è detto che valga per le foto subacquee, dove i punteggi sono più bassi: τ va tarato sul validation set del subacqueo, come previsto, e questo test va riportato come controllo di generalità. File: `eval/famous/results/results_images_20261125_194357.csv`.

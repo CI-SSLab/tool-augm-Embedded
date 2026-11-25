@@ -131,9 +131,9 @@ def image_search(photo, colour: str = "none", budget: int = 280) -> str:
 
     if _ENCODER is None:
         _ENCODER = Encoder(budget=budget)
-        _INDEX = index.load_index(index.index_dir(_ENCODER.slug))
+        _INDEX = index.load_index(index.index_dir(_ENCODER.slug, index.group_csv()))
     emb, rows = _INDEX
-    group = {g["object_id"]: g for g in csv.DictReader(open(index.GROUP_CSV, encoding="utf-8"))}
+    group = {g["object_id"]: g for g in csv.DictReader(open(index.group_csv(), encoding="utf-8"))}
 
     img = photo if isinstance(photo, Image.Image) else load_image(photo)
     ranked = search.rank_objects(_ENCODER.embed([correct_colour(img, colour)])[0], emb, rows)

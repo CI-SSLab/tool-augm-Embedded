@@ -6,6 +6,7 @@ cached in data/index_images/ (gitignored: most are In Copyright).
 """
 import csv
 import hashlib
+import os
 from pathlib import Path
 
 import numpy as np
@@ -15,13 +16,18 @@ from sources.arco import fetch_sites
 from sources.europeana import fetch_by_ids
 
 ROOT = Path(__file__).resolve().parents[1]
-GROUP_CSV = ROOT / "data" / "census" / "curated_group.csv"
+CENSUS = ROOT / "data" / "census"
 CACHE = ROOT / "data" / "index_images"
 INDEX_ROOT = ROOT / "data" / "index"
 ROW_FIELDS = ["object_id", "source", "view_id", "image_url", "license"]
 
 
-def list_views(group_csv: Path = GROUP_CSV) -> list:
+def group_csv() -> Path:
+    # IMAGE_GROUP picks the object group: curated_group (underwater, default) or famous_group (paintings test)
+    return CENSUS / f"{os.getenv('IMAGE_GROUP') or 'curated_group'}.csv"
+
+
+def list_views(group_csv: Path) -> list:
     """One dict per catalogue photo: Europeana previews for objects, ICCD photos for in-situ sites."""
     group = list(csv.DictReader(open(group_csv, encoding="utf-8")))
     records = fetch_by_ids([i for g in group for i in g["europeana_ids"].split(";") if i])
@@ -44,7 +50,8 @@ def list_views(group_csv: Path = GROUP_CSV) -> list:
 def cached_image(url: str) -> Path:
     path = CACHE / (hashlib.sha1(url.encode()).hexdigest() + ".jpg")
     if not path.exists():
-        r = requests.get(url, timeout=60)
+        # Wikimedia refuses requests without a descriptive User-Agent
+        r = requests.get(url, timeout=60, headers={"User-Agent": "heritage-image-eval/0.1 (research prototype)"})
         r.raise_for_status()
         if not r.headers.get("Content-Type", "").startswith("image/"):
             raise ValueError(f"not an image: {r.headers.get('Content-Type')}")
@@ -53,8 +60,9 @@ def cached_image(url: str) -> Path:
     return path
 
 
-def index_dir(encoder_slug: str) -> Path:
-    return INDEX_ROOT / encoder_slug
+def index_dir(encoder_slug: str, group: Path) -> Path:
+    # One index per group and encoder; the underwater group keeps its original folder
+    return INDEX_ROOT / (encoder_slug if group.stem == "curated_group" else f"{group.stem}_{encoder_slug}")
 
 
 def load_index(folder: Path):
@@ -64,12 +72,12 @@ def load_index(folder: Path):
     return emb, rows
 
 
-def build(encoder, group_csv: Path = GROUP_CSV) -> Path:
+def build(encoder, group_csv: Path) -> Path:
     """Incremental build: reuse embeddings of views already indexed, embed only new ones,
     drop views no longer in the group."""
     from image_search.encoder import load_image
 
-    folder = index_dir(encoder.slug)
+    folder = index_dir(encoder.slug, group_csv)
     old = {}
     if (folder / "embeddings.npy").exists():
         emb, rows = load_index(folder)

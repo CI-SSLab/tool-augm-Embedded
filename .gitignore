@@ -15,3 +15,4 @@ logs/
 
 # Evaluation outputs (checkpoints, CSV)
 eval/underwater/results/
+eval/famous/results/

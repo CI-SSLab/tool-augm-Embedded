@@ -40,10 +40,10 @@ def main():
 
     enc = Encoder(budget=args.budget)
     if args.cmd == "build":
-        index.build(enc)
+        index.build(enc, index.group_csv())
         return
 
-    emb, rows = index.load_index(index.index_dir(enc.slug))
+    emb, rows = index.load_index(index.index_dir(enc.slug, index.group_csv()))
     images = [load_image(index.cached_image(r["image_url"])) for r in rows]
     fresh = enc.embed(images)
     wrong = [(r["object_id"], search.rank_objects(v, emb, rows)[0][0]) for r, v in zip(rows, fresh)
