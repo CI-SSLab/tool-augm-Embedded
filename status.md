@@ -53,6 +53,8 @@ Senza un modo diverso di identificare l'oggetto, il sistema produce le invenzion
 
 Il prossimo pezzo è il modulo di embedding con l'indice: encoder intercambiabile (EmbeddingGemma 2, con SigLIP 2 come alternativa), matrice normalizzata salvata su disco, più viste per oggetto, costruzione incrementale. Poi il tool immagine, prima da riga di comando: similarità, aggregazione per oggetto, decisione con soglia e margine, lettura dei record per ID da Europeana e ArCo in una sola invocazione. Solo dopo l'integrazione nell'agente e nell'interfaccia Streamlit, dietro un flag spento di default.
 
+Per la presentazione, dopo i test sulle immagini, servono grafici che mostrino come lavorano gli embedding: la matrice di similarità coseno fra gli oggetti del gruppo, la distribuzione dei punteggi fra viste dello stesso oggetto e fra oggetti diversi, alcune query con i primi k risultati in miniatura e il loro punteggio, e una proiezione 2D delle viste colorate per oggetto.
+
 ## Test previsti
 
 Le query saranno sempre coppie foto più domanda, con quattro modelli di domanda: cos'è, a che epoca risale, da quale sito proviene, e una domanda con una premessa falsa (per esempio "È la statua trovata a Pompei?" su un oggetto di Baia). L'ultima serve a vedere se il modello o la pipeline prendono per buono quello che scrive l'utente: la risposta deve riportare il sito della scheda, o dire che il dato non c'è, senza confermare Pompei.
