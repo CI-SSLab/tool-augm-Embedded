@@ -82,7 +82,9 @@ def underwater_records() -> list:
         }} GROUP BY ?s"""
         for b in _sparql(query):
             arco_id = b["s"].rsplit("/", 1)[-1]
-            _UNDERWATER.append({"id": arco_id, "title": b.get("title", ""), "date": b.get("date", ""),
+            # The ", Sito: dd/mm/yyyy hh.mm.ss" in ARCHEOMAR labels is a cataloguing timestamp, not a date of the site
+            title = re.sub(r",? ?Sito: [\d/]+ [\d.]+", "", b.get("title", "")).strip(" ,")
+            _UNDERWATER.append({"id": arco_id, "title": title, "date": b.get("date", ""),
                                 "description": b.get("description", ""), "location": b.get("location", ""),
                                 # "Italia, Campania, NA, Bacoli, nr": "nr" = not recorded
                                 "address": re.sub(r",\s*nr$", "", b.get("address", "")),
@@ -113,8 +115,7 @@ def iccd_items(name: str) -> list:
     except Exception:
         return []
     return [{
-        # The ", Sito: dd/mm/yyyy hh.mm.ss" in ARCHEOMAR labels is a cataloguing timestamp, not a date of the site
-        "title": re.sub(r",? ?Sito: [\d/]+ [\d.]+", "", r["title"]).strip(" ,"),
+        "title": r["title"],
         "creator": "", "year": r["date"], "url": r["url"], "source": "ICCD",
         "description": r["description"], "location": r["location"], "address": r["address"],
     } for r in recs]
