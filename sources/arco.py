@@ -71,18 +71,21 @@ def underwater_records() -> list:
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX dc: <http://purl.org/dc/elements/1.1/>
         SELECT ?s (SAMPLE(?l) AS ?title) (SAMPLE(?d) AS ?date) (SAMPLE(?desc) AS ?description)
-               (GROUP_CONCAT(DISTINCT ?ld; separator=" | ") AS ?location)
+               (GROUP_CONCAT(DISTINCT ?ld; separator=" | ") AS ?location) (SAMPLE(?al) AS ?address)
         WHERE {{
           ?s loc:hasTypeOfContext loc:UnderwaterContext ; rdfs:label ?l .
           OPTIONAL {{ ?s dc:date ?d }}
           OPTIONAL {{ ?s core:description ?desc }}
           OPTIONAL {{ ?s loc:hasTimeIndexedTypedLocation ?t . ?t loc:locationDetails ?ld .
                      FILTER(CONTAINS(STR(?t), STRAFTER(STR(?s), "ArchaeologicalProperty/"))) }}
+          OPTIONAL {{ ?s loc:hasCulturalPropertyAddress ?a . ?a rdfs:label ?al }}
         }} GROUP BY ?s"""
         for b in _sparql(query):
             arco_id = b["s"].rsplit("/", 1)[-1]
             _UNDERWATER.append({"id": arco_id, "title": b.get("title", ""), "date": b.get("date", ""),
                                 "description": b.get("description", ""), "location": b.get("location", ""),
+                                # "Italia, Campania, NA, Bacoli, nr": "nr" = not recorded
+                                "address": re.sub(r",\s*nr$", "", b.get("address", "")),
                                 "url": site_url(arco_id)})
     return _UNDERWATER
 
@@ -113,7 +116,7 @@ def iccd_items(name: str) -> list:
         # The ", Sito: dd/mm/yyyy hh.mm.ss" in ARCHEOMAR labels is a cataloguing timestamp, not a date of the site
         "title": re.sub(r",? ?Sito: [\d/]+ [\d.]+", "", r["title"]).strip(" ,"),
         "creator": "", "year": r["date"], "url": r["url"], "source": "ICCD",
-        "description": r["description"], "location": r["location"],
+        "description": r["description"], "location": r["location"], "address": r["address"],
     } for r in recs]
 
 

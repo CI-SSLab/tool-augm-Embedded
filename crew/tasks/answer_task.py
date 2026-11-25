@@ -1,6 +1,6 @@
 from crewai import Task
 
-from crew.tasks.underwater_prompt import UNDERWATER_BLOCK
+from crew.tasks.underwater_prompt import UNDERWATER_BLOCK, no_source_guardrail
 from sources.arco import iccd_fallback_enabled
 
 
@@ -50,4 +50,5 @@ def build_answer_task(agent):
         ),
         agent=agent,
         async_execution=False,
+        guardrail=no_source_guardrail if iccd_fallback_enabled() else None,  # extension, off by default
     )
