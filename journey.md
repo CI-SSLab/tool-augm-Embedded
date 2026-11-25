@@ -118,3 +118,21 @@ Il testo fisso è scattato in 16 risposte su 33: tutte quelle sui bronzi di Arte
 Punta Epitaffio, il Parco Sommerso e Miseno ora sono collocati tutti a Bacoli, in provincia di Napoli. Il Parco non è più "istituito nel 1987": la risposta dice che gli interventi di tutela sono iniziati nel 1987, come la scheda.
 
 Restano i casi in cui il tool restituisce record che non c'entrano, e lì il testo fisso non scatta. Per Antonia Augusta la cascata trova le monete con Antonia come autorità emittente, e l'LLM scrive per esempio che fu "la prima moglie di Claudio, 39-54 d.C.". Per Dioniso, in due risposte su tre l'LLM ha cercato solo "Dionysus" e il filtro sull'autore ha accettato iscrizioni d'album olandesi di persone che si chiamano Dionysus. Ulisse viene ancora descritto con i dati del sito, come se statua e sito fossero la stessa cosa. Questi casi richiedono di controllare se i record trovati parlano davvero dell'oggetto, che è il compito del tool immagine e della lettura per ID.
+
+## 25 novembre: tool immagine e integrazione nell'agente
+
+Il tool immagine prende la foto, cerca l'oggetto più simile nell'indice, decide fra match, ambiguo e nessun match, e legge le schede per identificativo: una chiamata a Europeana per gli oggetti, la query ArCo delle schede subacquee per i siti. All'LLM arriva solo il JSON con le schede, senza punteggi; punteggi e miniature compaiono nel pannello dei dettagli di Streamlit.
+
+Nell'app la scelta fra percorso testuale e percorso con immagine la fa il codice: se c'è una foto, o se la domanda è un seguito sull'oggetto della foto precedente, si usa il tool immagine; una nuova domanda del tipo "Chi è..." torna al percorso del paper. Quando non c'è nessun match l'LLM non viene chiamato e la risposta è un testo fisso. Il blocco FONTI viene ricostruito dal codice con gli url delle schede, perché gpt-oss-20b lo ometteva in tutte le prove. Tutto questo è dietro `ENABLE_IMAGE_SEARCH`, spento di default; gli script di valutazione del paper non passano dall'app.
+
+Prima prova con l'LLM, su foto che sono nell'indice o ne derivano (quindi non è ancora un test del riconoscimento):
+
+| Foto e domanda | Esito |
+|---|---|
+| Ulisse con dominante blu-verde, "A che epoca risale?" | originale ellenistico, replica della metà del I secolo d.C. (circa 45), come nella scheda |
+| seguito senza foto, "Da quale sito proviene?" | la scheda non indica il sito; il luogo indicato è Baia, senza dire se è il ritrovamento o il museo |
+| Ulisse, "È la statua trovata a Pompei?" | riporta Baia dalla scheda e non conferma Pompei |
+| rumore, "Cos'è?" | nessun match, testo fisso |
+| scheda di Punta Epitaffio, "Che cos'è e dove si trova?" | ninfeo sommerso, scavo di Lamboglia del 1959, Bacoli, fino a 400 m dalla riva |
+
+Nella risposta sulla premessa falsa l'LLM non dice in modo esplicito che Pompei è sbagliato: si limita a riportare Baia. Per Ulisse il collegamento con la scheda di Punta Epitaffio non passa ancora, perché va prima verificato a mano.

@@ -15,6 +15,7 @@ from crewai import Crew, Process
 from crew.agents.qa_agent import build_qa_agent
 from crew.tasks.answer_task import build_answer_task
 from crew.tool.europeana_tool import get_last_tool_trace, clean_query
+from image_search.ui import image_search_enabled, render_image_tab, run_image_turn  # extension, off by default
 
 load_dotenv()
 st.set_page_config(page_title="Esperto d'arte", page_icon="🎨", layout="centered")
@@ -159,7 +160,8 @@ def run_agent(question: str, current_artist: str, max_attempts: int = 2):
 def render_trace(question: str, raw_output: str, trace: dict):
     with st.expander("🔎 Dettagli esecuzione", expanded=False):
         st.caption("Traccia tecnica della risposta generata")
-        tab_in, tab_api, tab_llm = st.tabs(["Input", "API Europeana", "LLM / CrewAI"])
+        names = ["Input", "API Europeana", "LLM / CrewAI"] + (["Ricerca immagine"] if "ranked" in trace else [])
+        tab_in, tab_api, tab_llm, *tab_img = st.tabs(names)
 
         with tab_in:
             st.markdown("**Domanda dell'utente**")
@@ -176,6 +178,11 @@ def render_trace(question: str, raw_output: str, trace: dict):
         with tab_llm:
             st.markdown("**Output grezzo di CrewAI**")
             st.code(raw_output or "", language="text")
+
+        # Extension: top-k objects with scores and thumbnails, only for turns with an image
+        for tab in tab_img:
+            with tab:
+                render_image_tab(st, trace)
 
 
 # ----- SIDEBAR -----
@@ -203,7 +210,7 @@ st.title("🎨 Esperto d'arte")
 st.caption("Assistente AI che risponde a domande su artisti utilizzando Europeana.")
 
 # Inizializzo le chiavi di session_state al primo giro
-for key, default in (("messages", []), ("current_artist", "")):
+for key, default in (("messages", []), ("current_artist", ""), ("current_object", None), ("pending_photo", None)):
     st.session_state.setdefault(key, default)
 
 if not st.session_state.messages:
@@ -212,6 +219,8 @@ if not st.session_state.messages:
 if st.button("Pulisci chat"):
     st.session_state.messages = []
     st.session_state.current_artist = ""
+    st.session_state.current_object = None
+    st.session_state.pending_photo = None
     st.rerun()
 
 
@@ -230,7 +239,23 @@ for msg in st.session_state.messages:
 
 # ----- INPUT -----
 
-question = st.chat_input("Scrivi la tua domanda, ad esempio: Chi è Caravaggio?")
+photo = None
+if image_search_enabled():
+    # Extension: the chat input also takes a photo; the photo identifies the object, the text says what to look for
+    submitted = st.chat_input("Scrivi la tua domanda e allega una foto, se vuoi", accept_file=True,
+                              file_type=["jpg", "jpeg", "png", "webp"])
+    question = submitted.text if submitted else None
+    if submitted and submitted.files:
+        photo = submitted.files[0].getvalue()
+        if not question:
+            #Photo without a question: keep it and ask what the user wants to know
+            st.session_state.pending_photo = photo
+            st.session_state.messages.append({"role": "assistant", "content": "Cosa vuoi sapere dell'oggetto nella foto?"})
+            st.rerun()
+    if question and photo is None and st.session_state.pending_photo is not None:
+        photo, st.session_state.pending_photo = st.session_state.pending_photo, None
+else:
+    question = st.chat_input("Scrivi la tua domanda, ad esempio: Chi è Caravaggio?")
 # Se l'utente ha cliccato un pulsante di esempio uso quella domanda
 if "example_question" in st.session_state:
     question = st.session_state.pop("example_question")
@@ -243,13 +268,24 @@ if question:
     with st.chat_message("user"):
         st.markdown(question)
 
+    # Extension, deterministic router: a photo, or a follow-up on the current object, goes to the image tool.
+    # A new intro question ("Chi è ...") goes back to the paper's path and drops the current object.
+    is_intro = any(question.strip().lower().startswith(p) for p in _ARTIST_INTROS)
+    if is_intro:
+        st.session_state.current_object = None
+    image_turn = image_search_enabled() and (photo is not None or st.session_state.current_object is not None)
+
     # Aggiorno l'artista corrente prima di lanciare l'agente
-    current_artist = update_current_artist(question)
+    current_artist = "" if image_turn else update_current_artist(question)
 
     with st.chat_message("assistant"):
         with st.spinner("Sto cercando la risposta..."):
             try:
-                final_text, raw_output, trace = run_agent(question, current_artist)
+                if image_turn:
+                    raw, trace = run_image_turn(question, photo, st.session_state)
+                    final_text, raw_output = extract_answer(raw)
+                else:
+                    final_text, raw_output, trace = run_agent(question, current_artist)
 
                 if not final_text:
                     final_text = (
