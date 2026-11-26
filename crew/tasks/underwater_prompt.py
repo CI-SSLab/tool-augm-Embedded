@@ -4,6 +4,7 @@ With the flag off nothing changes."""
 import json
 
 from crew.tool.europeana_tool import get_last_tool_trace
+from ui_text import lang
 
 UNDERWATER_BLOCK = (
     "\n\nESTENSIONE ICCD (reperti e siti sommersi):\n"
@@ -23,6 +24,13 @@ NO_SOURCE_ANSWER = (
     "FONTI: nessuna fonte disponibile\n"
     "<<<FINE>>>"
 )
+NO_SOURCE_ANSWER_EN = (
+    "<<<RISPOSTA>>>\n"
+    "{name}: I found no record in the sources I can query (Europeana and the ICCD General Catalogue "
+    "of Cultural Heritage). Without a record I cannot give its place, date, author or material.\n\n"
+    "SOURCES: no source available\n"
+    "<<<FINE>>>"
+)
 
 
 def no_source_guardrail(output):
@@ -36,7 +44,8 @@ def no_source_guardrail(output):
         return True, output.raw  # tool not called or not JSON: keep the answer
     if result.get("items"):
         return True, output.raw
-    return True, NO_SOURCE_ANSWER.format(name=result.get("query") or "L'oggetto richiesto")
+    text = NO_SOURCE_ANSWER_EN if lang() == "en" else NO_SOURCE_ANSWER
+    return True, text.format(name=result.get("query") or ("The requested object" if lang() == "en" else "L'oggetto richiesto"))
 
 
 if __name__ == "__main__":  # self-check with fake traces

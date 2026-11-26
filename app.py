@@ -16,9 +16,10 @@ from crew.agents.qa_agent import build_qa_agent
 from crew.tasks.answer_task import build_answer_task
 from crew.tool.europeana_tool import get_last_tool_trace, clean_query
 from image_search.ui import image_search_enabled, render_image_tab, run_image_turn  # extension, off by default
+from ui_text import t  # interface strings: Italian by default, English with UI_LANG=en
 
 load_dotenv()
-st.set_page_config(page_title="Esperto d'arte", page_icon="🎨", layout="centered")
+st.set_page_config(page_title=t("page_title"), page_icon="🎨", layout="centered")
 
 
 # ----- ESTRAZIONE E PULIZIA OUTPUT -----
@@ -148,35 +149,32 @@ def run_agent(question: str, current_artist: str, max_attempts: int = 2):
             if attempt >= max_attempts or not recoverable:
                 raise
 
-    fallback = (
-        "Il modello ha prodotto una risposta non valida dopo più tentativi. "
-        "Prova a riformulare la domanda o a pulire la chat."
-    )
+    fallback = t("invalid_retry")
     return fallback, last_raw, last_trace
 
 
 # ----- UI: PANNELLO DETTAGLI E UTILITY -----
 
 def render_trace(question: str, raw_output: str, trace: dict):
-    with st.expander("🔎 Dettagli esecuzione", expanded=False):
-        st.caption("Traccia tecnica della risposta generata")
-        names = ["Input", "API Europeana", "LLM / CrewAI"] + (["Ricerca immagine"] if "ranked" in trace else [])
+    with st.expander(t("details"), expanded=False):
+        st.caption(t("details_caption"))
+        names = [t("tab_input"), t("tab_api"), t("tab_llm")] + ([t("tab_image")] if "ranked" in trace else [])
         tab_in, tab_api, tab_llm, *tab_img = st.tabs(names)
 
         with tab_in:
-            st.markdown("**Domanda dell'utente**")
+            st.markdown(t("user_question"))
             st.code(question or "", language="text")
-            st.markdown("**Query inviata al tool**")
+            st.markdown(t("tool_query"))
             st.code(trace.get("query", ""), language="text")
-            st.markdown("**Artista corrente del thread**")
-            st.code(st.session_state.get("current_artist", "") or "(nessuno)", language="text")
+            st.markdown(t("thread_artist"))
+            st.code(st.session_state.get("current_artist", "") or t("none"), language="text")
 
         with tab_api:
-            st.markdown("**Output restituito da Europeana**")
+            st.markdown(t("api_output"))
             st.code(trace.get("result", ""), language="json")
 
         with tab_llm:
-            st.markdown("**Output grezzo di CrewAI**")
+            st.markdown(t("llm_output"))
             st.code(raw_output or "", language="text")
 
         # Extension: top-k objects with scores and thumbnails, only for turns with an image
@@ -188,35 +186,35 @@ def render_trace(question: str, raw_output: str, trace: dict):
 # ----- SIDEBAR -----
 
 with st.sidebar:
-    st.header("ℹ️ Informazioni")
-    st.write(f"**Modello AI:** {os.getenv('OLLAMA_MODEL', 'gpt-oss:20b')}")
+    st.header(t("sidebar_header"))
+    st.write(f"{t('model')} {os.getenv('OLLAMA_MODEL', 'gpt-oss:20b')}")
     st.write("**Tool:** Europeana API")
     st.write("**Framework:** CrewAI + Streamlit")
 
     current = st.session_state.get("current_artist", "")
     if current:
-        st.write(f"**Artista corrente:** {current}")
+        st.write(f"{t('current_artist')} {current}")
 
     st.divider()
-    st.write("### Esempi di domande")
-    for example in ("Chi è Caravaggio?", "Chi è Picasso?", "Chi è Van Gogh?"):
+    st.write(t("examples"))
+    for example in t("example_questions"):
         if st.button(example):
             st.session_state.example_question = example
 
 
 # ----- HEADER E STATO -----
 
-st.title("🎨 Esperto d'arte")
-st.caption("Assistente AI che risponde a domande su artisti utilizzando Europeana.")
+st.title(t("title"))
+st.caption(t("caption"))
 
 # Inizializzo le chiavi di session_state al primo giro
 for key, default in (("messages", []), ("current_artist", ""), ("current_object", None), ("pending_photo", None)):
     st.session_state.setdefault(key, default)
 
 if not st.session_state.messages:
-    st.info("Prova a chiedere qualcosa su un artista europeo.")
+    st.info(t("empty_hint"))
 
-if st.button("Pulisci chat"):
+if st.button(t("clear")):
     st.session_state.messages = []
     st.session_state.current_artist = ""
     st.session_state.current_object = None
@@ -242,7 +240,7 @@ for msg in st.session_state.messages:
 photo = None
 if image_search_enabled():
     # Extension: the chat input also takes a photo; the photo identifies the object, the text says what to look for
-    submitted = st.chat_input("Scrivi la tua domanda e allega una foto, se vuoi", accept_file=True,
+    submitted = st.chat_input(t("input_photo"), accept_file=True,
                               file_type=["jpg", "jpeg", "png", "webp"])
     question = submitted.text if submitted else None
     if submitted and submitted.files:
@@ -250,12 +248,12 @@ if image_search_enabled():
         if not question:
             #Photo without a question: keep it and ask what the user wants to know
             st.session_state.pending_photo = photo
-            st.session_state.messages.append({"role": "assistant", "content": "Cosa vuoi sapere dell'oggetto nella foto?"})
+            st.session_state.messages.append({"role": "assistant", "content": t("ask_photo")})
             st.rerun()
     if question and photo is None and st.session_state.pending_photo is not None:
         photo, st.session_state.pending_photo = st.session_state.pending_photo, None
 else:
-    question = st.chat_input("Scrivi la tua domanda, ad esempio: Chi è Caravaggio?")
+    question = st.chat_input(t("input"))
 # Se l'utente ha cliccato un pulsante di esempio uso quella domanda
 if "example_question" in st.session_state:
     question = st.session_state.pop("example_question")
@@ -279,7 +277,7 @@ if question:
     current_artist = "" if image_turn else update_current_artist(question)
 
     with st.chat_message("assistant"):
-        with st.spinner("Sto cercando la risposta..."):
+        with st.spinner(t("spinner")):
             try:
                 if image_turn:
                     raw, trace = run_image_turn(question, photo, st.session_state)
@@ -288,10 +286,7 @@ if question:
                     final_text, raw_output, trace = run_agent(question, current_artist)
 
                 if not final_text:
-                    final_text = (
-                        "Non sono riuscito a generare una risposta valida. "
-                        "Prova a riformulare la domanda."
-                    )
+                    final_text = t("no_valid")
 
                 st.markdown(final_text)
                 render_trace(question, raw_output, trace)
@@ -307,9 +302,9 @@ if question:
                 })
 
             except Exception as e:
-                error_msg = f"Errore: {e}"
+                error_msg = f"{t('error')}: {e}"
                 st.error(error_msg)
-                with st.expander("Dettagli errore"):
+                with st.expander(t("error_details")):
                     st.code(traceback.format_exc(), language="text")
                 st.session_state.messages.append({
                     "role": "assistant",

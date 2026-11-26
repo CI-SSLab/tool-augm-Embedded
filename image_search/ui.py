@@ -7,8 +7,9 @@ from crewai import Crew, Process
 from PIL import Image
 
 from crew.agents.image_agent import build_image_agent
-from crew.tasks.image_task import NO_MATCH_ANSWER, build_image_task
+from crew.tasks.image_task import NO_MATCH_ANSWER, NO_MATCH_ANSWER_EN, build_image_task
 from image_search.tool import get_last_image_trace, image_search
+from ui_text import lang, t
 
 
 def image_search_enabled() -> bool:
@@ -26,12 +27,12 @@ def run_image_turn(question: str, photo: bytes, state) -> tuple:
                               colour=os.getenv("IMAGE_COLOUR", "none"))
         state.current_object = {"result": result, "ranked": get_last_image_trace()["ranked"], "photo": photo}
     current = state.current_object
-    trace = {"query": "(foto caricata)" if photo is not None else "(oggetto corrente del thread)",
+    trace = {"query": t("photo_query") if photo is not None else t("object_query"),
              "result": current["result"], "ranked": current["ranked"], "photo": current["photo"]}
 
     #Decided in code: without a record the LLM is not called
     if not json.loads(current["result"])["candidates"]:
-        return f"<<<RISPOSTA>>>\n{NO_MATCH_ANSWER}\n<<<FINE>>>", trace
+        return f"<<<RISPOSTA>>>\n{NO_MATCH_ANSWER_EN if lang() == 'en' else NO_MATCH_ANSWER}\n<<<FINE>>>", trace
 
     agent = build_image_agent()
     crew = Crew(agents=[agent], tasks=[build_image_task(agent)], process=Process.sequential, verbose=False)
@@ -44,11 +45,12 @@ def with_sources(raw: str, result: str) -> str:
     match = re.search(r"<<<RISPOSTA>>>(.*?)<<<FINE>>>", raw, re.DOTALL | re.IGNORECASE)
     if not match:
         return raw
-    text = re.split(r"\n\s*\**FONTI\**\s*:", match.group(1))[0].strip()
+    text = re.split(r"\n\s*\**(?:FONTI|SOURCES)\**\s*:", match.group(1))[0].strip()
     urls = []
     for c in json.loads(result)["candidates"]:
         urls += [c["url"]] + ([c["site"]["url"]] if c.get("site") else [])
-    return "<<<RISPOSTA>>>\n" + text + "\n\nFONTI:\n" + "\n".join(dict.fromkeys(urls)) + "\n<<<FINE>>>"
+    label = "SOURCES" if lang() == "en" else "FONTI"
+    return "<<<RISPOSTA>>>\n" + text + f"\n\n{label}:\n" + "\n".join(dict.fromkeys(urls)) + "\n<<<FINE>>>"
 
 
 # ----- PANEL: TOP-K WITH SCORES -----
@@ -56,10 +58,10 @@ def with_sources(raw: str, result: str) -> str:
 def render_image_tab(st, trace: dict):
     # Scores and thumbnails are shown only here, never passed to the LLM
     if trace.get("photo"):
-        st.markdown("**Foto dell'utente**")
+        st.markdown(t("user_photo"))
         st.image(trace["photo"], width=240)
     decision = json.loads(trace["result"]).get("decision", "")
-    st.markdown(f"**Decisione:** `{decision}`")
+    st.markdown(f"{t('decision')} `{decision}`")
     cols = st.columns(max(len(trace["ranked"]), 1))
     for col, r in zip(cols, trace["ranked"]):
         col.image(r["image_url"], width="stretch")

@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 
 import cv2
 import numpy as np
@@ -50,12 +51,22 @@ def _first(value):
     return value or ""
 
 
+# German datings from the DAI records: gloss the era abbreviations, keep the source text
+_ERA = [(r"v\. ?Chr\.", "v. Chr. (BC)"), (r"n\. ?Chr\.", "n. Chr. (AD)")]
+
+
+def _gloss_era(text: str) -> str:
+    for pattern, repl in _ERA:
+        text = re.sub(pattern, repl, text)
+    return text
+
+
 def _europeana_candidate(item: dict) -> dict:
     # Prefer the English description when the provider gives one; keep it short for the prompt
     lang = item.get("dcDescriptionLangAware") or {}
     description = _first(lang.get("en")) or _first(item.get("dcDescription"))
     # Europeana "year" is often missing; the DAI records carry the dating in edmTimespanLabel
-    year = _first(item.get("year")) or "; ".join(_first(t) for t in item.get("edmTimespanLabel", []))
+    year = _gloss_era(_first(item.get("year")) or "; ".join(_first(t) for t in item.get("edmTimespanLabel", [])))
     return {
         "title": _first(item.get("title")) or "(senza titolo)",
         "creator": _first(item.get("dcCreator")),
@@ -63,8 +74,9 @@ def _europeana_candidate(item: dict) -> dict:
         "url": item_url(item["id"]),
         "source": "Europeana",
         "description": description[:400],
-        # Place recorded by the provider: it may be the findspot or the museum, the record does not say which
-        "place": ", ".join(_first(p) for p in item.get("edmPlaceLabel", [])),
+        # Place recorded by the provider: it may be the findspot or the museum, the record does not say which.
+        # The key spells that out because gpt-oss kept reading it as "found in".
+        "place_in_record_findspot_or_museum_unspecified": ", ".join(_first(p) for p in item.get("edmPlaceLabel", [])),
         "current_location": "",
         "site": None,
     }
@@ -73,7 +85,7 @@ def _europeana_candidate(item: dict) -> dict:
 def _iccd_record(rec: dict) -> dict:
     return {
         "title": rec["title"], "creator": "", "year": rec["date"], "url": rec["url"], "source": "ICCD",
-        "description": rec["description"][:400], "place": rec["address"],
+        "description": rec["description"][:400], "address": rec["address"],
         "current_location": rec["location"],
     }
 
@@ -156,9 +168,9 @@ if __name__ == "__main__":  # self-check of the parts that need no GPU nor netwo
     px = np.asarray(correct_colour(flat, "grayworld"), dtype=int)[0, 0]
     assert px.max() - px.min() <= 1, px  # uniform cast -> gray
     assert correct_colour(flat, "clahe").size == flat.size
-    item = {"id": "/1/x", "title": ["T"], "edmTimespanLabel": [{"def": "um 45"}],
+    item = {"id": "/1/x", "title": ["T"], "edmTimespanLabel": [{"def": "um 45 n. Chr."}],
             "dcDescriptionLangAware": {"de": ["d"], "en": ["e"]}, "edmPlaceLabel": [{"def": "Baia"}]}
     c = _europeana_candidate(item)
-    assert (c["year"], c["description"], c["place"]) == ("um 45", "e", "Baia")
+    assert (c["year"], c["description"], c["place_in_record_findspot_or_museum_unspecified"]) == ("um 45 n. Chr. (AD)", "e", "Baia")
     assert c["url"].endswith("/item/1/x")
     print("tool.py self-check ok")
