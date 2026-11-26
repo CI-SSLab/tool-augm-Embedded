@@ -7,6 +7,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         curl \
     && rm -rf /var/lib/apt/lists/*
 
+# torch first, from the CPU index by default (no CUDA libraries, ~3 GB lighter).
+# GPU build: docker compose build --build-arg TORCH_INDEX=https://download.pytorch.org/whl/cu124
+ARG TORCH_INDEX=https://download.pytorch.org/whl/cpu
+RUN pip install --no-cache-dir torch torchvision --index-url ${TORCH_INDEX}
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 

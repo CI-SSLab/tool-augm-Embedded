@@ -10,6 +10,9 @@
 #   cp .env.example .env      # fill in EUROPEANA_API_KEY and OLLAMA_MODEL
 #   docker compose up -d
 #
+# Extensions (image search, ICCD stage 4, English UI) are off by default;
+# switch them on in .env, e.g. ENABLE_IMAGE_SEARCH=true UI_LANG=en.
+#
 # Change the exposed port (default 8501):
 #   APP_PORT=8080 docker compose up -d
 #
@@ -56,11 +59,32 @@ services:
       EUROPEANA_API_KEY: ${EUROPEANA_API_KEY:?Set EUROPEANA_API_KEY in your environment or .env file}
       # Ollama — points to the sibling container by service name
       OLLAMA_BASE_URL: http://ollama:11434
-      OLLAMA_MODEL: ${OLLAMA_MODEL:-openai/gpt-oss:20b}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-gpt-oss:20b}
       # Only required when using Ollama Cloud instead of the local container
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       # Streamlit port (must match EXPOSE in Dockerfile)
       STREAMLIT_SERVER_PORT: 8501
+      # Extensions (all off = paper baseline)
+      UI_LANG: ${UI_LANG:-it}
+      ENABLE_IMAGE_SEARCH: ${ENABLE_IMAGE_SEARCH:-false}
+      ENABLE_ICCD_FALLBACK: ${ENABLE_ICCD_FALLBACK:-false}
+      IMAGE_GROUP: ${IMAGE_GROUP:-curated_group}
+      IMAGE_ENCODER: ${IMAGE_ENCODER:-google/embeddinggemma-2}
+      IMAGE_COLOUR: ${IMAGE_COLOUR:-none}
+      ARCO_SPARQL_URL: ${ARCO_SPARQL_URL:-http://dati.beniculturali.it/sparql}
+      # No GPU is passed to the container by default: embeddings run on CPU in fp32.
+      # For a GPU set EMBED_DEVICE=cuda:0 and uncomment the deploy block below.
+      EMBED_DEVICE: ${EMBED_DEVICE:-cpu}
+    volumes:
+      # EmbeddingGemma 2 weights, downloaded once on the first image query
+      - hf-cache:/root/.cache/huggingface
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
     depends_on:
       ollama:
         condition: service_healthy
@@ -79,7 +103,7 @@ services:
     environment:
       EUROPEANA_API_KEY: ${EUROPEANA_API_KEY:?Set EUROPEANA_API_KEY in your environment or .env file}
       OLLAMA_BASE_URL: http://ollama:11434
-      OLLAMA_MODEL: ${OLLAMA_MODEL:-openai/gpt-oss:20b}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-gpt-oss:20b}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
     depends_on:
       ollama:
@@ -100,3 +124,4 @@ networks:
 
 volumes:
   ollama-data:
+  hf-cache:

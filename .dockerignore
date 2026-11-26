@@ -28,5 +28,14 @@ evaluation/evaluation/
 evaluation/*.csv
 evaluation/*.json
 
+# Extension: notes, logs, cached images and evaluation outputs (not needed at runtime;
+# the image keeps data/index/ and data/census/, which the image search reads)
+info/
+logs/
+data/index_images/
+data/demo/photos/
+eval/**/results/
+eval/regression/
+
 # Docs
 README.md

@@ -1,5 +1,17 @@
+# Paper baseline: text agent (Streamlit + CrewAI + Europeana)
 streamlit>=1.35.0
 crewai[tools]>=0.80.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+
+# Extension: image search (EmbeddingGemma 2), colour correction, ICCD/ArCo
+numpy>=1.26
+pillow>=10.0
+opencv-python-headless>=4.9
+torch>=2.6
+torchvision>=0.21                 # needed by the EmbeddingGemma 2 image processor
+transformers>=5.0
+sentence-transformers>=6.3        # image API with processing_kwargs (max_soft_tokens)
+
+# Extension: evaluation figures
 matplotlib>=3.8
