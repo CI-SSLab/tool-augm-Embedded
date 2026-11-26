@@ -19,3 +19,6 @@ eval/famous/results/
 
 # Regression A runs of the paper benchmark
 eval/regression/
+
+# Demo photos (Commons, open licences): fetched by scripts/demo/fetch_demo_photos.py
+data/demo/photos/
