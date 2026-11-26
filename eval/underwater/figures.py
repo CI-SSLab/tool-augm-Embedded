@@ -33,6 +33,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from image_search import index  # noqa: E402
+from image_search.search import TAU  # noqa: E402
 
 OUT = ROOT / "eval" / "underwater" / "results" / "figures"
 
@@ -225,13 +226,13 @@ def risk_coverage(curves: dict):
     for (name, res), color in zip(curves.items(), (S1, S2)):
         s1 = np.array([float(r["s1"]) for r in res])
         ok = np.array([bool(r["expected_object_id"]) and r["top1"] == r["expected_object_id"] for r in res])
-        taus = np.unique(np.concatenate([s1, [0.80]]))
+        taus = np.unique(np.concatenate([s1, [TAU]]))
         cov = [(s1 >= t).mean() for t in taus]
         risk = [1 - ok[s1 >= t].mean() if (s1 >= t).any() else 0 for t in taus]
         ax.plot(cov, risk, color=color, lw=2, label=name)
-        k = np.argmin(abs(taus - 0.80))
+        k = np.argmin(abs(taus - TAU))
         ax.plot(cov[k], risk[k], "o", ms=8, color=color, markeredgecolor=SURFACE, markeredgewidth=2)
-        ax.annotate(f"τ = 0,80", (cov[k], risk[k]), xytext=(8, -14), textcoords="offset points", fontsize=9,
+        ax.annotate(f"τ = {TAU:.3f}".replace(".", ","), (cov[k], risk[k]), xytext=(8, -14), textcoords="offset points", fontsize=9,
                     color=INK2)
     ax.set_xlabel("copertura (quota di query a cui il sistema risponde con un record)")
     ax.set_ylabel("rischio (quota di risposte con il record sbagliato)")

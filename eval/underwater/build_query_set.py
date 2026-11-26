@@ -9,7 +9,7 @@ where it comes from, and a human check is required before the numbers are final
   C0  museum photo of an indexed object       (in-domain upper bound)
   C1  underwater photo of an indexed object   (main condition)
   C2  hard negative: other underwater sites, statues not indexed, empty seabed
-  split = val for about 1 photo in 5 of C1/C2 (tau/delta tuning only), test otherwise
+  split = val for about 1 photo in 5 (tau/delta tuning only), test otherwise
 
 Usage:
     python eval/underwater/build_query_set.py [--out data/eval/underwater_queries.csv] [--dry-run]
@@ -169,7 +169,8 @@ def main():
                 row_set = "C0" if domain == "museum" else "C1"
             else:
                 row_set = "unlabeled" if status == "to_label" else "C2"
-            split = "val" if row_set in ("C1", "C2") and zlib.crc32(title.encode()) % 5 == 0 else "test"
+            # C0 in val too: tau/delta need positives, and C1 alone has only a handful
+            split = "val" if row_set in ("C0", "C1", "C2") and zlib.crc32(title.encode()) % 5 == 0 else "test"
             rows.append({"set": row_set, "split": split, "expected_object_id": oid, "label_status": status,
                          "domain": domain, "work": title[5:], "category": sub, "augment": "",
                          **{k: meta[k] for k in ("image_url", "page_url", "license", "author")}})
