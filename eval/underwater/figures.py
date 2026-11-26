@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""figures.py — Presentation figures for the image search (PNG, light theme).
+"""figures.py — Presentation figures for the image search (PNG, light theme, English labels).
 
   1 heatmap_objects.png     cosine between indexed objects (max over views), grouped by typology
   2 cosine_same_vs_diff.png  distribution of view-view cosines: same object vs different objects
@@ -33,7 +33,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from image_search import index  # noqa: E402
-from image_search.search import TAU  # noqa: E402
+from image_search.search import DELTA, TAU, decide  # noqa: E402
 
 OUT = ROOT / "eval" / "underwater" / "results" / "figures"
 
@@ -52,12 +52,12 @@ plt.rcParams.update({
 })
 
 SHORT = {  # short names for axis labels
-    "baia_odysseus": "Ulisse (Baia)", "baia_odysseus_companion": "Compagno con otre", "baia_dionysos": "Dioniso (Baia)",
-    "baia_antonia": "Antonia (Baia)", "artemision_god": "Dio di Artemisio", "artemision_jockey": "Fantino di Artemisio",
-    "antikythera_ephebe": "Efebo di Anticitera", "antikythera_philosopher": "Filosofo di Anticitera",
-    "site_punta_epitaffio": "Punta Epitaffio", "site_miseno_porto": "Porto di Miseno",
-    "site_torre_scassata": "Torre Scassata", "site_porto_1500910310": "Porto (Mondragone)",
-    "site_vasche_1800177710": "Vasche (Briatico)",
+    "baia_odysseus": "Ulysses (Baia)", "baia_odysseus_companion": "Companion with wineskin", "baia_dionysos": "Dionysus (Baia)",
+    "baia_antonia": "Antonia (Baia)", "artemision_god": "Artemision god", "artemision_jockey": "Artemision jockey",
+    "antikythera_ephebe": "Antikythera youth", "antikythera_philosopher": "Antikythera philosopher",
+    "site_punta_epitaffio": "Punta Epitaffio", "site_miseno_porto": "Misenum harbour",
+    "site_torre_scassata": "Torre Scassata", "site_porto_1500910310": "Mondragone harbour",
+    "site_vasche_1800177710": "Briatico tanks",
 }
 
 
@@ -99,9 +99,9 @@ def heatmap(emb, rows, group):
         ax.axvline(k, color=SURFACE, lw=3)
     ax.spines[:].set_visible(False)
     cb = fig.colorbar(im, ax=ax, shrink=0.8)
-    cb.set_label("coseno massimo fra le viste")
+    cb.set_label("maximum cosine over the views")
     cb.outline.set_visible(False)
-    ax.set_title("Similarità fra gli oggetti dell'indice (diagonale esclusa)", loc="left", color=INK)
+    ax.set_title("Similarity between the indexed objects (diagonal excluded)", loc="left", color=INK)
     save(fig, "heatmap_objects.png")
 
 
@@ -113,16 +113,16 @@ def same_vs_diff(emb, rows):
     vals = sim[iu]
     fig, ax = plt.subplots(figsize=(8, 4.2))
     bins = np.linspace(0.4, 1.0, 37)
-    ax.hist(vals[~same], bins=bins, color=S2, alpha=0.85, label=f"oggetti diversi (n={(~same).sum()})",
+    ax.hist(vals[~same], bins=bins, color=S2, alpha=0.85, label=f"different objects (n={(~same).sum()})",
             edgecolor=SURFACE, linewidth=1)
-    ax.hist(vals[same], bins=bins, color=S1, alpha=0.85, label=f"stesso oggetto (n={same.sum()})",
+    ax.hist(vals[same], bins=bins, color=S1, alpha=0.85, label=f"same object (n={same.sum()})",
             edgecolor=SURFACE, linewidth=1)
-    ax.set_xlabel("coseno fra due viste dell'indice")
-    ax.set_ylabel("coppie di viste")
+    ax.set_xlabel("cosine between two index views")
+    ax.set_ylabel("pairs of views")
     ax.yaxis.grid(True)
     ax.set_axisbelow(True)
     ax.legend(frameon=False, loc="upper left")
-    ax.set_title("Le due distribuzioni si sovrappongono: serve il margine δ, non solo la soglia τ",
+    ax.set_title("The two distributions overlap: the margin δ is needed, not only the threshold τ",
                  loc="left", color=INK)
     save(fig, "cosine_same_vs_diff.png")
 
@@ -154,12 +154,12 @@ def topk_examples(results, rows):
             picks.append(cand[0])
     fig, axes = plt.subplots(len(picks), 6, figsize=(15, 3.1 * len(picks)),
                              gridspec_kw={"width_ratios": [1.3, 1, 1, 1, 1, 1]})
-    labels = {"C0": "C0 foto da museo", "C1": "C1 foto subacquea", "C2": "C2 negativo"}
+    labels = {"C0": "C0 museum photo", "C1": "C1 underwater photo", "C2": "C2 negative"}
     for row_axes, r in zip(np.atleast_2d(axes), picks):
         q = Image.open(index.cached_image(r["image_url"])).convert("RGB")
         row_axes[0].imshow(q)
-        exp = short(r["expected_object_id"]) if r["expected_object_id"] else "non nell'indice"
-        row_axes[0].set_title(f"{labels[r['set']]}\natteso: {exp}", fontsize=10, loc="left", color=INK)
+        exp = short(r["expected_object_id"]) if r["expected_object_id"] else "not in the index"
+        row_axes[0].set_title(f"{labels[r['set']]}\nexpected: {exp}", fontsize=10, loc="left", color=INK)
         top = r["top5"].split("; ")
         scores = [float(r["s1"]), float(r["s2"])] + [None] * 3
         for k, (ax, oid) in enumerate(zip(row_axes[1:], top)):
@@ -168,20 +168,25 @@ def topk_examples(results, rows):
                 ax.imshow(img)
             else:
                 ax.set_facecolor(GRID)
-                ax.text(0.5, 0.5, "immagine\nnon riutilizzabile\n(InC / ICCD)", ha="center", va="center",
+                ax.text(0.5, 0.5, "image not\nreusable\n(InC / ICCD)", ha="center", va="center",
                         fontsize=8, color=MUTED, transform=ax.transAxes)
             ok = oid == r["expected_object_id"]
-            score = f"  {scores[k]:.3f}" if scores[k] is not None else ""
+            score = f"\n{scores[k]:.3f}" if scores[k] is not None else "\n"
             ax.set_title(f"{k + 1}. {short(oid)}{score}" + ("  ✓" if ok else ""), fontsize=9, loc="left",
                          color=INK if ok else INK2)
-        row_axes[-1].text(1.04, 0.5, f"decisione:\n{r['decision']}\n({r['outcome'].replace('_', ' ')})",
+        # Decision with the frozen tau/delta, not the one saved by the run that produced the CSV
+        decision, ids = decide([(top[0], scores[0], 0), (top[1], scores[1], 1)], TAU, DELTA)
+        exp = r["expected_object_id"]
+        verdict = (("correct" if exp in ids else "wrong record") if exp else "wrong record") \
+            if decision != "no_match" else ("correct rejection" if not exp else "rejected")
+        row_axes[-1].text(1.04, 0.5, f"decision:\n{decision}\n({verdict})",
                           transform=row_axes[-1].transAxes, va="center", fontsize=10, color=INK)
         for ax in row_axes:
             ax.set_xticks([])
             ax.set_yticks([])
             for s in ax.spines.values():
                 s.set_visible(False)
-    fig.suptitle("Ricerca dei simili: foto di query e primi 5 oggetti dell'indice (punteggi solo per i primi due)",
+    fig.suptitle(f"Similarity search: query photo and top-5 indexed objects (decision with τ = {TAU}, δ = {DELTA})",
                  x=0.01, ha="left", color=INK)
     save(fig, "topk_examples.png")
 
@@ -194,12 +199,12 @@ def pca(emb, rows, group, results, query_emb):
     p = (emb - mean) @ vt[:2].T
     fig, ax = plt.subplots(figsize=(9, 7))
     museum = np.array([group[r["object_id"]]["typology"] == "museum_object" for r in rows])
-    ax.scatter(*p[museum].T, s=70, color=S1, edgecolor=SURFACE, linewidth=1.5, label="vista indice: reperto museale",
+    ax.scatter(*p[museum].T, s=70, color=S1, edgecolor=SURFACE, linewidth=1.5, label="index view: museum object",
                zorder=3)
-    ax.scatter(*p[~museum].T, s=70, color=S2, edgecolor=SURFACE, linewidth=1.5, label="vista indice: struttura in situ",
+    ax.scatter(*p[~museum].T, s=70, color=S2, edgecolor=SURFACE, linewidth=1.5, label="index view: in-situ structure",
                zorder=3)
     # Hand offsets for the two in-situ labels that land on each other
-    nudge = {"site_porto_1500910310": (6, 14), "site_vasche_1800177710": (6, -16)}
+    nudge = {"site_porto_1500910310": (-20, 16), "site_vasche_1800177710": (-40, -18), "site_miseno_porto": (6, -14)}
     for oid in dict.fromkeys(r["object_id"] for r in rows):
         c = p[[r["object_id"] == oid for r in rows]].mean(0)
         ax.annotate(short(oid), c, xytext=nudge.get(oid, (6, 6)), textcoords="offset points", fontsize=8, color=INK2)
@@ -207,13 +212,13 @@ def pca(emb, rows, group, results, query_emb):
         q = (query_emb - mean) @ vt[:2].T
         sets = np.array([r["set"] for r in results])
         ax.scatter(*q[sets == "C1"].T, s=40, marker="^", color=S3, edgecolor=SURFACE, linewidth=1,
-                   label="query C1 (subacquea, oggetto nell'indice)", zorder=4)
+                   label="query C1 (underwater, object in the index)", zorder=4)
         ax.scatter(*q[sets == "C2"].T, s=22, marker="x", color=MUTED, linewidth=1,
-                   label="query C2 (negativo)", zorder=2)
-    ax.set_xlabel("componente principale 1")
-    ax.set_ylabel("componente principale 2")
+                   label="query C2 (negative)", zorder=2)
+    ax.set_xlabel("principal component 1")
+    ax.set_ylabel("principal component 2")
     ax.legend(frameon=False, loc="best", fontsize=9)
-    ax.set_title("Proiezione PCA degli embedding (EmbeddingGemma 2, budget 280)", loc="left", color=INK)
+    ax.set_title("PCA projection of the embeddings (EmbeddingGemma 2, budget 280)", loc="left", color=INK)
     save(fig, "pca_views.png")
 
 
@@ -232,16 +237,16 @@ def risk_coverage(curves: dict):
         ax.plot(cov, risk, color=color, lw=2, label=name)
         k = np.argmin(abs(taus - TAU))
         ax.plot(cov[k], risk[k], "o", ms=8, color=color, markeredgecolor=SURFACE, markeredgewidth=2)
-        ax.annotate(f"τ = {TAU:.3f}".replace(".", ","), (cov[k], risk[k]), xytext=(8, -14), textcoords="offset points", fontsize=9,
+        ax.annotate(f"τ = {TAU:.3f}", (cov[k], risk[k]), xytext=(8, -14), textcoords="offset points", fontsize=9,
                     color=INK2)
-    ax.set_xlabel("copertura (quota di query a cui il sistema risponde con un record)")
-    ax.set_ylabel("rischio (quota di risposte con il record sbagliato)")
+    ax.set_xlabel("coverage (share of queries answered with a record)")
+    ax.set_ylabel("risk (share of answers with the wrong record)")
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.yaxis.grid(True)
     ax.set_axisbelow(True)
     ax.legend(frameon=False, loc="upper left")
-    ax.set_title("Curva rischio-copertura al variare della soglia τ", loc="left", color=INK)
+    ax.set_title("Risk-coverage curve as the threshold τ varies", loc="left", color=INK)
     save(fig, "risk_coverage.png")
 
 
@@ -252,8 +257,8 @@ def accuracy_by_set(results, group):
     fig, ax = plt.subplots(figsize=(7, 4.2))
     x = np.arange(2)
     for k, (label, color, fn) in enumerate((
-            ("oggetto giusto", S1, lambda r: r["top1"] == r["expected_object_id"]),
-            ("sito giusto", S2, lambda r: site.get(r["top1"]) == site.get(r["expected_object_id"])))):
+            ("right object", S1, lambda r: r["top1"] == r["expected_object_id"]),
+            ("right site", S2, lambda r: site.get(r["top1"]) == site.get(r["expected_object_id"])))):
         vals = []
         for cond in ("C0", "C1"):
             sub = [r for r in results if r["set"] == cond]
@@ -262,13 +267,13 @@ def accuracy_by_set(results, group):
         for b, v in zip(bars, vals):
             ax.text(b.get_x() + b.get_width() / 2, v + 2, f"{v:.0f}%", ha="center", fontsize=10, color=INK)
     n = {c: sum(r["set"] == c for r in results) for c in ("C0", "C1")}
-    ax.set_xticks(x, [f"C0 foto da museo (n={n['C0']})", f"C1 foto subacquea (n={n['C1']})"])
+    ax.set_xticks(x, [f"C0 museum photo (n={n['C0']})", f"C1 underwater photo (n={n['C1']})"])
     ax.set_ylim(0, 110)
     ax.set_ylabel("top-1 (%)")
     ax.yaxis.grid(True)
     ax.set_axisbelow(True)
     ax.legend(frameon=False, loc="upper right")
-    ax.set_title("Salto di dominio: sott'acqua l'oggetto si perde, il sito resta", loc="left", color=INK)
+    ax.set_title("Domain shift: underwater the object is lost, the site remains", loc="left", color=INK)
     save(fig, "accuracy_by_set.png")
 
 
@@ -293,9 +298,9 @@ def main():
         from image_search.encoder import Encoder, load_image
         query_emb = Encoder().embed([load_image(index.cached_image(r["image_url"])) for r in pca_rows])
     pca(emb, rows, group, pca_rows if len(query_emb) else [], query_emb)
-    curves = {"subacqueo (C0 + C1 + C2)": results}
+    curves = {"underwater (C0 + C1 + C2)": results}
     if args.famous:
-        curves["opere famose (originali, degradate, negativi)"] = list(csv.DictReader(open(args.famous, encoding="utf-8")))
+        curves["famous artworks (originals, degraded, negatives)"] = list(csv.DictReader(open(args.famous, encoding="utf-8")))
     risk_coverage(curves)
     accuracy_by_set(results, group)
 
