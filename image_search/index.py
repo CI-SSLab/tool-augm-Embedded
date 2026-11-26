@@ -44,6 +44,11 @@ def list_views(group_csv: Path) -> list:
                 # shortcut: ICCD photo licence is not in ArCo data, left empty; fill in by hand when known
                 views.append({"object_id": g["object_id"], "source": "ICCD", "view_id": f"{g['arco_site_id']}#{n}",
                               "image_url": url, "license": ""})
+    # Optional reference views that are not catalogue photos (e.g. underwater photos from Commons):
+    # <group>_extra_views.csv, used only by the groups that have one
+    extra = group_csv.with_name(f"{group_csv.stem}_extra_views.csv")
+    if extra.exists():
+        views += [{k: r[k] for k in ROW_FIELDS} for r in csv.DictReader(open(extra, encoding="utf-8"))]
     return views
 
 

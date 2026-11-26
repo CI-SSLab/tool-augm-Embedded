@@ -61,6 +61,17 @@ def _gloss_era(text: str) -> str:
     return text
 
 
+# ARCHEOMAR record titles: gloss the technical term, keep the source text.
+# gpt-oss translated "giacimento" (archaeological deposit) as "quarry"
+_ICCD_TERMS = [(r"\bgiacimento subacqueo\b", "giacimento subacqueo (underwater archaeological site)")]
+
+
+def _gloss_iccd(title: str) -> str:
+    for pattern, repl in _ICCD_TERMS:
+        title = re.sub(pattern, repl, title)
+    return title
+
+
 def _europeana_candidate(item: dict) -> dict:
     # Prefer the English description when the provider gives one; keep it short for the prompt
     lang = item.get("dcDescriptionLangAware") or {}
@@ -84,15 +95,17 @@ def _europeana_candidate(item: dict) -> dict:
 
 def _iccd_record(rec: dict) -> dict:
     return {
-        "title": rec["title"], "creator": "", "year": rec["date"], "url": rec["url"], "source": "ICCD",
+        "title": _gloss_iccd(rec["title"]), "creator": "", "year": rec["date"], "url": rec["url"], "source": "ICCD",
         "description": rec["description"][:400], "address": rec["address"],
         "current_location": rec["location"],
     }
 
 
 def _site_block(rec: dict) -> dict:
-    return {"title": rec["title"], "url": rec["url"], "source": "ICCD", "chronology": rec["date"],
-            "address": rec["address"]}
+    # Description and location from the record too: with the bare title "giacimento subacqueo"
+    # gpt-oss translated the site as an "underwater quarry"
+    return {"title": _gloss_iccd(rec["title"]), "url": rec["url"], "source": "ICCD", "chronology": rec["date"],
+            "address": rec["address"], "description": rec["description"][:400], "location": rec["location"]}
 
 
 def _candidates(object_ids: list, group: dict) -> tuple:

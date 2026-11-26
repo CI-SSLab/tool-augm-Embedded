@@ -142,6 +142,15 @@ def main():
     from image_search.index import cached_image
 
     queries = list(csv.DictReader(open(args.queries, encoding="utf-8")))
+    # A query photo that is also an index view would be a trivial match: leave it out
+    from image_search.encoder import DEFAULT_MODEL
+    from image_search.index import group_csv, index_dir, load_index
+    slug = f"{(os.getenv('IMAGE_ENCODER') or DEFAULT_MODEL).split('/')[-1]}_b280"
+    indexed = {r["image_url"] for r in load_index(index_dir(slug, group_csv()))[1]}
+    skipped = [q["query_id"] for q in queries if q["image_url"] in indexed]
+    queries = [q for q in queries if q["image_url"] not in indexed]
+    if skipped:
+        log.info("left out %d query photos that are index views: %s", len(skipped), ", ".join(skipped))
     # Rows nobody has labelled yet cannot be scored
     queries = [q for q in queries if q.get("label_status") != "to_label"
                and (not args.split or q.get("split") == args.split)]
