@@ -227,6 +227,8 @@ if st.button(t("clear")):
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
+        if msg.get("photo"):  # extension: the photo sent with the question
+            st.image(msg["photo"], width=240)
         if msg["role"] == "assistant" and "tool_trace" in msg:
             render_trace(
                 question=msg.get("user_question", ""),
@@ -262,9 +264,11 @@ if "example_question" in st.session_state:
 # ----- GESTIONE DOMANDA -----
 
 if question:
-    st.session_state.messages.append({"role": "user", "content": question})
+    st.session_state.messages.append({"role": "user", "content": question, "photo": photo})
     with st.chat_message("user"):
         st.markdown(question)
+        if photo is not None:  # extension: show the attached photo under the question
+            st.image(photo, width=240)
 
     # Extension, deterministic router: a photo, or a follow-up on the current object, goes to the image tool.
     # A new intro question ("Chi è ...") goes back to the paper's path and drops the current object.
