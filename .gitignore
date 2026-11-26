@@ -1,24 +1,27 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# Editors and OS
 .DS_Store
 .idea/
 .vscode/
+
+# Secrets: keys live only in the local .env; the repo keeps .env.example
 .env
+
+# Project notes kept out of the repo
 info/
 
-# Cached catalogue photos for the image index (mostly In Copyright)
-data/index_images/
-
-# SLURM job logs
+# Logs (SLURM jobs, Streamlit, test queues)
 logs/
 
-# Evaluation outputs (checkpoints, CSV)
-eval/underwater/results/
-eval/famous/results/
-
-# Regression A runs of the paper benchmark
-eval/regression/
-
-# Demo photos (Commons, open licences): fetched by scripts/demo/fetch_demo_photos.py
+# Images that are not redistributed: catalogue photos cached for the index (mostly
+# In Copyright) and demo photos from Commons (fetched by scripts/demo/fetch_demo_photos.py)
+data/index_images/
 data/demo/photos/
+
+# Evaluation outputs (CSV, checkpoints, figures); the evaluation scripts stay tracked
+eval/**/results/
+eval/regression/
